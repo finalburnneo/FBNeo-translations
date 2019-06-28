@@ -51,24 +51,24 @@ menu    100 {
           //-- "Reset CPU speed to 100%"
     10011   25 "Reiniciar a velocidade da CPU para 100%"
           //-- "Memory Card..."
-    popup   27 "Cart„o de MemÛria..." {
+    popup   27 "Cart√£o de Mem√≥ria..." {
             //-- "Create new memory card..."
-      10020   28 "Criar um novo cart„o de memÛria..."
+      10020   28 "Criar um novo cart√£o de mem√≥ria..."
             //-- "Select memory card..."
-      10021   29 "Selecionar um cart„o de memÛria..."
+      10021   29 "Selecionar um cart√£o de mem√≥ria..."
             //-- "Insert memory card"
-      10022   30 "Inserir um cart„o de memÛria"
+      10022   30 "Inserir um cart√£o de mem√≥ria"
             //-- "Eject memory card"
-      10023   31 "Ejetar um cart„o de memÛria"
+      10023   31 "Ejetar um cart√£o de mem√≥ria"
     }
           //-- "Replay..."
     popup   33 "Replay..." {
             //-- "Replay input..."
       10003   34 "Entrada do replay..."
             //-- "Record input..."
-      10004   35 "Entrada de gravaÁ„o..."
+      10004   35 "Entrada de grava√ß√£o..."
             //-- "Stop replay/record"
-      10005   36 "Parar replay/gravaÁ„o"
+      10005   36 "Parar replay/grava√ß√£o"
     }
           //-- "Save states..."
     popup   38 "Estados salvos..." {
@@ -81,7 +81,7 @@ menu    100 {
               //-- "Activate previous slot"
         10034   42 "Ativar estado anterior"
               //-- "Activate next slot"
-        10035   43 "Ativar prÛximo estado"
+        10035   43 "Ativar pr√≥ximo estado"
               //-- "MENU_STATE_LOAD_SLOT"
         10032   44 "MENU_STATE_LOAD_SLOT"
               //-- "MENU_STATE_SAVE_SLOT"
@@ -90,7 +90,7 @@ menu    100 {
         10037   46 "Undo last state save"
       }
             //-- "Restore full state on load"
-      10036   47 "Restaurar todo o estado no inÌcio"
+      10036   47 "Restaurar todo o estado no in√≠cio"
     }
           //-- "Record AVI"
     11827   49 ""
@@ -100,11 +100,11 @@ menu    100 {
     10012   52 "Sair do emulador"
   }
         //-- "Video"
-  popup   53 "VÌdeo" {
+  popup   53 "V√≠deo" {
           //-- "&Select blitter"
     popup   54 "&Selecione o blitter" {
             //-- "Basic"
-      10121   55 "B·sico"
+      10121   55 "B√°sico"
             //-- "SoftFX"
       10123   56 "SoftFX"
             //-- "Enhanced"
@@ -115,7 +115,7 @@ menu    100 {
       10125   59 "DirectX9 Alternativo"
     }
           //-- "&Blitter options"
-    10643   60 "OpÁıes do &Blitter"
+    10643   60 "Op√ß√µes do &Blitter"
           //-- "&Stretch"
     popup   61 "&Largo" {
             //-- "&Normal stretch"
@@ -123,12 +123,12 @@ menu    100 {
             //-- "&Full stretch"
       10111   63 "Largo &tela-cheia"
             //-- "Correct &aspect ratio"
-      10112   64 "Corrigir &proporÁ„o do vÌdeo"
+      10112   64 "Corrigir &propor√ß√£o do v√≠deo"
     }
           //-- "&Enable gamma correction"
-    10150   66 "&Ativar correÁ„o Gamma"
+    10150   66 "&Ativar corre√ß√£o Gamma"
           //-- "&Gamma correction settings"
-    popup   67 "&Par‚metros da correÁ„o gamma" {
+    popup   67 "&Par√¢metros da corre√ß√£o gamma" {
             //-- "&Darken midtones"
       10151   68 "&Midtones escuros"
             //-- "&Lighten midtones"
@@ -136,9 +136,9 @@ menu    100 {
             //-- "MENU_GAMMA_OTHER"
       10153   70 "MENU_GAMMA_OTHER"
             //-- "Use video &hardware when possible"
-      10154   72 "Usar &hardware de vÌdeo quando possÌvel"
+      10154   72 "Usar &hardware de v√≠deo quando poss√≠vel"
             //-- "Use video hardware &exclusively"
-      10155   73 "Usar &exclusivamente o hardware de vÌdeo"
+      10155   73 "Usar &exclusivamente o hardware de v√≠deo"
             //-- "Use &software exclusively"
       10156   74 "Usar exclusivamente &software"
     }
@@ -153,16 +153,16 @@ menu    100 {
             //-- "&Triple size"
       10173   81 "Tamanho &triplo"
             //-- "&Quadruple size"
-      10174   82 "Tamanho &qu·druplo"
+      10174   82 "Tamanho &qu√°druplo"
             //-- "&Maximum size"
-      10175   83 "Tamanho &m·ximo"
+      10175   83 "Tamanho &m√°ximo"
     }
           //-- "Toggle &fullscreen mode"
     10102   85 "Mudar para o modo &tela-cheia"
           //-- "Auto Switch to Fullscreen after loading"
-    10613   86 "Ir pra o modo tela-cheia apÛs carregamento"
+    10613   86 "Ir pra o modo tela-cheia ap√≥s carregamento"
           //-- "Fullscreen Resolution (Horizontal)"
-    popup   87 "ResoluÁ„o tela-cheia (Horizontal)" {
+    popup   87 "Resolu√ß√£o tela-cheia (Horizontal)" {
             //-- "MENU_RES_ARCADE"
       10130   88 "MENU_RES_ARCADE"
             //-- "&Single size"
@@ -185,7 +185,7 @@ menu    100 {
       10135  100 "MENU_RES_OTHER"
     }
           //-- "Fullscreen Resolution (Vertical)"
-    popup  101 "ResoluÁ„o tela-cheia (Vertical)" {
+    popup  101 "Resolu√ß√£o tela-cheia (Vertical)" {
             //-- "MENU_RES_ARCADE_VERTICAL"
       10700  102 "MENU_RES_ARCADE_VERTICAL"
             //-- "&Single size"
@@ -221,33 +221,33 @@ menu    100 {
           //-- "&Monitor properties"
     popup  121 "Propriedades do &monitor" {
             //-- "Automatically detect aspect ratio"
-      10650  122 "DetecÁ„o automatica das proporÁıes"
+      10650  122 "Detec√ß√£o automatica das propor√ß√µes"
             //-- "Normal CRT aspect ratio"
-      10190  124 "ProporÁ„o normal CRT"
+      10190  124 "Propor√ß√£o normal CRT"
             //-- "Normal LCD aspect ratio"
-      10191  125 "ProporÁ„o normal LCD"
+      10191  125 "Propor√ß√£o normal LCD"
             //-- "Widescreen CRT aspect ratio"
-      10192  126 "ProporÁ„o normal CRT Widescreen"
+      10192  126 "Propor√ß√£o normal CRT Widescreen"
             //-- "Widescreen LCD aspect ratio"
-      10193  127 "ProporÁ„o normal LCD Widescreen"
+      10193  127 "Propor√ß√£o normal LCD Widescreen"
             //-- "Mirrored vertical alignment"
       10194  129 "Alinhamento vertical espelhado"
     }
           //-- "&Rotate vertically aligned games"
     10181  131 "&Rotacionar verticalmente jogos alinhados"
           //-- "Force 60Hz refresh rate"
-    10176  132 "ForÁar taxa de frequÍncia ‡ 60 Hz"
+    10176  132 "For√ßar taxa de frequ√™ncia √† 60 Hz"
           //-- "Enable &Triple Buffering (Fullscreen)"
     10100  133 "Ativar &Triple Buffering (Tela-cheia)"
           //-- "Enable VSync (Windowed)"
     10646  134 "Ativar VSync (modo janela)"
           //-- "Enable DWM Sync (Windowed)"
-    10103  135 "Ativar correÁ„o DWM Win7 (modo janela)"
+    10103  135 "Ativar corre√ß√£o DWM Win7 (modo janela)"
           //-- "Auto Frameskip"
-    10177  136 "Salto de quadros autom·tico"
+    10177  136 "Salto de quadros autom√°tico"
   }
         //-- "Audio"
-  popup  137 "¡udio" {
+  popup  137 "√Åudio" {
           //-- "Select &plugin"
     popup  138 "Selecionar &Plugin" {
             //-- "DirectSound"
@@ -256,21 +256,21 @@ menu    100 {
       10656  140 "XAudio2"
     }
           //-- "Plugin &options"
-    10663  141 "&OpÁıes do plugin"
+    10663  141 "&Op√ß√µes do plugin"
           //-- "2-point 1st order sample interpolation"
-    10231  143 "InterpolaÁ„o de 2-pontos com amostra na 1™ ordem"
+    10231  143 "Interpola√ß√£o de 2-pontos com amostra na 1¬™ ordem"
           //-- "4-point 3rd order sample interpolation"
-    10233  144 "InterpolaÁ„o de 4-pontos com amostra na 3™ ordem"
+    10233  144 "Interpola√ß√£o de 4-pontos com amostra na 3¬™ ordem"
           //-- "Disable FM interpolation"
-    10240  146 "Desativar interpolaÁ„o FM"
+    10240  146 "Desativar interpola√ß√£o FM"
           //-- "4-point 3rd order FM interpolation"
-    10243  147 "InterpolaÁ„o de 4-pontos com FM na 3™ ordem"
+    10243  147 "Interpola√ß√£o de 4-pontos com FM na 3¬™ ordem"
           //-- "&Sound logging"
-    popup  149 "GravaÁ„o do &som" {
+    popup  149 "Grava√ß√£o do &som" {
             //-- "Log to file..."
       10606  150 "Gravar para o arquivo..."
             //-- "Stop logging"
-      10607  151 "Parar gravaÁ„o"
+      10607  151 "Parar grava√ß√£o"
     }
           //-- "Buffer size..."
     10200  152 "Tamanho do buffer..."
@@ -283,7 +283,7 @@ menu    100 {
       10664  155 "DirectInput"
     }
           //-- "&Auto-Fire Rate"
-    popup  157 "Miscel‚nea" {
+    popup  157 "Miscel√¢nea" {
             //-- "Slow"
       10260  158 "Slow"
             //-- "Medium"
@@ -299,11 +299,11 @@ menu    100 {
     10009  164 "Escolher os dipswitches..."
   }
         //-- "Misc"
-  popup  165 "OpÁıes" {
+  popup  165 "Op√ß√µes" {
           //-- "Options"
-    popup  166 "Ajustar a prioridade da aplicaÁ„o" {
+    popup  166 "Ajustar a prioridade da aplica√ß√£o" {
             //-- "Auto pause"
-      10300  167 "Pausa autom·tica"
+      10300  167 "Pausa autom√°tica"
             //-- "Always process keyboard input"
       10301  168 "Sempre processar as entradas do teclado"
             //-- "Display mode indicator"
@@ -311,7 +311,7 @@ menu    100 {
             //-- "Modeless menu"
       10303  170 "Menu compacto"
             //-- "Don\'t change Num Lock status"
-      10616  171 "N„o mudar o status do Num Lock"
+      10616  171 "N√£o mudar o status do Num Lock"
             //-- "Create support folders at runtime"
       10719  172 "Create support folders at runtime"
             //-- "Set application thread priority"
@@ -336,7 +336,7 @@ menu    100 {
             //-- "Display Gear-Shift Indicator when supported"
       10727  184 ""
             //-- "AVI Writer Output size"
-      popup  185 "Linguagem da interface do usu·rio IU" {
+      popup  185 "Linguagem da interface do usu√°rio IU" {
               //-- "1x"
         10724  186 ""
               //-- "2x"
@@ -374,29 +374,29 @@ menu    100 {
             //-- "Configure support file paths..."
       10615  205 "Configurar o caminho dos arquivos de suporte..."
             //-- "UI language"
-      popup  207 "Õcones" {
+      popup  207 "√çcones" {
               //-- "Select UI language..."
         10307  208 "Selecionar a linguagem da IU..."
               //-- "Export UI translation template..."
-        10308  209 "Exportar um modelo de traduÁ„o da IU..."
+        10308  209 "Exportar um modelo de tradu√ß√£o da IU..."
               //-- "Reset UI default language"
-        10635  210 "Reiniciar linguagem padr„o da IU"
+        10635  210 "Reiniciar linguagem padr√£o da IU"
               //-- "Download UI language..."
         10309  211 ""
       }
             //-- "Gamelist language"
-      popup  212 "Tamanho do Ìcone" {
+      popup  212 "Tamanho do √≠cone" {
               //-- "Select gamelist language..."
         10673  213 "Selecione a linguagem da lista de jogos..."
               //-- "Export gamelist translation template..."
-        10674  214 "Exportar o modelo de traduÁ„o da lista de jogos"
+        10674  214 "Exportar o modelo de tradu√ß√£o da lista de jogos"
               //-- "Reset gamelist default language"
-        10675  215 "Reiniciar a lista de jogos ao padr„o"
+        10675  215 "Reiniciar a lista de jogos ao padr√£o"
       }
             //-- "Icons"
       popup  217 "Busca de truques" {
               //-- "Enable driver icons display"
-        10676  218 "Ativar o driver de display dos Ìcones"
+        10676  218 "Ativar o driver de display dos √≠cones"
               //-- "Parents only (use if you have problems)"
         10677  219 "16 x 16 pixels"
               //-- "Icon size"
@@ -411,7 +411,7 @@ menu    100 {
               //-- "Save snapshot"
         10318  225 "Salvar captura de tela"
               //-- "Shot factory.."
-        10317  226 "F·brica de imagens.."
+        10317  226 "F√°brica de imagens.."
               //-- "Enable cheats..."
         10306  228 "Ativar truques..."
               //-- "Cheat search"
@@ -419,7 +419,7 @@ menu    100 {
                 //-- "Start New Search"
           10628  230 "Iniciar nova busca"
                 //-- "Target value has not changed"
-          10629  232 "Valor do alvo n„o foi mudado"
+          10629  232 "Valor do alvo n√£o foi mudado"
                 //-- "Target value has changed"
           10630  233 "Valor do alvo foi mudado"
                 //-- "Target value has decreased"
@@ -459,7 +459,7 @@ menu    100 {
               //-- "&Neo-Source forums"
         10506  259 "Forums &Neo-Source"
               //-- "&System information"
-        10502  261 "InformaÁ„o do &Systema"
+        10502  261 "Informa√ß√£o do &Systema"
               //-- "&About FB Alpha"
         10501  262 "&Sobre o FB Alpha"
       }
@@ -469,25 +469,25 @@ menu    100 {
 
 menu    110 {
         //-- "Basic"
-  popup    0 "B·sico" {
+  popup    0 "B√°sico" {
           //-- "&No effects"
     11001    1 "Sem &efeitos"
           //-- "&Scanlines"
     11002    2 "&Scanlines"
           //-- "Scanlines &50%"
-    11003    3 "Scanlines ‡ &50%"
+    11003    3 "Scanlines √† &50%"
           //-- "&Rotate scanlines"
     11106    5 "&Rotacionar scanlines e efeitos RGB"
           //-- "Force &Flip"
-    11143    7 "ForÁar &Invers„o"
+    11143    7 "For√ßar &Invers√£o"
           //-- "Buffering &method"
-    popup    9 "&MÈtodo de Buffering" {
+    popup    9 "&M√©todo de Buffering" {
             //-- "&Autodetect"
-      10160   10 "&Auto detecÁ„o"
+      10160   10 "&Auto detec√ß√£o"
             //-- "&Video memory"
-      10161   11 "MemÛria de &VÌdeo"
+      10161   11 "Mem√≥ria de &V√≠deo"
             //-- "&System memory"
-      10162   12 "MemÛria do &Sistema"
+      10162   12 "Mem√≥ria do &Sistema"
     }
   }
 }
@@ -506,7 +506,7 @@ menu    111 {
           //-- "Pre-scale using Soft&FX"
     11108    7 "Pre-scale utilizando Soft&FX"
           //-- "SoftFX algorithm"
-    popup    8 "AlgorÌtimo SoftFX" {
+    popup    8 "Algor√≠timo SoftFX" {
             //-- "Double pixels (3D hardware)"
       11201    9 "Double pixels (3D hardware)"
             //-- "AdvanceMAME Scale2x"
@@ -578,32 +578,32 @@ menu    111 {
             //-- "DDT3x"
       11235   43 "DDT3x"
             //-- "Force image to SoftFX size"
-      11290   45 "ForÁar a imagem para o tamanho do SoftFX"
+      11290   45 "For√ßar a imagem para o tamanho do SoftFX"
     }
           //-- "Enable &Scanlines"
     11005   47 "Ativar &Scanlines"
           //-- "Set scanline &intensity..."
     11109   48 "Escolher a intensidade da &scanline"
           //-- "Enable phosphor &feedback"
-    11103   50 "Ativar &retorno do fÛsforo do monitor"
+    11103   50 "Ativar &retorno do f√≥sforo do monitor"
           //-- "Set &phosphor feedback intensity..."
-    11110   51 "Escolher a intensidade de retorno do &fÛsforo do monitor..."
+    11110   51 "Escolher a intensidade de retorno do &f√≥sforo do monitor..."
           //-- "&No effects"
     11004   53 "Sem &efeitos"
           //-- "RGB &effects"
     11104   54 "&Efeitos RGB"
           //-- "&3D projection"
-    11105   55 "ProjeÁ„o &3D"
+    11105   55 "Proje√ß√£o &3D"
           //-- "&Auto size scanlined RGB preset"
     11121   57 "Modelo de &auto-ajuste de scanline RGB"
           //-- "Manually select RGB preset"
-    popup   58 "SeleÁ„o manual do modelo RGB" {
+    popup   58 "Sele√ß√£o manual do modelo RGB" {
             //-- "Small faint RGB mask"
-      11122   59 "M·scara pequena do RGB"
+      11122   59 "M√°scara pequena do RGB"
             //-- "Large faint RGB dot mask"
-      11123   60 "M·scara de ponto larga do RGB"
+      11123   60 "M√°scara de ponto larga do RGB"
             //-- "Large faint RGB mask"
-      11124   61 "M·scara grande do RGB"
+      11124   61 "M√°scara grande do RGB"
             //-- "MAME rgbmicro"
       11125   63 "rgbmicro MAME"
             //-- "MAME rgbtiny"
@@ -613,14 +613,14 @@ menu    111 {
             //-- "Large oversaturated RGB dot"
       11128   67 "Ponto sobresaturado do RGB com pontos grandes"
             //-- "Huge oversaturated pattern"
-      11129   68 "Modelo enorme de sobresaturaÁ„o"
+      11129   68 "Modelo enorme de sobresatura√ß√£o"
     }
           //-- "Set 3&D projection properties..."
-    11111   70 "Escolher as propriedade da projeÁ„o &3D..."
+    11111   70 "Escolher as propriedade da proje√ß√£o &3D..."
           //-- "Advanced settings"
-    popup   72 "Par‚metros avanÁados" {
+    popup   72 "Par√¢metros avan√ßados" {
             //-- "Force &16-bit emulation"
-      11141   73 "ForÁar emulaÁ„o de &16-bit"
+      11141   73 "For√ßar emula√ß√£o de &16-bit"
             //-- "Use DirectX texture &management"
       11142   74 "Utilizar gerenciamento de textura do DirectX"
     }
@@ -657,7 +657,7 @@ menu    112 {
           //-- "SuperScale"
     11313   13 "SuperScale"
           //-- "SuperScale (75% Scanlines)"
-    11314   14 "SuperScale (Scanlines ‡ 75%)"
+    11314   14 "SuperScale (Scanlines √† 75%)"
           //-- "hq2x filter"
     11315   15 "hq2x filter"
           //-- "hq3x filter"
@@ -701,17 +701,17 @@ menu    112 {
           //-- "DDT3x"
     11335   35 "DDT3x"
           //-- "&Force image to SoftFX size"
-    11390   37 "&ForÁar a imagem para o SoftFX"
+    11390   37 "&For√ßar a imagem para o SoftFX"
           //-- "Buffering &method"
-    popup   38 "&MÈtodo de Buffering" {
+    popup   38 "&M√©todo de Buffering" {
             //-- "&Autodetect"
-      10163   39 "DetecÁ„o &autom·tica"
+      10163   39 "Detec√ß√£o &autom√°tica"
             //-- "&Video memory"
-      10164   40 "MemÛria de &VÌdeo"
+      10164   40 "Mem√≥ria de &V√≠deo"
             //-- "&System memory"
-      10165   41 "MemÛria do &Sistema"
+      10165   41 "Mem√≥ria do &Sistema"
             //-- "Directly access video memory"
-      11391   43 "Acesso direto ‡ memÛria de vÌdeo"
+      11391   43 "Acesso direto √† mem√≥ria de v√≠deo"
     }
   }
 }
@@ -724,9 +724,9 @@ menu    113 {
           //-- "Enable linear filtering"
     11602    2 "Ativar filtragem linear"
           //-- "Enable cubic filtering"
-    11603    3 "Ativar filtragem c˙bica"
+    11603    3 "Ativar filtragem c√∫bica"
           //-- "Cubic filter quality"
-    popup    4 "Qualidade do filtro c˙bico" {
+    popup    4 "Qualidade do filtro c√∫bico" {
             //-- "Lightly filtered"
       11610    5 "Lightly filtered"
             //-- "Smoothened strongly"
@@ -753,7 +753,7 @@ menu    113 {
           //-- "Set scanline &intensity..."
     11144   19 "Escolher a &intensidade da scanline..."
           //-- "Advanced settings"
-    popup   21 "Par‚metros avanÁados" {
+    popup   21 "Par√¢metros avan√ßados" {
             //-- "Single-pass"
       11623   22 "Single-pass"
             //-- "Multi-pass"
@@ -776,7 +776,7 @@ menu    114 {
           //-- "Linear filtering"
     11702    2 "Filtragem linear"
           //-- "SoftFX algorithm"
-    popup    4 "AlgorÌtimo SoftFX" {
+    popup    4 "Algor√≠timo SoftFX" {
             //-- "Double pixels (3D hardware)"
       11401    5 "Pixels Duplos (3D hardware)"
             //-- "AdvanceMAME Scale2x"
@@ -804,7 +804,7 @@ menu    114 {
             //-- "SuperScale"
       11413   17 "SuperScale"
             //-- "SuperScale (75% Scanlines)"
-      11414   18 "SuperScale (Scanlines ‡ 75%)"
+      11414   18 "SuperScale (Scanlines √† 75%)"
             //-- "hq2x Filter"
       11415   19 "hq2x Filter"
             //-- "hq3x Filter"
@@ -848,10 +848,10 @@ menu    114 {
             //-- "DDT3x"
       11435   39 "DDT3x"
             //-- "Force image to SoftFX size"
-      11490   41 "ForÁar a inagen para o tamanho do SoftFX"
+      11490   41 "For√ßar a inagen para o tamanho do SoftFX"
     }
           //-- "Advanced settings"
-    popup   43 "Par‚metros avanÁados" {
+    popup   43 "Par√¢metros avan√ßados" {
             //-- "Force &16-bit emulation"
       11491   44 ""
             //-- "Hardware vertex processing"
@@ -921,11 +921,11 @@ dialog	  51 "Mapear entradas do jogo" {
         //-- "Double-click an input to change its mapping"
   65535	   2 "Duplo-clique em uma entrada para mudar o mapeamento"
         //-- "Make selection in all three drop-down boxes, click apropriate button"
-  65535	   5 "Definir a seleÁ„o em todas as caixas da a ·rvore, clique no bot„o apropriado"
+  65535	   5 "Definir a sele√ß√£o em todas as caixas da a √°rvore, clique no bot√£o apropriado"
         //-- "Save preset"
-  20127	   9 "SaÁvar modelo"
+  20127	   9 "Sa√ßvar modelo"
         //-- "Make default"
-  20006	  10 "Definir padr„o"
+  20006	  10 "Definir padr√£o"
         //-- "Use preset"
   20005	  11 "Utilizar modelo"
 }
@@ -943,11 +943,11 @@ dialog	  52 "Selecionar controle" {
 }
 
         //-- "Edit cheat settings"
-dialog	  53 "Editar par‚metros das truques" {
+dialog	  53 "Editar par√¢metros das truques" {
         //-- "Select a cheat to change it."
   65535	   1 "Selecionar um truque que deseja modificar"
         //-- "Defaults"
-  20013	   4 "Padrıes"
+  20013	   4 "Padr√µes"
         //-- "OK"
       1	   5 "OK"
         //-- "Cancel"
@@ -961,11 +961,11 @@ dialog	  54 "Editar constantes" {
 }
 
         //-- "Edit DIPswitch settings"
-dialog	  55 "Editar os par‚metros do DIPswitch" {
+dialog	  55 "Editar os par√¢metros do DIPswitch" {
         //-- "Select a setting to change it."
-  65535	   1 "Selecionar um par‚metro para modific·-lo"
+  65535	   1 "Selecionar um par√¢metro para modific√°-lo"
         //-- "Defaults"
-  20013	   4 "Padrıes"
+  20013	   4 "Padr√µes"
         //-- "OK"
       1	   5 "OK"
         //-- "Cancel"
@@ -982,12 +982,12 @@ dialog	  56 "" {
 
         //-- ""
 dialog	  57 "" {
-        //-- "FB Alpha contains parts of MAME && Final Burn.\n© 2004-2018, Team FB Alpha."
-  65535	   3 "FB Alpha contÈm partes do MAME && Final Burn.\n© 2004-2011, Equipe FB Alpha."
+        //-- "FB Alpha contains parts of MAME && Final Burn.\n¬© 2004-2018, Team FB Alpha."
+  65535	   3 "FB Alpha cont√©m partes do MAME && Final Burn.\n¬© 2004-2011, Equipe FB Alpha."
         //-- "OK"
       1	   4 "OK"
         //-- "License"
-  20052	   5 "LicenÁa"
+  20052	   5 "Licen√ßa"
 }
 
         //-- ""
@@ -995,7 +995,7 @@ dialog	  58 "" {
         //-- "OK"
       1	   4 "OK"
         //-- " I understand and agree to be bound by the terms of the above license agreement"
-  20054	   5 " Eu compreendo e aceito os termos de acordo da licenÁa acima"
+  20054	   5 " Eu compreendo e aceito os termos de acordo da licen√ßa acima"
 }
 
         //-- ""
@@ -1057,9 +1057,9 @@ dialog	  60 "Editar o caminho das ROMs" {
         //-- "Select Game"
 dialog	  61 "Selecionar jogo" {
         //-- "Preview"
-  20303	   2 "PrÈvia"
+  20303	   2 "Pr√©via"
         //-- "Title"
-  20304	   3 "TÌtulo"
+  20304	   3 "T√≠tulo"
         //-- "Select Game"
   20302	   8 "Selecionar jogo"
         //-- "Game info:"
@@ -1069,9 +1069,9 @@ dialog	  61 "Selecionar jogo" {
         //-- "ROM info:"
   20064	  12 "Info da ROM :"
         //-- "Released by:"
-  20067	  13 "DistribuÌdo por :"
+  20067	  13 "Distribu√≠do por :"
         //-- "Genre:"
-  20066	  14 "GÍnero :"
+  20066	  14 "G√™nero :"
         //-- "Notes:"
   20124	  15 "Notas :"
         //-- "Filters"
@@ -1079,11 +1079,11 @@ dialog	  61 "Selecionar jogo" {
         //-- "Game Info"
   20602	  24 "Info da ROM"
         //-- "Options"
-  20301	  25 "OpÁıes"
+  20301	  25 "Op√ß√µes"
         //-- "Show available"
-  20060	  26 "Mostrar somente disponÌveis"
+  20060	  26 "Mostrar somente dispon√≠veis"
         //-- "Show unavailable"
-  20137	  27 "Mostras n„o disponÌveis"
+  20137	  27 "Mostras n√£o dispon√≠veis"
         //-- "Always show clones"
   20055	  28 "Sempre mostras os clones"
         //-- "Use zipnames"
@@ -1091,7 +1091,7 @@ dialog	  61 "Selecionar jogo" {
         //-- "Latin text only"
   20075	  30 "Somente texto em Latin"
         //-- "ROMs Dirs..."
-  20600	  31 "DiretÛrio das ROMS..."
+  20600	  31 "Diret√≥rio das ROMS..."
         //-- "Scan ROMs"
   20601	  32 "Scan ROMs"
         //-- "Cancel"
@@ -1109,13 +1109,13 @@ dialog	  61 "Selecionar jogo" {
 }
 
         //-- "Shots Factory"
-dialog	  62 "F·brica de imagens" {
+dialog	  62 "F√°brica de imagens" {
         //-- "&Capture"
   20061	   0 "&Capturar"
         //-- "OK"
       1	   1 "OK"
         //-- "&Advance Frame"
-  20062	   2 "&AvanÁar Frame"
+  20062	   2 "&Avan√ßar Frame"
         //-- "Layer &1"
   20202	   3 "Todos os Sprites"
         //-- "Layer &2"
@@ -1155,11 +1155,11 @@ dialog	  63 "Selecionar o valor Gamma desejado" {
 }
 
         //-- "Select desired resolution"
-dialog	  64 "Selecionar a resoluÁ„o desejada" {
+dialog	  64 "Selecionar a resolu√ß√£o desejada" {
         //-- "OK"
       1	   0 "OK"
         //-- "Resolution:"
-  20136	   2 "ResoluÁ„o:"
+  20136	   2 "Resolu√ß√£o:"
         //-- "Cancel"
       2	   4 "Cancelar"
 }
@@ -1179,19 +1179,19 @@ dialog	  66 "Selecionar a intensidade do retorno desejada" {
         //-- "OK"
       1	   0 "OK"
         //-- "Feedback strength"
-  20090	   2 "ForÁa do retorno"
+  20090	   2 "For√ßa do retorno"
         //-- "Feedback oversaturation"
-  20092	   5 "Retorno da sobre-saturaÁ„o"
+  20092	   5 "Retorno da sobre-satura√ß√£o"
         //-- "Cancel"
       2	   7 "Cancelar"
 }
 
         //-- "Select desired 3D projection properties"
-dialog	  67 "Selecionar as prorpriedades da projeÁ„o 3D desejada" {
+dialog	  67 "Selecionar as prorpriedades da proje√ß√£o 3D desejada" {
         //-- "OK"
       1	   0 "OK"
         //-- "Screen Angle"
-  20094	   3 "¬ngulo da tela"
+  20094	   3 "√Çngulo da tela"
         //-- "Fishbowl Factor"
   20096	   6 "Fator Fishbowl"
         //-- "Cancel"
@@ -1211,7 +1211,7 @@ dialog	  68 "Ajustar a velocidade da CPU emulada" {
 }
 
         //-- "FB Alpha system information report"
-dialog	  69 "RelatÛrio de informaÁ„o de sistema do FB Alpha" {
+dialog	  69 "Relat√≥rio de informa√ß√£o de sistema do FB Alpha" {
         //-- "OK"
       1	   0 "OK"
         //-- "Save..."
@@ -1219,7 +1219,7 @@ dialog	  69 "RelatÛrio de informaÁ„o de sistema do FB Alpha" {
 }
 
         //-- "FB Alpha has encountered an unrecoverable problem and will be terminated"
-dialog	  70 "FB Alpha encontrou um problema irrecuper·vel e ir· fechar" {
+dialog	  70 "FB Alpha encontrou um problema irrecuper√°vel e ir√° fechar" {
         //-- "OK"
       1	   1 "OK"
         //-- "Debug"
@@ -1237,7 +1237,7 @@ dialog	  71 "FB Alpha debugger" {
         //-- "Internal CPU state"
   65535	   8 "Estado interno da CPU"
         //-- "Memory map"
-  65535	  11 "Mapeamento da memÛria"
+  65535	  11 "Mapeamento da mem√≥ria"
         //-- "Debugger messages"
   65535	  16 "Mensagens do debugger"
         //-- "Execute"
@@ -1381,7 +1381,7 @@ dialog	  75 "Vizualizador da paleta" {
         //-- "Previous..."
   20432	  34 "Anterior"
         //-- "Next..."
-  20433	  35 "PrÛximo"
+  20433	  35 "Pr√≥ximo"
 }
 
         //-- "IPS Patch Manager"
@@ -1447,23 +1447,23 @@ dialog	  79 "Lista de jogos do NeoGeo CDZ" {
         //-- "Scan Games"
   20811	   3 "Encontrar jogos"
         //-- "Directories..."
-  20812	   4 "DiretÛrios..."
+  20812	   4 "Diret√≥rios..."
         //-- "Scan sub-dirs"
-  20809	   5 "Encontrar sub-diretÛrios"
+  20809	   5 "Encontrar sub-diret√≥rios"
         //-- "Front Cover"
   65535	   6 "Capa frontal"
         //-- "Back Cover"
   65535	   7 "Capa traseira"
         //-- "Options"
-  65535	   9 "OpÁıes"
+  65535	   9 "Op√ß√µes"
         //-- "Short name:"
   20816	  14 "Nome abreviado:"
         //-- "Released by:"
-  20817	  15 "LanÁado por:"
+  20817	  15 "Lan√ßado por:"
         //-- "Disc Image:"
   20818	  16 "Imagem do disco:"
         //-- "Audio Tracks:"
-  20819	  17 "Trilhas de ·udio:"
+  20819	  17 "Trilhas de √°udio:"
         //-- "Scan for ISO only"
   20810	  22 "Somente encontrar ISO"
 }
@@ -1479,9 +1479,9 @@ dialog	  81 "Game Information" {
         //-- "ROM info:"
   20064	   4 "Info da ROM :"
         //-- "Released by:"
-  20067	   5 "DistribuÌdo por :"
+  20067	   5 "Distribu√≠do por :"
         //-- "Genre:"
-  20066	   6 "GÍnero :"
+  20066	   6 "G√™nero :"
         //-- "Notes:"
   20124	   7 "Notas :"
         //-- "Favorite"
@@ -1547,16 +1547,16 @@ dialog	 234 "" {
 }
 
         //-- "This appears to be the first time you run %s v%.20s.\n\n"
-string   200 "Parece que È a primeira vez que vocÍ executa %s v%.20s.\n\n"
+string   200 "Parece que √© a primeira vez que voc√™ executa %s v%.20s.\n\n"
 
         //-- "Please take some time to match the audio/video settings to your system capabilities and personal preferences. If you continue to use and/or distribute this software, you must agree to be bound by the terms of license agreement, which is always accessible via the about dialog.\n\n"
-string   202 "Por favor, reserve um pequeno espaÁo de tempo nas preferÍncias e capacidades do seu sistema de ·udio/vÌdeo bem como suas preferÍncias pessoais. Se vocÍ continuar a usar e/ou distribuir este software, vocÍ precisa concordar com os termos de licenÁa, aos quais estar„o sempre disponÌveis na caixa de di·logo sobre.\n\n"
+string   202 "Por favor, reserve um pequeno espa√ßo de tempo nas prefer√™ncias e capacidades do seu sistema de √°udio/v√≠deo bem como suas prefer√™ncias pessoais. Se voc√™ continuar a usar e/ou distribuir este software, voc√™ precisa concordar com os termos de licen√ßa, aos quais estar√£o sempre dispon√≠veis na caixa de di√°logo sobre.\n\n"
 
         //-- "Note that this is alpha quality software. As such, it likely will exhibit problems, including audio/video options not behaving correctly, the emulation of some games misses some features, and may exhibit stability problems. CAVEAT LECTOR!"
-string   204 "Perceba que isto È um software com qualidade alfa. Ent„o, possivelmente ir· exibir problemas, incluindo opÁıes de ·udio/vÌdeo que poder„o n„o se comportar corretamente, a emulaÁ„o de alguns jogos È imperfeita e poder· exibir problemas de instabilidade. CAVEAT LECTOR !"
+string   204 "Perceba que isto √© um software com qualidade alfa. Ent√£o, possivelmente ir√° exibir problemas, incluindo op√ß√µes de √°udio/v√≠deo que poder√£o n√£o se comportar corretamente, a emula√ß√£o de alguns jogos √© imperfeita e poder√° exibir problemas de instabilidade. CAVEAT LECTOR !"
 
         //-- "Note that this is beta quality software. As such, it likely may be missing some features, or exhibit some problems with your system."
-string   206 "Perceba que isto È um software com qualidade beta. Ent„o, possivelmente n„o ter· muitas caracterÌsticas ou exibir· alguns problemas no seu sistema"
+string   206 "Perceba que isto √© um software com qualidade beta. Ent√£o, possivelmente n√£o ter√° muitas caracter√≠sticas ou exibir√° alguns problemas no seu sistema"
 
         //-- "Cheat name"
 string   220 "Nome do truqye"
@@ -1583,16 +1583,16 @@ string   248 "Teclado"
 string   250 "Joystick %i"
 
         //-- "X-Arcade (left side)"
-string   252 "X-Arcade (CotÈ Gauche)"
+string   252 "X-Arcade (Cot√© Gauche)"
 
         //-- "X-Arcade (right side)"
-string   254 "X-Arcade (CotÈ Droit)"
+string   254 "X-Arcade (Cot√© Droit)"
 
         //-- "Hot Rod (left side)"
-string   256 "Hot Rod (CotÈ Gauche)"
+string   256 "Hot Rod (Cot√© Gauche)"
 
         //-- "Hot Rod (right side)"
-string   258 "Hot Rod (CotÈ Droit)"
+string   258 "Hot Rod (Cot√© Droit)"
 
         //-- "Absolute"
 string   260 "Absoluto"
@@ -1607,7 +1607,7 @@ string   264 "Normal"
 string   280 "Grupo de DIPSwitch"
 
         //-- "Setting"
-string   282 "Par‚metros"
+string   282 "Par√¢metros"
 
         //-- "Move control or press key for %.100hs"
 string   300 "Mova o controle ou pressione uma tecla para %.100hs"
@@ -1619,10 +1619,10 @@ string   302 "Mova o controle ou pressione uma tecla"
 string   304 "Aguardando por %.80s para ser liberado..."
 
         //-- "Create new memory card"
-string   320 "Criar um cart„o de memÛria novo"
+string   320 "Criar um cart√£o de mem√≥ria novo"
 
         //-- "Select new memory card"
-string   322 "Selecionar um cart„o de memÛria novo"
+string   322 "Selecionar um cart√£o de mem√≥ria novo"
 
         //-- "Loading and initialising %s..."
 string   340 "Carregando e inicializando %s..."
@@ -1637,7 +1637,7 @@ string   350 "Gravar entrada para o arquivo"
 string   352 "Replay da entrada do arquivo"
 
         //-- "Select Directory:"
-string   360 "Selecionar diretÛrio:"
+string   360 "Selecionar diret√≥rio:"
 
         //-- "Load State"
 string   380 "Carregar estado"
@@ -1670,7 +1670,7 @@ string   422 "Nenhum jogo carregado"
 string   440 "*** Iniciado jogo em rede:"
 
         //-- "*** You are player %i. "
-string   442 "*** VocÍ È o jogador %i."
+string   442 "*** Voc√™ √© o jogador %i."
 
         //-- "There are %i total players."
 string   444 "Tem %i jogadores no total."
@@ -1733,10 +1733,10 @@ string   514 "Gravando este som"
 string   516 "%s Gravando arquivos de som"
 
         //-- "%s Memory Card Files"
-string   518 "%s Fichiers de Carte MÈmoire"
+string   518 "%s Fichiers de Carte M√©moire"
 
         //-- "All Memory Card Files"
-string   520 "Todos os arquivos do cart„o de memÛria"
+string   520 "Todos os arquivos do cart√£o de mem√≥ria"
 
         //-- "All Dat Files"
 string   522 "Todos os arquivos Dat"
@@ -1748,16 +1748,16 @@ string   524 "Arquivos texto"
 string   526 "%s Arquivos Patch"
 
         //-- "Save system information report"
-string   540 "Salvar relatÛrio da informaÁ„o do sistema"
+string   540 "Salvar relat√≥rio da informa√ß√£o do sistema"
 
         //-- "Select game list localisation template"
-string   560 "Selecionar modelo de localizaÁ„o da lista de jogos"
+string   560 "Selecionar modelo de localiza√ß√£o da lista de jogos"
 
         //-- "Create game list localisation template"
-string   562 "Criar modelo de localizaÁ„o da lista de jogos"
+string   562 "Criar modelo de localiza√ß√£o da lista de jogos"
 
         //-- "Rom Information"
-string   600 "InformaÁao da Rom"
+string   600 "Informa√ßao da Rom"
 
         //-- "Rom Info"
 string   602 "Rom Info"
@@ -1832,13 +1832,13 @@ string   646 "Neo Geo CDZ Covers"
 string   648 "Blend Files"
 
         //-- "Select Previews"
-string   650 "PrÈ-visualizaÁ„o"
+string   650 "Pr√©-visualiza√ß√£o"
 
         //-- "Versus Previews"
-string   652 "TÌtulo"
+string   652 "T√≠tulo"
 
         //-- "HowTo Previews"
-string   654 "Õcones"
+string   654 "√çcones"
 
         //-- "Scores Previews"
 string   656 "Truques"
@@ -1931,16 +1931,16 @@ string   716 "Caminho #19"
 string   718 "Caminho #20"
 
         //-- "The preset file was saved to %s."
-string   720 "O arquivo de prÈ-definiÁ„o foi salvo para %s."
+string   720 "O arquivo de pr√©-defini√ß√£o foi salvo para %s."
 
         //-- "Create gamelist localisation template"
-string   730 "Criar modelo de localizaÁ„o da lista de jogos"
+string   730 "Criar modelo de localiza√ß√£o da lista de jogos"
 
         //-- "Select gamelist localisation template"
-string   732 "Selecionar modelo de localizaÁ„o da lista de jogos"
+string   732 "Selecionar modelo de localiza√ß√£o da lista de jogos"
 
         //-- "FB Alpha gamelist localisation templates"
-string   734 "Modelos de localizaÁ„o da lista de jogos do FB Alpha"
+string   734 "Modelos de localiza√ß√£o da lista de jogos do FB Alpha"
 
         //-- "Select CD-ROM image..."
 string   740 "Selecionar a imagem do CD-ROM..."
@@ -1952,13 +1952,13 @@ string   742 "Selecionar a imagem do CD-ROM"
 string   744 "Imagem do CD"
 
         //-- "Create localisation template"
-string   750 "Criar modelo de localizaÁ„o"
+string   750 "Criar modelo de localiza√ß√£o"
 
         //-- "Select localisation template"
-string   752 "Selecionar modelo de localizaÁ„o"
+string   752 "Selecionar modelo de localiza√ß√£o"
 
         //-- "FB Alpha localisation templates"
-string   754 "Modelos de localizaÁ„o do FB Alpha"
+string   754 "Modelos de localiza√ß√£o do FB Alpha"
 
         //-- "Filters"
 string   760 "Filtros"
@@ -2000,7 +2000,7 @@ string   782 "Toaplan"
 string   784 "Misc (antes 90s)"
 
         //-- "Misc (post 90s)"
-string   786 "Misc (apÛs 90s)"
+string   786 "Misc (ap√≥s 90s)"
 
         //-- "Megadrive"
 string   788 "Megadrive"
@@ -2036,10 +2036,10 @@ string   806 "Homebrew"
 string   808 "Demo"
 
         //-- "Genuine"
-string   810 "GenuÌno"
+string   810 "Genu√≠no"
 
         //-- "Showing %i of %i sets [%i Unavailable sets]"
-string   812 "Mostrando %i de %i sets [%i sets n„o disponÌveis]"
+string   812 "Mostrando %i de %i sets [%i sets n√£o dispon√≠veis]"
 
         //-- "Kaneko"
 string   814 "Kaneko"
@@ -2141,7 +2141,7 @@ string   888 "Corrida"
 string   890 "Shooter - Outros"
 
         //-- "Family"
-string   940 "FamÌlia"
+string   940 "Fam√≠lia"
 
         //-- "Metal Slug"
 string   942 "Metal Slug"
@@ -2183,7 +2183,7 @@ string  1000 "Gerenciador de Patchs IPS"
 string  1010 "%s%sNeo Geo CDZ%sSelecionar um Jogo"
 
         //-- "Title"
-string  1012 "TÌtulo"
+string  1012 "T√≠tulo"
 
         //-- "NGCD-ID"
 string  1014 "NGCD-ID"
@@ -2210,7 +2210,7 @@ string  1050 "Salvar estato do slot ativo (no %d)\tF10"
 string  1052 "Nenhum jogo selecionado"
 
         //-- "Number of Frames"
-string  1070 "N˙mero de Frames"
+string  1070 "N√∫mero de Frames"
 
         //-- "Select desired filter sharpness"
 string  1072 "Selecionar filtro sharpness desejado"
@@ -2222,31 +2222,31 @@ string  1076 "Buscando ROMs..."
 string  1080 "Nova busca de truque iniciada"
 
         //-- "%i Addresses Matched"
-string  1082 "%i EndereÁo correspondente"
+string  1082 "%i Endere√ßo correspondente"
 
         //-- "Address %08X Value %02X"
-string  1084 "EndereÁo %08X Valor %02X"
+string  1084 "Endere√ßo %08X Valor %02X"
 
         //-- "Cheat search exited"
 string  1086 "Busca de truques terminada"
 
         //-- "English (US)"
-string  1100 "InglÍs (US)"
+string  1100 "Ingl√™s (US)"
 
         //-- "Simplified Chinese"
-string  1102 "ChinÍs Simplificado"
+string  1102 "Chin√™s Simplificado"
 
         //-- "Traditional Chinese"
-string  1104 "ChinÍs Tradicional"
+string  1104 "Chin√™s Tradicional"
 
         //-- "Japanese"
-string  1106 "JaponÍs"
+string  1106 "Japon√™s"
 
         //-- "Korean"
 string  1108 "Coreano"
 
         //-- "French"
-string  1110 "FranÁÍs"
+string  1110 "Fran√ß√™s"
 
         //-- "Spanish"
 string  1112 "Espanhol"
@@ -2255,16 +2255,16 @@ string  1112 "Espanhol"
 string  1114 "Italiano"
 
         //-- "German"
-string  1116 "Alem„o"
+string  1116 "Alem√£o"
 
         //-- "Portuguese"
-string  1118 "PortuguÍs"
+string  1118 "Portugu√™s"
 
         //-- "Polish"
-string  1120 "PolonÍs"
+string  1120 "Polon√™s"
 
         //-- "Hungarian"
-string  1122 "H˙ngaro"
+string  1122 "H√∫ngaro"
 
         //-- "Game Information"
 string  1200 "Game Information"
@@ -2357,7 +2357,7 @@ string  1622 "hardware"
 string  1624 "Vazio"
 
         //-- "Unidentified CD"
-string  1626 "CD N„o Identificado"
+string  1626 "CD N√£o Identificado"
 
         //-- "Error"
 string  1800 "Erro"
@@ -2366,49 +2366,49 @@ string  1800 "Erro"
 string  1802 "Aviso"
 
         //-- "Information"
-string  1804 "InformaÁ„o"
+string  1804 "Informa√ß√£o"
 
         //-- "Unknown"
 string  1806 "Desconhecido"
 
         //-- "The ROMset is OK."
-string  1810 "O ROMset est· OK"
+string  1810 "O ROMset est√° OK"
 
         //-- "The ROMset exhibits the following problems:"
 string  1812 "O ROMset mostra os seguintes problemas:"
 
         //-- "No data was found, the game will not run!"
-string  1814 "Nenhum dado foi encontrado, o jogo n„o ir· rodar!"
+string  1814 "Nenhum dado foi encontrado, o jogo n√£o ir√° rodar!"
 
         //-- "essential data is missing, the game will not run!"
-string  1816 "Dados essenciais est· faltando, o jogo n„o ir· rodar!"
+string  1816 "Dados essenciais est√° faltando, o jogo n√£o ir√° rodar!"
 
         //-- "essential data is invalid, the game might not run!"
-string  1818 "Dados essenciais inv·lidos, talvez o jogo n„o rode!"
+string  1818 "Dados essenciais inv√°lidos, talvez o jogo n√£o rode!"
 
         //-- "data is missing."
 string  1820 "Dados perdidos"
 
         //-- "data is invalid."
-string  1822 "Dados inv·lidos."
+string  1822 "Dados inv√°lidos."
 
         //-- "%.32hs was found (%.512s).\n"
 string  1824 "%.32hs foi encontrado (%.512s).\n"
 
         //-- "%.32hs was not found.\n"
-string  1826 "%.32hs n„o foi encontrado.\n"
+string  1826 "%.32hs n√£o foi encontrado.\n"
 
         //-- "The following ROMs are invalid:\n"
-string  1828 "As seguintes ROMs s„o inv·lidas:\n"
+string  1828 "As seguintes ROMs s√£o inv√°lidas:\n"
 
         //-- "%.32hs has a CRC of %.8X (correct is %.8X).\n"
-string  1830 "%.32hs tem um CRC de %.8X (correto È %.8X).\n"
+string  1830 "%.32hs tem um CRC de %.8X (correto √© %.8X).\n"
 
         //-- "%.32hs is %dk which is too small (correct is %dkB).\n"
-string  1832 "%.32hs no qual %dk onde È muito pequeno (correto È %dkB).\n"
+string  1832 "%.32hs no qual %dk onde √© muito pequeno (correto √© %dkB).\n"
 
         //-- "%.32hs is %dk which is too large (correct is %dkB).\n"
-string  1834 "%.32hs no qual %dk onde È muito grande (correto È %dkB).\n"
+string  1834 "%.32hs no qual %dk onde √© muito grande (correto √© %dkB).\n"
 
         //-- "essential "
 string  1836 "essencial"
@@ -2429,7 +2429,7 @@ string  1844 "som "
 string  1846 "ROM "
 
         //-- "Error loading %.32hs, requested by %.128s.\nThe emulation will likely suffer problems."
-string  1848 "Erro carregando %.32hs, requisitado por %.128s.\nA emulaÁ„o ter· problemas."
+string  1848 "Erro carregando %.32hs, requisitado por %.128s.\nA emula√ß√£o ter√° problemas."
 
         //-- "Error reading %.32hs from %.512s"
 string  1850 "Erro lendo %.32hs de %.512s"
@@ -2441,25 +2441,25 @@ string  1852 "Incompatibilidade de CRC lendo %.32hs de %.512s"
 string  1860 "Existe um problema iniciando \'%.128s\'.\n"
 
         //-- "%.32s is not supported by %.32s."
-string  1870 "%.32s n„o È suportado por %.32s."
+string  1870 "%.32s n√£o √© suportado por %.32s."
 
         //-- "Couldn\'t create main window."
-string  1872 "N„o pode-se criar a janela principal"
+string  1872 "N√£o pode-se criar a janela principal"
 
         //-- "Couldn\'t intialise \'%s\' module."
-string  1874 "N„o pode-se inicializar o mÛdulo \'%s\'."
+string  1874 "N√£o pode-se inicializar o m√≥dulo \'%s\'."
 
         //-- "Couldn\'t create a triple buffer."
-string  1876 "N„o pode-se criar o buffer triplo."
+string  1876 "N√£o pode-se criar o buffer triplo."
 
         //-- "No appropriate display mode supported. Please adjust your full-screen settings."
-string  1878 "Nenhum modo de suporte ao display apropriado suportado. Por favor, ajuste seus par‚metros de tela-cheia."
+string  1878 "Nenhum modo de suporte ao display apropriado suportado. Por favor, ajuste seus par√¢metros de tela-cheia."
 
         //-- "Problem setting \'%dx%dx%dbpp (%dHz)\' display mode"
 string  1880 "Problema acertando o modo do display \'%dx%dx%dbpp (%dHz)\'"
 
         //-- "\n\nThis is not a standard VGA resolution; please make sure it is supported by your video card."
-string  1882 "\n\nEsta n„o È uma resoluÁ„o VGA padr„o; por favor certifique-se se isso È suportado por sua placa de vÌdeo."
+string  1882 "\n\nEsta n√£o √© uma resolu√ß√£o VGA padr√£o; por favor certifique-se se isso √© suportado por sua placa de v√≠deo."
 
         //-- "Couldn\'t intialise \'%s\' module. Try installing the Direct X End User runtimes (June 2010)."
 string  1884 ""
@@ -2471,13 +2471,13 @@ string  1890 "Erro criando "
 string  1892 "Erro carregando "
 
         //-- " is for an unavailable game."
-string  1894 " È para um jogo n„o disponÌvel."
+string  1894 " √© para um jogo n√£o dispon√≠vel."
 
         //-- " does not work with this version of %s."
-string  1896 " n„o funciona com esta vers„o de %s."
+string  1896 " n√£o funciona com esta vers√£o de %s."
 
         //-- " requires a more recent version of %s, please upgrade."
-string  1898 " necessita de uma vers„o mais rescente do %s, por favor faÁa um upgrade."
+string  1898 " necessita de uma vers√£o mais rescente do %s, por favor fa√ßa um upgrade."
 
         //-- "Error finding \'kailleraclient.dll\'."
 string  1910 "Erro buscando \'kailleraclient.dll\'."
@@ -2489,10 +2489,10 @@ string  1912 "Nenhum driver foi selecionado para a lista."
 string  1914 "Nenhum driver foi selecioando para o slot 1."
 
         //-- "This game isn\'t working. Load it anyway?"
-string  1916 "Este jogo n„o est· funcionando. Carregar mesmo assim?"
+string  1916 "Este jogo n√£o est√° funcionando. Carregar mesmo assim?"
 
         //-- "Couldn\'t initialise CD emulation."
-string  1918 "N„o pÙde inicializar a emulaÁ„o do CD."
+string  1918 "N√£o p√¥de inicializar a emula√ß√£o do CD."
 
         //-- "Failed to connect to Internet"
 string  1950 ""
