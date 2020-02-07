@@ -1,6 +1,6 @@
-// translation template for FB Alpha
+// translation template for FinalBurn Neo
 
-version 0x029743
+version 0x029744
 
 // codepage 1252
 
@@ -217,251 +217,290 @@ menu    100 {
       10143  118 "&32бита"
     }
           //-- "Choose Fullscreen Monitor"
-    10728  119 ""
+    10728  119 "Выбрать полноэкранный монитор"
           //-- "&Monitor properties"
     popup  121 "Свойства &монитора" {
-            //-- "Automatically detect aspect ratio"
-      10650  122 "Автоматически определять соотношение сторон"
-            //-- "Normal CRT aspect ratio"
-      10190  124 "Соотношение сторон CRT"
-            //-- "Normal LCD aspect ratio"
-      10191  125 "Соотношение сторон LCD"
-            //-- "Widescreen CRT aspect ratio"
-      10192  126 "Широкоформатный ЭЛТ"
-            //-- "Widescreen LCD aspect ratio"
-      10193  127 "Широкоформатный LCD"
+            //-- "Automatically detect fullscreen resolution and aspect ratio"
+      10650  122 "Автоматически определять полноэкранное разрешение и соотношение сторон"
+            //-- "Select aspect ratio (Horizontal)"
+      popup  124 "Выбрать соотношение сторон (по горизонтали)" {
+              //-- "Normal CRT aspect ratio"
+        10190  125 "Нормальное соотношение сторон CRT"
+              //-- "Normal LCD aspect ratio"
+        10191  126 "Нормальное соотношение сторон CRT"
+              //-- "Widescreen CRT aspect ratio"
+        10192  127 "Широкоформатное соотношение сторон CRT"
+              //-- "Widescreen LCD aspect ratio"
+        10193  128 "Широкоформатное соотношение сторон LCD"
+      }
+            //-- "Select aspect ratio (Vertical)"
+      popup  129 "Выбрать соотношение сторон (по вертикали)" {
+              //-- "Normal CRT aspect ratio (landscape)"
+        10270  130 "Нормальное соотношение сторон CRT (landscape)"
+              //-- "Normal LCD aspect ratio (landscape)"
+        10271  131 "Нормальное соотношение сторон LCD (landscape)"
+              //-- "Widescreen CRT aspect ratio (landscape)"
+        10272  132 "Широкоформатное соотношение сторон CRT (landscape)"
+              //-- "Widescreen LCD aspect ratio (landscape)"
+        10273  133 "Широкоформатное соотношение сторон LCD (landscape)"
+              //-- "Normal CRT aspect ratio (portrait)"
+        10274  134 "Нормальное соотношение сторон CRT (portrait)"
+              //-- "Normal LCD aspect ratio (portrait)"
+        10275  135 "Нормальное соотношение сторон LCD (portrait)"
+              //-- "Widescreen CRT aspect ratio (portrait)"
+        10276  136 "Широкоформатное соотношение сторон CRT (portrait)"
+              //-- "Widescreen LCD aspect ratio (portrait)"
+        10277  137 "Широкоформатное соотношение сторон LCD (portrait)"
+      }
             //-- "Mirrored vertical alignment"
-      10194  129 "Зеркальное выравнивание по вертикали"
+      10194  139 "Зеркальное выравнивание по вертикали"
     }
           //-- "&Rotate vertically aligned games"
-    10181  131 "&Автоповорот вертикальных игр"
+    10181  141 "&Автоповорот вертикальных игр"
           //-- "Force 60Hz refresh rate"
-    10176  132 "Форсировать частоту обновления 60Гц"
+    10176  142 "Форсировать частоту обновления 60Гц"
           //-- "Enable &Triple Buffering (Fullscreen)"
-    10100  133 "Включить тройную буферизацию (Полный экран)"
+    10100  143 "Включить тройную буферизацию (Полный экран)"
           //-- "Enable VSync (Windowed)"
-    10646  134 "Включить VSync (Оконный режим)"
+    10646  144 "Включить VSync (Оконный режим)"
           //-- "Enable DWM Sync (Windowed)"
-    10103  135 "Включить Win7 DWM Fix (Оконный режим)"
+    10103  145 "Включить Win7 DWM Fix (Оконный режим)"
           //-- "Auto Frameskip"
-    10177  136 "Автоматический пропуск кадров"
+    10177  146 "Автоматический пропуск кадров"
   }
         //-- "Audio"
-  popup  137 "Звук" {
+  popup  147 "Аудио" {
           //-- "Select &plugin"
-    popup  138 "Выбрать звуковой &плагин" {
+    popup  148 "Выбрать звуковой &плагин" {
             //-- "DirectSound"
-      10655  139 ""
+      10655  149 ""
             //-- "XAudio2"
-      10656  140 ""
+      10656  150 ""
     }
           //-- "Plugin &options"
-    10663  141 "&Настройки плагина"
+    10663  151 "&Настройки плагина"
           //-- "2-point 1st order sample interpolation"
-    10231  143 "2-точечная интерполяция первого порядка"
+    10231  153 "2-точечная интерполяция первого порядка"
           //-- "4-point 3rd order sample interpolation"
-    10233  144 "4-точечная интерполяция третьего порядка"
+    10233  154 "4-точечная интерполяция третьего порядка"
           //-- "Disable FM interpolation"
-    10240  146 "Отключить FM интерполяцию"
+    10240  156 "Отключить FM интерполяцию"
           //-- "4-point 3rd order FM interpolation"
-    10243  147 "4-точечная FM интерполяция третьего порядка"
+    10243  157 "4-точечная FM интерполяция третьего порядка"
           //-- "&Sound logging"
-    popup  149 "Запись звука" {
+    popup  159 "Запись звука" {
             //-- "Log to file..."
-      10606  150 "Сохранить в файл..."
+      10606  160 "Сохранить в файл..."
             //-- "Stop logging"
-      10607  151 "Остановить запись"
+      10607  161 "Остановить запись"
     }
           //-- "Buffer size..."
-    10200  152 "Размер буфера.."
+    10200  162 "Размер буфера.."
   }
         //-- "Input"
-  popup  153 "Управление" {
+  popup  163 "Управление" {
           //-- "Select &plugin"
-    popup  154 "Выбрать &плагин" {
+    popup  164 "Выбрать &плагин" {
             //-- "DirectInput"
-      10664  155 ""
+      10664  165 ""
     }
           //-- "&Auto-Fire Rate"
-    popup  157 "Скорость Авто-Огня" {
+    popup  167 "Скорость Авто-Огня" {
             //-- "Slow"
-      10260  158 "Медленная"
+      10260  168 "Медленная"
             //-- "Medium"
-      10261  159 "Средняя"
+      10261  169 "Средняя"
             //-- "Fast"
-      10262  160 "Быстрая"
+      10262  170 "Быстрая"
             //-- "Very Fast"
-      10263  161 "Очень быстрая"
+      10263  171 "Очень быстрая"
     }
           //-- "Map game inputs..."
-    10007  163 "Переопределить кнопки управления..."
+    10007  173 "Переопределить кнопки управления..."
           //-- "Set dipswitches..."
-    10009  164 "Настройка DIP-переключателей..."
+    10009  174 "Настройка DIP-переключателей..."
   }
         //-- "Misc"
-  popup  165 "Разное" {
+  popup  175 "Разное" {
           //-- "Options"
-    popup  166 "Опции" {
+    popup  176 "Опции" {
             //-- "Auto pause"
-      10300  167 "Автопауза"
+      10300  177 "Автопауза"
             //-- "Always process keyboard input"
-      10301  168 "Всегда управлять вводом с клавиатуры"
+      10301  178 "Всегда управлять вводом с клавиатуры"
             //-- "Display mode indicator"
-      10302  169 "Отображать индикатор режима"
+      10302  179 "Отображать индикатор режима"
             //-- "Modeless menu"
-      10303  170 "Прочее"
+      10303  180 ""
             //-- "Don\'t change Num Lock status"
-      10616  171 "Не изменять статус NumLock"
+      10616  181 "Не изменять статус NumLock"
             //-- "Create support folders at runtime"
-      10719  172 "Создать папку поддержки во время выполнения"
+      10719  182 ""
+            //-- "Show Game List at start-up"
+      10733  183 "Показывать список игр при запуске"
             //-- "Set application thread priority"
-      popup  174 "Установить приоритет приложения" {
+      popup  185 "Установить приоритет приложения" {
               //-- "High"
-        10311  175 "Высокий"
+        10311  186 "Высокий"
               //-- "Above normal"
-        10312  176 "Выше нормы"
+        10312  187 "Выше нормы"
               //-- "Normal"
-        10313  177 "Нормальный"
+        10313  188 "Нормальный"
               //-- "Below normal"
-        10314  178 "Ниже нормы"
+        10314  189 "Ниже нормы"
               //-- "Low"
-        10315  179 "Низкий"
+        10315  190 "Низкий"
       }
             //-- "Enable high resolution system timer"
-      10319  180 ""
+      10319  191 ""
             //-- "Save High Scores when supported"
-      10654  182 "Сохранять лучшие результаты, если поддерживается"
+      10654  193 ""
             //-- "Use alpha blend effects when supported"
-      10720  183 "Использовать эффекты альфа-смешивания, если поддерживается"
+      10720  194 ""
             //-- "Display Gear-Shift Indicator when supported"
-      10727  184 ""
+      10727  195 ""
             //-- "AVI Writer Output size"
-      popup  185 "Создание dat файлов" {
+      popup  196 "" {
               //-- "1x"
-        10724  186 ""
+        10724  197 ""
               //-- "2x"
-        10725  187 ""
+        10725  198 ""
               //-- "3x"
-        10726  188 ""
+        10726  199 ""
       }
             //-- "Generate dat file"
-      popup  190 "Язык интерфейса" {
+      popup  201 "Создать dat файл" {
               //-- "Generate dat (Arcade only)..."
-        10651  191 "Создать dat (только Аркады)..."
+        10651  202 "Создать dat (только Arcade)..."
               //-- "Generate dat (Megadrive only)..."
-        10653  192 "Создать dat (только Megadrive)..."
+        10653  203 "Создать dat (только Megadrive)..."
               //-- "Generate dat (PC-Engine only)..."
-        10714  193 "Создать dat (только PC-Engine)..."
+        10714  204 "Создать dat (только PC-Engine)..."
               //-- "Generate dat (TurboGrafx16 only)..."
-        10715  194 "Создать dat (только TurboGrafx16)..."
+        10715  205 "Создать dat (только TurboGrafx16)..."
               //-- "Generate dat (SuprGrafx only)..."
-        10716  195 "Создать dat (только SuprGrafx)..."
+        10716  206 "Создать dat (только SuprGrafx)..."
               //-- "Generate dat (Sega SG-1000 only)..."
-        10717  196 "Создать dat (только Sega SG-1000)..."
+        10717  207 "Создать dat (только Sega SG-1000)..."
               //-- "Generate dat (ColecoVision only)..."
-        10718  197 "Создать dat (только ColecoVision)..."
+        10718  208 "Создать dat (только ColecoVision)..."
               //-- "Generate dat (Master System only)..."
-        10721  198 "Создать dat (только Master System)..."
+        10721  209 "Создать dat (только Master System)..."
               //-- "Generate dat (Game Gear only)..."
-        10722  199 "Создать dat (только Game Gear)..."
+        10722  210 "Создать dat (только Game Gear)..."
               //-- "Generate dat (MSX 1 Games only)..."
-        10723  200 "AVI Writer Выход 3x пикселей"
+        10723  211 "Создать dat (только MSX 1 игры)..."
+              //-- "Generate dat (ZX Spectrum Games only)..."
+        10732  212 "Создать dat (только ZX Spectrum игры)..."
+              //-- "Generate dat (NES Games only)..."
+        10734  213 "Создать dat (только NES игры)..."
+              //-- "Generate dat (FDS Games only)..."
+        10735  214 "Создать dat (только FDS игры)..."
               //-- "Generate all dats..."
-        10729  202 ""
+        10729  216 "Создать все dat файлы..."
       }
             //-- "Configure ROM paths..."
-      10614  204 "Настройка путей к РОМам..."
+      10614  218 "Настройка пути к ROM файлам..."
             //-- "Configure support file paths..."
-      10615  205 "Настройка путей к Дополнениям ..."
+      10615  219 "Настройка пути к support файлам..."
+            //-- "UI skin"
+      popup  221 "Скин UI" {
+              //-- "Select skin..."
+        10730  222 "Выбрать скин..."
+              //-- "Set skin to default"
+        10731  223 "Установить скин по умолчанию"
+      }
             //-- "UI language"
-      popup  207 "Язык Списка игр" {
+      popup  224 "Язык интерфейса UI" {
               //-- "Select UI language..."
-        10307  208 "Выбрать язык интерфейса..."
+        10307  225 "Выбрать язык интерфейса UI..."
               //-- "Export UI translation template..."
-        10308  209 "Экспортировать шаблон для перевода..."
+        10308  226 "Экспортировать шаблон для перевода..."
               //-- "Reset UI default language"
-        10635  210 "Сбросить язык интерфейса по умолчанию"
+        10635  227 "Сбросить язык интерфейса по умолчанию"
               //-- "Download UI language..."
-        10309  211 "Загрузить язык UI..."
+        10309  228 "Загрузить язык интерфейса UI..."
       }
             //-- "Gamelist language"
-      popup  212 "Иконки" {
+      popup  229 "Язык списка игр" {
               //-- "Select gamelist language..."
-        10673  213 "Выбрать язык Списка игр..."
+        10673  230 "Выбрать язык списка игр..."
               //-- "Export gamelist translation template..."
-        10674  214 "Экспортировать шаблон для перевода..."
+        10674  231 "Экспортировать шаблон списка игр для перевода..."
               //-- "Reset gamelist default language"
-        10675  215 "Сбросить язык Списка игр по умолчанию"
+        10675  232 "Сбросить язык списка игр по умолчанию"
       }
             //-- "Icons"
-      popup  217 "Размер иконок" {
+      popup  234 "Иконки" {
               //-- "Enable driver icons display"
-        10676  218 "Включить иконки"
+        10676  235 "Включить отображение иконок"
               //-- "Parents only (use if you have problems)"
-        10677  219 "16 x 16 пикселей"
+        10677  236 ""
               //-- "Icon size"
-        popup  220 "Поиск читов" {
+        popup  237 "Размер иконок" {
                 //-- "16 x 16 pixels"
-          10678  221 "24 x 24 пикселей"
+          10678  238 "16 x 16 пикселей"
                 //-- "24 x 24 pixels"
-          10679  222 "32 x 32 пикселей"
+          10679  239 "24 x 24 пикселей"
                 //-- "32 x 32 pixels"
-          10680  223 ""
+          10680  240 "32 x 32 пикселей"
         }
               //-- "Save snapshot"
-        10318  225 "Сохранить снимок"
+        10318  242 "Сохранить снимок"
               //-- "Shot factory.."
-        10317  226 "Сохранить снимок (с опциями...)"
+        10317  243 "Сохранить снимок (с опциями...)"
               //-- "Enable cheats..."
-        10306  228 "Включить читы..."
+        10306  245 "Включить читы..."
               //-- "Cheat search"
-        popup  229 "Справка" {
+        popup  246 "Поиск чит-кодов" {
                 //-- "Start New Search"
-          10628  230 "Начать новый поиск"
+          10628  247 "Начать новый поиск"
                 //-- "Target value has not changed"
-          10629  232 "Целевое значение не изменилось"
+          10629  249 "Целевое значение не изменилось"
                 //-- "Target value has changed"
-          10630  233 "Целевое значение изменилось"
+          10630  250 "Целевое значение изменилось"
                 //-- "Target value has decreased"
-          10631  234 "Целевое значение уменьшилось"
+          10631  251 "Целевое значение уменьшилось"
                 //-- "Target value has increased"
-          10632  235 "Целевое значение увеличилось"
+          10632  252 "Целевое значение увеличилось"
                 //-- "Dump search to file"
-          10633  237 "Дамп поиска в файл"
+          10633  254 "Дамп поиска в файл"
                 //-- "Exit Cheat Search"
-          10634  239 "Выход из поиска читов"
+          10634  256 "Выход из поиска читов"
         }
               //-- "Invoke 68K debugger..."
-        10392  241 "Вызов отладчика 68K"
+        10392  258 "Вызов отладчика 68K"
               //-- "Palette Viewer..."
-        10672  243 "Просмотр палитры..."
+        10672  260 "Просмотр палитры..."
               //-- "Associate with .fs and .fr files"
-        10330  245 "Ассоциировать файлы .fs и .fr "
+        10330  262 "Ассоциировать файлы .fs и .fr"
               //-- "Disassociate from .fs and .fr files"
-        10331  246 "Снять ассоциации файлов .fs и .fr"
+        10331  263 "Снять ассоциации файлов .fs и .fr"
               //-- "Save input mapping now"
-        10332  248 "Сохранить настройки клавиш сейчас"
+        10332  265 "Сохранить настройки клавиш сейчас"
               //-- "Auto-save input mapping"
-        10333  249 "Автосохранение настроек клавиш"
+        10333  266 "Автосохранение настроек клавиш"
               //-- "Save settings to .ini now"
-        10334  251 "Сохранить настройки в .ini"
+        10334  268 "Сохранить настройки в .ini сейчас"
               //-- "Reload settings from .ini"
-        10335  252 "Загрузить настройки из .ini "
+        10335  269 "Загрузить настройки из .ini"
       }
             //-- "Help"
-      popup  253 "" {
+      popup  270 "Помощь" {
               //-- "&Help"
-        10503  254 "&Справка"
+        10503  271 "&Справка"
               //-- "&What\'s New"
-        10505  256 "&Что нового"
-              //-- "&FB Alpha homepage"
-        10504  258 "&Домашняя страница FB Alpha"
+        10505  273 "&Что нового?"
+              //-- "&FB Neo homepage"
+        10504  275 "&Домашняя страница FB Neo"
               //-- "&Neo-Source forums"
-        10506  259 "&Форумы Neo-Source"
+        10506  276 "&Форумы Neo-Source"
+              //-- "FB Neo &Github"
+        10507  277 ""
               //-- "&System information"
-        10502  261 "&Информация о системе"
-              //-- "&About FB Alpha"
-        10501  262 "&О программе FB Alpha"
+        10502  279 "&Информация о системе"
+              //-- "&About FB Neo"
+        10501  280 "&О программе FB Neo"
       }
     }
   }
@@ -477,9 +516,9 @@ menu    110 {
           //-- "Scanlines &50%"
     11003    3 ""
           //-- "&Rotate scanlines"
-    11106    5 "&Поворот Scanlines в вертикальных играх"
+    11106    5 ""
           //-- "Force &Flip"
-    11143    7 "Форсировать отражение"
+    11143    7 ""
           //-- "Buffering &method"
     popup    9 "&Метод буферизации" {
             //-- "&Autodetect"
@@ -585,9 +624,9 @@ menu    111 {
           //-- "Set scanline &intensity..."
     11109   48 "Установить &интенсивность строк развертки..."
           //-- "Enable phosphor &feedback"
-    11103   50 "Включить свечение фосфора"
+    11103   50 ""
           //-- "Set &phosphor feedback intensity..."
-    11110   51 "&Установить интенсивность свечения фосфоора..."
+    11110   51 ""
           //-- "&No effects"
     11004   53 "&Без эффектов"
           //-- "RGB &effects"
@@ -595,30 +634,30 @@ menu    111 {
           //-- "&3D projection"
     11105   55 "&3D проекция"
           //-- "&Auto size scanlined RGB preset"
-    11121   57 "&Авто размер сканлиний установленных RGB"
+    11121   57 ""
           //-- "Manually select RGB preset"
     popup   58 "Ручной выбор установок RGB" {
             //-- "Small faint RGB mask"
-      11122   59 "Малая тусклая маска RGB"
+      11122   59 ""
             //-- "Large faint RGB dot mask"
-      11123   60 "Большая тусклая точка маски RGB"
+      11123   60 ""
             //-- "Large faint RGB mask"
-      11124   61 "Большая тусклая маска RGB"
+      11124   61 ""
             //-- "MAME rgbmicro"
       11125   63 ""
             //-- "MAME rgbtiny"
       11126   64 ""
             //-- "Aperture grille"
-      11127   65 "Размер аппертуры"
+      11127   65 ""
             //-- "Large oversaturated RGB dot"
-      11128   67 "Большая перенасыщенная точка RGB"
+      11128   67 ""
             //-- "Huge oversaturated pattern"
-      11129   68 "Огромная перенасыщенная схема"
+      11129   68 ""
     }
           //-- "Set 3&D projection properties..."
-    11111   70 "Установить совйства 3D-проекции..."
+    11111   70 "Установить свойства 3D-проекции..."
           //-- "Advanced settings"
-    popup   72 "Дополнительные настройки" {
+    popup   72 "Расширенные настройки" {
             //-- "Force &16-bit emulation"
       11141   73 "Форсировать 16-битную эмуляцию"
             //-- "Use DirectX texture &management"
@@ -753,11 +792,11 @@ menu    113 {
           //-- "Set scanline &intensity..."
     11144   19 "Установить интенсивность Scanline..."
           //-- "Advanced settings"
-    popup   21 "Дополнительные настройки" {
+    popup   21 "Расширенные настройки" {
             //-- "Single-pass"
-      11623   22 "Один проход"
+      11623   22 ""
             //-- "Multi-pass"
-      11625   23 "Несколько проходов"
+      11625   23 ""
             //-- "High-performance"
       11626   24 "Высокая производительность"
             //-- "Use PS1.4"
@@ -851,13 +890,13 @@ menu    114 {
       11490   41 "Форсировать размер изображения SoftFX"
     }
           //-- "Advanced settings"
-    popup   43 "Дополнительные настройки" {
+    popup   43 "Расширенные настройки" {
             //-- "Force &16-bit emulation"
-      11491   44 ""
+      11491   44 "Форсировать 16-битную эмуляцию"
             //-- "Hardware vertex processing"
-      11703   45 "Аппаратная обработка вершин"
+      11703   45 ""
             //-- "Motion blur"
-      11704   46 "Размытие"
+      11704   46 ""
     }
   }
 }
@@ -870,13 +909,13 @@ menu    130 {
           //-- "Sound disabled"
     10210    3 "Выключить звук"
           //-- "11025Hz samplerate"
-    10211    4 "11025Hz"
+    10211    4 ""
           //-- "22050Hz samplerate"
-    10212    5 "22050Hz"
+    10212    5 ""
           //-- "44100Hz samplerate"
-    10213    6 "44100Hz"
+    10213    6 ""
           //-- "48000Hz samplerate"
-    10214    7 "48000Hz"
+    10214    7 ""
   }
 }
 
@@ -886,48 +925,54 @@ menu    131 {
           //-- "Use Low-pass filter"
     10202    1 "Использовать фильтр низких частот"
           //-- "Use reverb"
-    10203    2 "Использовать отражение"
+    10203    2 "Использовать реверберацию"
           //-- "Sound disabled"
     10220    4 "Выключить звук"
           //-- "11025Hz samplerate"
-    10221    5 "11025Hz"
+    10221    5 ""
           //-- "22050Hz samplerate"
-    10222    6 "22050Hz"
+    10222    6 ""
           //-- "44100Hz samplerate"
-    10223    7 "44100Hz"
+    10223    7 ""
           //-- "48000Hz samplerate"
-    10224    8 "48000Hz"
+    10224    8 ""
   }
 }
 
 menu    140 {
         //-- "Game Selection Menu"
-  popup    0 "" {
+  popup    0 "Меню выбора игры" {
           //-- "Play"
-    11900    1 ""
+    11900    1 "Играть"
           //-- "View Game Information"
-    11901    3 ""
+    11901    3 "Показать информацию о игре"
           //-- "View in Progetto EMMA"
-    11902    5 ""
+    11902    5 "Показать в Progetto EMMA"
           //-- "Favorite"
-    11903    7 ""
+    11903    7 "Избранное"
   }
 }
 
         //-- "Map Game Inputs"
 dialog	  51 "Выбор кнопок управления в игре" {
         //-- "OK"
-      2	   0 ""
+      2	   0 "Ок"
         //-- "Double-click an input to change its mapping"
   65535	   2 "Дважды кликните на строчку чтобы изменить значение"
         //-- "Make selection in all three drop-down boxes, click apropriate button"
   65535	   5 "Сделав выбор во всех трех списках, щелкните нужную кнопку"
         //-- "Save preset"
-  20127	   9 "Сохранить установки"
+  20127	   9 "Сохранить пресет"
         //-- "Make default"
-  20006	  10 "По умолчанию"
+  20006	  10 "Сделать по умолчанию"
         //-- "Use preset"
-  20005	  11 "Загрузить установки"
+  20005	  11 "Использовать пресет"
+        //-- "Analog Sensitivity"
+  65535	  12 ""
+        //-- "Analog Sensitivity"
+  20022	  13 ""
+        //-- "%"
+  65535	  15 ""
 }
 
         //-- "Select control"
@@ -937,25 +982,25 @@ dialog	  52 "Выбор управления" {
         //-- "Activate"
   20011	   1 "Активировать"
         //-- "Clear Input"
-      3	   2 "Очистить ввод"
+      3	   2 ""
         //-- "Clear Lock"
-  20021	   3 "Очистить блок"
+  20021	   3 ""
 }
 
         //-- "Edit cheat settings"
 dialog	  53 "Редактировать настройки читов" {
         //-- "Select a cheat to change it."
-  65535	   1 "Выберите чит, чтобы изменить его"
+  65535	   1 "Выберите чит, чтобы изменить его."
         //-- "Defaults"
   20013	   4 "Сброс"
         //-- "OK"
-      1	   5 ""
+      1	   5 "Ок"
         //-- "Cancel"
       2	   6 "Отмена"
 }
 
         //-- "Edit Constant"
-dialog	  54 "Изменить константы" {
+dialog	  54 "" {
         //-- "Close"
       2	   1 "Закрыть"
 }
@@ -967,7 +1012,7 @@ dialog	  55 "Изменение настройки DIP-переключателей" {
         //-- "Defaults"
   20013	   4 "Сброс"
         //-- "OK"
-      1	   5 ""
+      1	   5 "Ок"
         //-- "Cancel"
       2	   6 "Отмена"
 }
@@ -975,14 +1020,16 @@ dialog	  55 "Изменение настройки DIP-переключателей" {
         //-- ""
 dialog	  56 "" {
         //-- "Progress1"
-  20015	   1 "Прогресс1"
+     77	   1 ""
         //-- "Cancel"
       2	   5 "Отмена"
 }
 
         //-- ""
 dialog	  57 "" {
-        //-- "FB Alpha contains parts of MAME && Final Burn.\n© 2004-2018, Team FB Alpha."
+        //-- "version"
+     83	   1 "версия"
+        //-- "FB Neo contains parts of MAME && Final Burn.\n© 2004-2019, Team FBNeo."
   65535	   3 ""
         //-- "OK"
       1	   4 ""
@@ -992,10 +1039,12 @@ dialog	  57 "" {
 
         //-- ""
 dialog	  58 "" {
+        //-- "version"
+     83	   1 "версия"
         //-- "OK"
       1	   4 ""
         //-- " I understand and agree to be bound by the terms of the above license agreement"
-  20054	   5 " Я понимаю и соглашаюсь соблюдать условия лицензионного соглашения"
+  20054	   5 ""
 }
 
         //-- ""
@@ -1005,7 +1054,7 @@ dialog	  59 "" {
 }
 
         //-- "Edit ROMs paths"
-dialog	  60 "Директории с РОМами" {
+dialog	  60 "Директории с ROM файлами" {
         //-- "Tab2"
   20502	   0 ""
         //-- "OK"
@@ -1062,13 +1111,13 @@ dialog	  61 "Выбор игры" {
   20304	   3 "Название"
         //-- "Select Game"
   20302	   8 "Выбор игры"
-        //-- "Game info:"
-  20065	  10 "Выбрать цвет: "
-        //-- "ROM name:"
-  20063	  11 "ROM:"
-        //-- "ROM info:"
+        //-- "Game:"
+  20065	  10 "Игра:"
+        //-- "ROM:"
+  20063	  11 ""
+        //-- "Info:"
   20064	  12 "Инфо:"
-        //-- "Released by:"
+        //-- "Released:"
   20067	  13 "Издатель:"
         //-- "Genre:"
   20066	  14 "Жанр:"
@@ -1077,23 +1126,23 @@ dialog	  61 "Выбор игры" {
         //-- "Filters"
   20300	  22 "Фильтры"
         //-- "Game Info"
-  20602	  24 "Инфо"
+  20602	  24 "Инфо о игре"
         //-- "Options"
   20301	  25 "Опции"
         //-- "Show available"
-  20060	  26 "Доступные"
+  20060	  26 "Показать доступные"
         //-- "Show unavailable"
-  20137	  27 "Недоступные"
+  20137	  27 "Показать недоступные"
         //-- "Always show clones"
-  20055	  28 "Показывать клоны"
+  20055	  28 "Всегда показывать клоны"
         //-- "Use zipnames"
-  20074	  29 "Имена zip архивов"
+  20074	  29 "Использовать имена zip архивов"
         //-- "Latin text only"
-  20075	  30 "Только латиница"
+  20075	  30 ""
         //-- "ROMs Dirs..."
-  20600	  31 "Папки с РОМами"
+  20600	  31 "Папки с ROMs..."
         //-- "Scan ROMs"
-  20601	  32 "Пересканировать"
+  20601	  32 "Сканировать ROMs"
         //-- "Cancel"
       2	  33 "Отмена"
         //-- "Play"
@@ -1117,37 +1166,37 @@ dialog	  62 "Настройки скриншотов" {
         //-- "&Advance Frame"
   20062	   2 "&Расширенный кадр"
         //-- "Layer &1"
-  20202	   3 "Все спрайты"
+  20202	   3 ""
         //-- "Layer &2"
-  20203	   4 "Слой &2"
+  20203	   4 ""
         //-- "Layer &3"
-  20204	   5 "Слой &3"
+  20204	   5 ""
         //-- "Layer &4"
-  20205	   6 "Слой &4"
+  20205	   6 ""
         //-- "Show"
   20206	   7 "Показать"
         //-- "Sprite Priority 1"
-  20077	   8 "Приоритет 1"
+  20077	   8 ""
         //-- "Sprite Priority 2"
-  20078	   9 "Приоритет 2"
+  20078	   9 ""
         //-- "Sprite Priority 3"
-  20080	  10 "Приоритет 3"
+  20080	  10 ""
         //-- "Sprite Priority 4"
-  20079	  11 "Приоритет 4"
+  20079	  11 ""
         //-- "Sprite Priority 5"
-  20081	  12 "Приоритет 5"
+  20081	  12 ""
         //-- "Sprite Priority 6"
-  20082	  13 "Приоритет 6"
+  20082	  13 ""
         //-- "Sprite Priority 7"
-  20083	  14 "Приоритет 7"
+  20083	  14 ""
         //-- "Sprite Priority 8"
-  20084	  15 "Приоритет 8"
+  20084	  15 ""
 }
 
         //-- "Select desired Gamma value"
 dialog	  63 "Выбрать значение гаммы" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "Gamma value"
   20085	   2 "Значение гаммы"
         //-- "Cancel"
@@ -1157,7 +1206,7 @@ dialog	  63 "Выбрать значение гаммы" {
         //-- "Select desired resolution"
 dialog	  64 "Выбрать разрешение" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "Resolution:"
   20136	   2 "Разрешение:"
         //-- "Cancel"
@@ -1167,7 +1216,7 @@ dialog	  64 "Выбрать разрешение" {
         //-- "Select desired scanline intensity"
 dialog	  65 "Выбрать интенсивность scanline" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "Scanline intensity"
   20088	   2 "Интенсивность scanline"
         //-- "Cancel"
@@ -1177,7 +1226,7 @@ dialog	  65 "Выбрать интенсивность scanline" {
         //-- "Select desired feedback intensity"
 dialog	  66 "Выбрать интенсивность вибрации" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "Feedback strength"
   20090	   2 "Сила вибрации"
         //-- "Feedback oversaturation"
@@ -1189,19 +1238,19 @@ dialog	  66 "Выбрать интенсивность вибрации" {
         //-- "Select desired 3D projection properties"
 dialog	  67 "Выбрать свойства 3D проекции" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "Screen Angle"
   20094	   3 "Угол экрана"
         //-- "Fishbowl Factor"
-  20096	   6 "Фактор Fishbowl"
+  20096	   6 ""
         //-- "Cancel"
       2	   8 "Отмена"
 }
 
         //-- "Adjust speed of the emulated CPU"
-dialog	  68 "Настроить скорость эмулируемого процессора" {
+dialog	  68 "Настроить скорость эмуляции CPU" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "CPU speed"
   20098	   2 "Скорость CPU"
         //-- "%"
@@ -1210,18 +1259,18 @@ dialog	  68 "Настроить скорость эмулируемого процессора" {
       2	   5 "Отмена"
 }
 
-        //-- "FB Alpha system information report"
-dialog	  69 "FB Alpha информация о системе" {
+        //-- "FB Neo system information report"
+dialog	  69 "FB Neo информация о системе" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "Save..."
-  20138	   1 "Сохранить..."
+  20138	   1 "Сохранить как..."
 }
 
-        //-- "FB Alpha has encountered an unrecoverable problem and will be terminated"
-dialog	  70 "FB Alpha столкнулся с неустранимой проблемой и будет закрыт" {
+        //-- "FB Neo has encountered an unrecoverable problem and will be terminated"
+dialog	  70 "FB Neo столкнулся с неустранимой проблемой и будет закрыт" {
         //-- "OK"
-      1	   1 ""
+      1	   1 "Ок"
         //-- "Debug"
   20102	   2 "Отладка"
         //-- "Details"
@@ -1230,12 +1279,12 @@ dialog	  70 "FB Alpha столкнулся с неустранимой проблемой и будет закрыт" {
   20104	   4 "Лог"
 }
 
-        //-- "FB Alpha debugger"
-dialog	  71 "Отладчик FB Alpha" {
+        //-- "FB Neo debugger"
+dialog	  71 "Отладчик FB Neo" {
         //-- "Disassembly"
   65535	   3 "Дизассемблирование"
         //-- "Internal CPU state"
-  65535	   8 "Внутреннее состояние процессора"
+  65535	   8 ""
         //-- "Memory map"
   65535	  11 "Карта памяти"
         //-- "Debugger messages"
@@ -1258,8 +1307,8 @@ dialog	  71 "Отладчик FB Alpha" {
   20119	  28 "Скриншот"
 }
 
-        //-- "FB Alpha debugger"
-dialog	  72 "Отладчик FB Alpha" {
+        //-- "FB Neo debugger"
+dialog	  72 "Отладчик FB Neo" {
         //-- "Execute"
       1	  10 "Выполнить"
         //-- "Exit"
@@ -1278,18 +1327,18 @@ dialog	  72 "Отладчик FB Alpha" {
   20119	  18 "Скриншот"
 }
 
-        //-- "FB Alpha message"
-dialog	  73 "Сообщение FB Alpha" {
+        //-- "FB Neo message"
+dialog	  73 "Сообщение FB Neo" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
 }
 
         //-- "Edit support file paths"
-dialog	  74 "Редактировать пути дополнительных файлов" {
+dialog	  74 "Редактировать пути к support файлам" {
         //-- "Tab2"
   20501	   0 ""
         //-- "OK"
-      1	   1 ""
+      1	   1 "Ок"
         //-- "Cancel"
       2	   2 "Отмена"
         //-- "Browse..."
@@ -1337,7 +1386,9 @@ dialog	  74 "Редактировать пути дополнительных файлов" {
         //-- "Browse..."
   20971	  47 "Обзор..."
         //-- "Browse..."
-  20972	  49 ""
+  20972	  49 "Обзор..."
+        //-- "Browse..."
+  20973	  51 "Обзор..."
 }
 
         //-- "Palette Viewer"
@@ -1391,13 +1442,13 @@ dialog	  77 "IPS Патч менеджер" {
         //-- "Cancel"
       2	   8 "Отмена"
         //-- "OK"
-      1	   9 ""
+      1	   9 "Ок"
 }
 
         //-- "Select cartridges to load..."
 dialog	  78 "Выберите картридж для загрузки..." {
         //-- "OK"
-      1	   1 ""
+      1	   1 "Ок"
         //-- "Cancel"
       2	   2 "Отмена"
         //-- "Slot 1"
@@ -1417,7 +1468,7 @@ dialog	  78 "Выберите картридж для загрузки..." {
         //-- "Clear"
   20732	  22 "Очистить"
         //-- "Select..."
-  20726	  23 "Выбор..."
+  20726	  23 "Выбор"
         //-- "Slot 4"
   20739	  25 "Слот 4"
         //-- "Clear"
@@ -1450,46 +1501,44 @@ dialog	  79 "Список игр NeoGeo CDZ" {
   20812	   4 "Директории..."
         //-- "Scan sub-dirs"
   20809	   5 "Сканировать подпапки"
-        //-- "Front Cover"
-  65535	   6 "Обложка игры"
-        //-- "Back Cover"
-  65535	   7 "Кадр игры"
+        //-- "CD Cover"
+  65535	   6 "CD обложка"
+        //-- "Game Preview"
+  65535	   7 "Предпросмотр игры"
         //-- "Options"
   65535	   9 "Опции"
         //-- "Short name:"
-  20816	  14 "Короткое имя:"
+  20816	  14 "Краткое имя:"
         //-- "Released by:"
   20817	  15 "Издатель:"
         //-- "Disc Image:"
   20818	  16 "Образ диска:"
         //-- "Audio Tracks:"
   20819	  17 "Звуковые дорожки:"
-        //-- "Scan for ISO only"
-  20810	  22 "Сканировать только для ISO"
 }
 
         //-- "Game Information"
 dialog	  81 "Информация об игре" {
         //-- "Tab1"
   20500	   0 ""
-        //-- "Game info:"
-  20065	   2 "Выбрать цвет: "
-        //-- "ROM name:"
-  20063	   3 "ROM:"
-        //-- "ROM info:"
+        //-- "Game:"
+  20065	   2 "Игра:"
+        //-- "ROM:"
+  20063	   3 ""
+        //-- "Info:"
   20064	   4 "Инфо:"
-        //-- "Released by:"
+        //-- "Released:"
   20067	   5 "Издатель:"
         //-- "Genre:"
   20066	   6 "Жанр:"
         //-- "Notes:"
   20124	   7 "Заметки:"
         //-- "Favorite"
-  20604	  19 ""
+  20604	  20 "Избранное"
         //-- "Rescan Romset"
-  20603	  20 "Пересканировать Romset"
+  20603	  21 "Пересканировать Romset"
         //-- "Close"
-      2	  21 "Закрыть"
+      2	  22 "Закрыть"
 }
 
         //-- "Download Localisation Template"
@@ -1499,7 +1548,7 @@ dialog	  82 "Загрузить шаблон локализации" {
         //-- "Cancel"
       2	   3 "Отмена"
         //-- "OK"
-      1	   4 ""
+      1	   4 "Ок"
 }
 
         //-- "Choose Monitor for Full Screen"
@@ -1507,39 +1556,39 @@ dialog	  83 "" {
         //-- "These only apply to the DirectX Graphics 9 blitters."
   20145	   1 ""
         //-- "Horizontal Games:"
-  20141	   2 ""
+  20141	   2 "Горизонтальные игры:"
         //-- "Vertical Games:"
-  20143	   4 ""
+  20143	   4 "Вертикальные игры:"
         //-- "Cancel"
-      2	   6 ""
+      2	   6 "Отмена"
         //-- "OK"
-      1	   7 ""
+      1	   7 "Ок"
 }
 
         //-- "Replay input"
 dialog	 233 "" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "Cancel"
-      2	   4 ""
+      2	   4 "Отмена"
         //-- "00:00:00"
-  20255	  10 ""
+  20255	  11 ""
         //-- "0"
-  20256	  11 ""
+  20256	  12 ""
         //-- "0"
-  20257	  12 ""
+  20257	  13 ""
         //-- "Open Read-Only"
-  20259	  15 ""
+  20259	  17 ""
         //-- "Show Joystick Movement"
-  20263	  16 ""
+  20264	  18 ""
 }
 
         //-- "Record input"
 dialog	 234 "" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Ок"
         //-- "Cancel"
-      2	   3 ""
+      2	   3 "Отмена"
         //-- "..."
   20261	   6 ""
         //-- "Record From Power-On"
@@ -1811,13 +1860,13 @@ string   632 ""
 string   634 "Иконки"
 
         //-- "Cheats"
-string   636 "Читы"
+string   636 "Чит-коды"
 
         //-- "High Scores"
-string   638 "Рекорды"
+string   638 ""
 
         //-- "Samples"
-string   640 "Примеры"
+string   640 ""
 
         //-- "IPS"
 string   642 ""
@@ -1829,25 +1878,25 @@ string   644 "Игры Neo Geo CDZ"
 string   646 "Обложки Neo Geo CDZ"
 
         //-- "Blend Files"
-string   648 "Смешанные файлы"
+string   648 ""
 
         //-- "Select Previews"
-string   650 "Предпросмотр"
+string   650 "Выбор Previews"
 
         //-- "Versus Previews"
-string   652 "Название"
+string   652 ""
 
         //-- "HowTo Previews"
-string   654 "Иконки"
+string   654 ""
 
         //-- "Scores Previews"
-string   656 "Читы"
+string   656 ""
 
         //-- "Bosses Previews"
-string   658 "Рекорды"
+string   658 ""
 
         //-- "Game Over Previews"
-string   660 "Образцы"
+string   660 ""
 
         //-- "Flyers"
 string   662 ""
@@ -1869,6 +1918,9 @@ string   672 ""
 
         //-- "EEPROM Saves"
 string   674 ""
+
+        //-- "HDD Images"
+string   676 ""
 
         //-- "Path #1"
 string   680 "Путь #1"
@@ -1939,8 +1991,8 @@ string   730 "Создать шаблон локализации списка игр"
         //-- "Select gamelist localisation template"
 string   732 "Выбрать шаблон локализации списка игр"
 
-        //-- "FB Alpha gamelist localisation templates"
-string   734 "Шаблоны локализации списка игр FB Alpha"
+        //-- "FB Neo gamelist localisation templates"
+string   734 "Шаблоны локализации списка игр FB Neo"
 
         //-- "Select CD-ROM image..."
 string   740 "Выбрать образ CD-ROM..."
@@ -1957,14 +2009,14 @@ string   750 "Создать шаблон локализации"
         //-- "Select localisation template"
 string   752 "Выбрать шаблон локализации"
 
-        //-- "FB Alpha localisation templates"
-string   754 "Шаблоны локализации FB Alpha"
+        //-- "FB Neo localisation templates"
+string   754 "Шаблоны локализации FB Neo"
 
         //-- "Filters"
 string   760 "Фильтры"
 
         //-- "Hardware"
-string   762 "Оборудование"
+string   762 ""
 
         //-- "Cave"
 string   764 ""
@@ -1987,7 +2039,7 @@ string   774 ""
         //-- "Psikyo"
 string   776 ""
 
-        //-- "Sega"
+        //-- "Sega Arcade"
 string   778 ""
 
         //-- "Taito"
@@ -2018,7 +2070,7 @@ string   794 ""
 string   796 ""
 
         //-- "Board Type"
-string   798 "Тип платформы"
+string   798 ""
 
         //-- "Bootleg"
 string   800 "Бутлег"
@@ -2030,13 +2082,13 @@ string   802 "Прототипы"
 string   804 "Хаки"
 
         //-- "Homebrew"
-string   806 "Самопалы"
+string   806 ""
 
         //-- "Demo"
-string   808 "Демо"
+string   808 ""
 
         //-- "Genuine"
-string   810 "Оригинальные"
+string   810 ""
 
         //-- "Showing %i of %i sets [%i Unavailable sets]"
 string   812 "Показано %i игр из %i (%i Игр отсутствует)"
@@ -2077,71 +2129,98 @@ string   834 ""
         //-- "MSX"
 string   836 ""
 
+        //-- "ZX Spectrum"
+string   838 ""
+
+        //-- "Midway"
+string   840 ""
+
+        //-- "Capcom"
+string   842 ""
+
+        //-- "Sega"
+string   844 ""
+
+        //-- "NES"
+string   846 ""
+
+        //-- "FDS"
+string   848 ""
+
         //-- "Genre"
 string   850 "Жанр"
 
-        //-- "Shooter - Horizontal"
-string   852 "Стрелялка - Горизонт."
+        //-- "Shooter / Horizontal / Sh\'mup"
+string   852 ""
 
-        //-- "Shooter - Vertical"
-string   854 "Стрелялка - Вертик."
+        //-- "Shooter / Vertical / Sh\'mup"
+string   854 ""
 
-        //-- "Fighter - Scrolling"
-string   856 "Файтинг - Скроллинг"
+        //-- "Fighting / Beat \'em Up"
+string   856 ""
 
-        //-- "Fighter - Versus"
-string   858 "Файтинги - VS"
+        //-- "Fighting / Versus"
+string   858 ""
 
         //-- "BIOS"
 string   860 ""
 
         //-- "Breakout"
-string   862 "Бегалки"
+string   862 ""
 
         //-- "Casino"
-string   864 "Казино"
+string   864 ""
 
         //-- "Ball & Paddle"
-string   866 "Шарики"
+string   866 ""
 
         //-- "Maze"
-string   868 "Лабиринты"
+string   868 ""
 
         //-- "Mini-Games"
-string   870 "Мини игры"
+string   870 ""
 
         //-- "Pinball"
-string   872 "Пинболл"
+string   872 ""
 
-        //-- "Platform"
-string   874 "Платформер"
+        //-- "Platformer"
+string   874 ""
 
         //-- "Puzzle"
-string   876 "Пазлы"
+string   876 ""
 
         //-- "Quiz"
-string   878 "Викторины"
+string   878 ""
 
-        //-- "Sports - Misc"
-string   880 "Спорт - Разные"
+        //-- "Sports"
+string   880 ""
 
-        //-- "Sports - Football"
-string   882 "Спорт - Футбол"
+        //-- "Sports / Football"
+string   882 ""
 
         //-- "Misc"
-string   884 "Разные"
+string   884 ""
 
         //-- "Mahjong"
-string   886 "Маджонг"
+string   886 ""
 
         //-- "Racing"
-string   888 "Гонки"
+string   888 ""
 
-        //-- "Shooter - Other"
-string   890 "Стрелялки - Разные"
+        //-- "Shooter"
+string   890 ""
+
+        //-- "Run \'n Gun (Shooter)"
+string   892 ""
+
+        //-- "Strategy"
+string   894 ""
+
+        //-- "Action (Classic)"
+string   896 ""
 
         //-- "Family"
-string   940 "Серии"
+string   940 ""
 
         //-- "Metal Slug"
 string   942 ""
@@ -2149,7 +2228,7 @@ string   942 ""
         //-- "Street Fighter"
 string   944 ""
 
-        //-- "King of Fighters"
+        //-- "The King of Fighters"
 string   946 ""
 
         //-- "Darkstalkers"
@@ -2173,8 +2252,17 @@ string   958 ""
         //-- "Other"
 string   960 "Другие"
 
+        //-- "Sonic the Hedgehog"
+string   962 ""
+
+        //-- "DonPachi"
+string   964 ""
+
+        //-- "Mahou Daisakusen"
+string   966 ""
+
         //-- "Favorites"
-string   990 ""
+string   990 "Избранные"
 
         //-- "IPS Patch Manager"
 string  1000 "IPS Патч менеджер"
@@ -2189,10 +2277,10 @@ string  1012 "Название"
 string  1014 ""
 
         //-- "&Arcade"
-string  1040 "&Аркада"
+string  1040 ""
 
         //-- "&Other..."
-string  1042 "&Другое..."
+string  1042 "Другое..."
 
         //-- "&Other Gamma value..."
 string  1044 "&Другое значение Гаммы..."
@@ -2273,7 +2361,7 @@ string  1200 "Информация об игре"
 string  1202 ""
 
         //-- "Title"
-string  1204 "Название"
+string  1204 ""
 
         //-- "Select"
 string  1206 ""
@@ -2312,46 +2400,52 @@ string  1226 ""
 string  1228 ""
 
         //-- "History"
-string  1230 "История"
+string  1230 ""
 
         //-- "Sample Info"
 string  1232 ""
 
-        //-- " (clone of %s"
-string  1600 " (клон из %s"
+        //-- "HDD Info"
+string  1234 ""
+
+        //-- "Select Skin"
+string  1400 "Выбрать скин"
+
+        //-- " (Clone of %s"
+string  1600 ""
 
         //-- ", uses ROMs from %s"
 string  1602 ", использовать РОМы из %s"
 
         //-- "%suses ROMs from %s"
-string  1604 "%sиспользовать РОМы из %s"
+string  1604 "%s использовать РОМы из %s"
 
-        //-- "%suses board-ROMs from %s"
-string  1606 "%sиспользовать платформу из %s"
+        //-- "%suses Board-ROMs from %s"
+string  1606 "%s использовать Board-ROMs из %s"
 
         //-- "%suses samples from %s"
-string  1608 "%sиспользовать сэмплы из %s"
+string  1608 "%s использовать samples из %s"
 
-        //-- "%s%i player%s"
-string  1610 "%s%i игрок%s"
+        //-- "%s%i Player%s"
+string  1610 ""
 
-        //-- "s max"
-string  1612 "s макс."
+        //-- "s Max"
+string  1612 ""
 
-        //-- "%s (%s, %s hardware)"
-string  1614 "%s (%s, %s платформа)"
+        //-- "%s (%s, %s Hardware)"
+string  1614 ""
 
         //-- "Neo Geo MVS Cartidge"
 string  1616 "Картридж Neo Geo MVS"
 
-        //-- "%shigh scores supported"
-string  1618 "%sподдерживаются рекорды"
+        //-- "%sHigh Scores Supported"
+string  1618 ""
 
-        //-- "cartridge"
-string  1620 "картридж"
+        //-- "Cartridge"
+string  1620 "Картридж"
 
-        //-- "hardware"
-string  1622 "платформа"
+        //-- "Hardware"
+string  1622 ""
 
         //-- "Empty"
 string  1624 "Пусто"
@@ -2437,6 +2531,9 @@ string  1850 "Ошибка чтения %.32hs из %.512s"
         //-- "CRC mismatch reading %.32hs from %.512s"
 string  1852 "Несовпадение CRC %.32hs из %.512s"
 
+        //-- "No HDD data was found, the game will not run!"
+string  1854 "HDD данные не найдены, игра не запустится!"
+
         //-- "There was a problem starting \'%.128s\'.\n"
 string  1860 "Проблемы с запуском \'%.128s\'.\n"
 
@@ -2497,6 +2594,6 @@ string  1918 "Не удалось инициализировать эмуляцию CD"
         //-- "Failed to connect to Internet"
 string  1950 "Отсутствует соединение с Интернетом"
 
-        //-- "Failed to access FB Alpha website"
-string  1952 "Не удалось получить доступ к сайту FB Alpha"
+        //-- "Failed to access FB Neo website"
+string  1952 "Не удалось получить доступ к сайту FB Neo"
 
