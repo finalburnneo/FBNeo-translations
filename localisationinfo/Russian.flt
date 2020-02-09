@@ -38,8 +38,8 @@ menu    100 {
     10711   15 "Запустить NeoGeo Multi-slot..."
           //-- "Load Neo Geo CDZ game..."
     10713   17 "Открыть игру NeoGeo CDZ..."
-          //-- "Select CD image (ISO/CUE)..."
-    10710   18 "Выбрать образ CD (ISO/CUE)..."
+          //-- "Select CD image (CUE/CCD)..."
+    10710   18 "Выбрать образ CD (CUE/CCD)..."
           //-- "Start Neo Geo CDZ..."
     10712   19 "Запустить игру Neo Geo CDZ..."
           //-- "Exit game"
@@ -335,7 +335,7 @@ menu    100 {
             //-- "Don\'t change Num Lock status"
       10616  181 "Не изменять статус NumLock"
             //-- "Create support folders at runtime"
-      10719  182 ""
+      10719  182 "Создавать папки support при запуске"
             //-- "Show Game List at start-up"
       10733  183 "Показывать список игр при запуске"
             //-- "Set application thread priority"
@@ -1030,7 +1030,7 @@ dialog	  57 "" {
         //-- "version"
      83	   1 "версия"
         //-- "FB Neo contains parts of MAME && Final Burn.\n© 2004-2019, Team FBNeo."
-  65535	   3 ""
+  65535	   3 "FB Neo содержит части MAME и Final Burn.\n© 2004-2020, Team FBNeo."
         //-- "OK"
       1	   4 ""
         //-- "License"
@@ -1044,7 +1044,7 @@ dialog	  58 "" {
         //-- "OK"
       1	   4 ""
         //-- " I understand and agree to be bound by the terms of the above license agreement"
-  20054	   5 ""
+  20054	   5 " Я понимаю и согласен соблюдать условия вышеуказанного лицензионного соглашения"
 }
 
         //-- ""
@@ -1138,7 +1138,7 @@ dialog	  61 "Выбор игры" {
         //-- "Use zipnames"
   20074	  29 "Использовать имена zip архивов"
         //-- "Latin text only"
-  20075	  30 ""
+  20075	  30 "Только латиница"
         //-- "ROMs Dirs..."
   20600	  31 "Папки с ROMs..."
         //-- "Scan ROMs"
@@ -1514,7 +1514,7 @@ dialog	  79 "Список игр NeoGeo CDZ" {
         //-- "Disc Image:"
   20818	  16 "Образ диска:"
         //-- "Audio Tracks:"
-  20819	  17 "Звуковые дорожки:"
+  20819	  17 "Аудио треки:"
 }
 
         //-- "Game Information"
@@ -2091,7 +2091,7 @@ string   808 ""
 string   810 ""
 
         //-- "Showing %i of %i sets [%i Unavailable sets]"
-string   812 "Показано %i игр из %i (%i Игр отсутствует)"
+string   812 "Показано %i игр из %i [%i Игр отсутствует]"
 
         //-- "Kaneko"
 string   814 ""
@@ -2280,7 +2280,7 @@ string  1014 ""
 string  1040 ""
 
         //-- "&Other..."
-string  1042 "Другое..."
+string  1042 "&Другое..."
 
         //-- "&Other Gamma value..."
 string  1044 "&Другое значение Гаммы..."
