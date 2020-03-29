@@ -275,7 +275,7 @@ menu    100 {
             //-- "DirectSound"
       10655  149 "DirectSound"
             //-- "XAudio2"
-      10656  1540 "XAudio2"
+      10656  150 "XAudio2"
     }
           //-- "Plugin &options"
     10663  151 "&Options des Plugins"
@@ -2045,8 +2045,8 @@ string   774 "PGM"
         //-- "Psikyo"
 string   776 "Psikyo"
 
-        //-- "Sega"
-string   778 "Sega"
+        //-- "Sega Arcade"
+string   778 "Sega Arcade"
 
         //-- "Taito"
 string   780 "Taito"
@@ -2220,7 +2220,7 @@ string   890 "Jeu de Tir"
 string   892 "Courir & Tirer (Tir)"
 
         //-- "Strategy"
-string   894 "Strat"gie"
+string   894 "Stratégie"
 
         //-- "Action (Classic)"
 string   896 "Action (Classique)"
@@ -2511,13 +2511,13 @@ string  1832 "%.32hs fait %dk lequel est trop petit (correcte : %dkB).\n"
 string  1834 "%.32hs fait %dk lequel est trop grand (correcte : %dkB).\n"
 
         //-- "essential "
-string  1836 "essentiel"
+string  1836 "essentiel "
 
         //-- "program "
 string  1838 "programme "
 
         //-- "BIOS "
-string  1840 "BIOS"
+string  1840 "BIOS "
 
         //-- "graphics "
 string  1842 "graphismes "
@@ -2526,7 +2526,7 @@ string  1842 "graphismes "
 string  1844 "son "
 
         //-- "ROM "
-string  1846 "ROM"
+string  1846 "ROM "
 
         //-- "Error loading %.32hs, requested by %.128s.\nThe emulation will likely suffer problems."
 string  1848 "Erreur au chargement %.32hs, demandé par %.128s.\nL'émulaton devrait souffrir de quelques problèmes."
