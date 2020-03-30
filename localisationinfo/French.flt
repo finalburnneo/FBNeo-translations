@@ -1542,7 +1542,7 @@ dialog	  81 "Info sur le Jeu" {
         //-- "Favorite"
   20604	  20 "Favoris"
         //-- "Rescan Romset"
-  20603	  21 "Rescanner le Set de Rom"
+  20603	  21 "Rescanner Romset"
         //-- "Close"
       2	  22 "Fermer"
 }
