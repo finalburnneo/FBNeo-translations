@@ -966,7 +966,7 @@ dialog	  51 "Définir les Entrées du Jeu" {
         //-- "Make selection in all three drop-down boxes, click apropriate button"
   65535	   5 "Choisir dans les 3 boîtes combos, et choisir le bon bouton"
         //-- "Save preset"
-  20127	   9 "Sauvegarder les Réglages"
+  20127	   9 "Sauveg. les Réglages"
         //-- "Make default"
   20006	  10 "Définir par Défaut"
         //-- "Use preset"
