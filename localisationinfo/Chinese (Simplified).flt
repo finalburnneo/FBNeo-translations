@@ -1,6 +1,6 @@
-// translation template for FB Alpha
+// translation template for FinalBurn Neo
 
-version 0x029743
+version 0x029744
 
 // codepage 1252
 
@@ -38,8 +38,8 @@ menu    100 {
     10711   15 "Æô¶¯ Neo Geo ¶à¿¨²å²Û"
           //-- "Load Neo Geo CDZ game..."
     10713   17 "ÔØÈë Neo Geo CDZ ÓÎÏ·..."
-          //-- "Select CD image (ISO/CUE)..."
-    10710   18 "Ñ¡Ôñ CD ¾µÏñ (ISO/CUE)..."
+          //-- "Select CD image (CUE/CCD)..."
+    10710   18 "Ñ¡Ôñ CD ¾µÏñ (CUE/CCD)..."
           //-- "Start Neo Geo CDZ..."
     10712   19 "Æô¶¯ Neo Geo CDZ..."
           //-- "Exit game"
@@ -220,248 +220,293 @@ menu    100 {
     10728  119 "Ñ¡ÔñÈ«ÆÁÏÔÊ¾Æ÷"
           //-- "&Monitor properties"
     popup  121 "ÏÔÊ¾Æ÷ÊôĞÔ(&M)" {
-            //-- "Automatically detect aspect ratio"
-      10650  122 "×Ô¶¯¼ì²â±ÈÀı"
-            //-- "Normal CRT aspect ratio"
-      10190  124 "ÆÕÍ¨ CRT ÏÔÊ¾Æ÷±ÈÀı"
-            //-- "Normal LCD aspect ratio"
-      10191  125 "ÆÕÍ¨ LCD ÏÔÊ¾Æ÷±ÈÀı"
-            //-- "Widescreen CRT aspect ratio"
-      10192  126 "¿íÆÁ CRT ÏÔÊ¾Æ÷±ÈÀı"
-            //-- "Widescreen LCD aspect ratio"
-      10193  127 "¿íÆÁ LCD ÏÔÊ¾Æ÷±ÈÀı"
+            //-- "Automatically detect fullscreen resolution and aspect ratio"
+      10650  122 "×Ô¶¯¼ì²âÈ«ÆÁ·Ö±æÂÊÓë±ÈÀı"
+            //-- "Select aspect ratio (Horizontal)"
+      popup  124 "Ñ¡Ôñ±ÈÀı (Ë®Æ½)" {
+              //-- "Normal CRT aspect ratio"
+        10190  125 "ÆÕÍ¨ CRT ÏÔÊ¾Æ÷±ÈÀı"
+              //-- "Normal LCD aspect ratio"
+        10191  126 "ÆÕÍ¨ LCD ÏÔÊ¾Æ÷±ÈÀı"
+              //-- "Widescreen CRT aspect ratio"
+        10192  127 "¿íÆÁ CRT ÏÔÊ¾Æ÷±ÈÀı"
+              //-- "Widescreen LCD aspect ratio"
+        10193  128 "¿íÆÁ LCD ÏÔÊ¾Æ÷±ÈÀı"
+      }
+            //-- "Select aspect ratio (Vertical)"
+      popup  129 "Ñ¡Ôñ±ÈÀı (´¹Ö±)" {
+              //-- "Normal CRT aspect ratio (landscape)"
+        10270  130 "ÆÕÍ¨ CRT ÏÔÊ¾Æ÷±ÈÀı (ºáÏò)"
+              //-- "Normal LCD aspect ratio (landscape)"
+        10271  131 "ÆÕÍ¨ LCD ÏÔÊ¾Æ÷±ÈÀı (ºáÏò)"
+              //-- "Widescreen CRT aspect ratio (landscape)"
+        10272  132 "¿íÆÁ CRT ÏÔÊ¾Æ÷±ÈÀı (ºáÏò)"
+              //-- "Widescreen LCD aspect ratio (landscape)"
+        10273  133 "¿íÆÁ LCD ÏÔÊ¾Æ÷±ÈÀı (ºáÏò)"
+              //-- "Normal CRT aspect ratio (portrait)"
+        10274  134 "ÆÕÍ¨ CRT ÏÔÊ¾Æ÷±ÈÀı (×İÏò)"
+              //-- "Normal LCD aspect ratio (portrait)"
+        10275  135 "ÆÕÍ¨ LCD ÏÔÊ¾Æ÷±ÈÀı (×İÏò)"
+              //-- "Widescreen CRT aspect ratio (portrait)"
+        10276  136 "¿íÆÁ CRT ÏÔÊ¾Æ÷±ÈÀı (×İÏò)"
+              //-- "Widescreen LCD aspect ratio (portrait)"
+        10277  137 "¿íÆÁ LCD ÏÔÊ¾Æ÷±ÈÀı (×İÏò)"
+      }
             //-- "Mirrored vertical alignment"
-      10194  129 "´¹Ö±»­Ãæ¾µÏñÏÔÊ¾"
+      10194  139 "´¹Ö±»­Ãæ¾µÏñÏÔÊ¾"
     }
           //-- "&Rotate vertically aligned games"
-    10181  131 "Êú°æÓÎÏ·×Ô¶¯Ğı×ª»­Ãæ(&R)"
+    10181  141 "Êú°æÓÎÏ·×Ô¶¯Ğı×ª»­Ãæ(&R)"
           //-- "Force 60Hz refresh rate"
-    10176  132 "Ç¿ÖÆË¢ĞÂÂÊÎª 60Hz"
+    10176  142 "Ç¿ÖÆË¢ĞÂÂÊÎª 60Hz"
           //-- "Enable &Triple Buffering (Fullscreen)"
-    10100  133 "Ê¹ÓÃÈı±¶»º³å (È«ÆÁ)(&T)"
+    10100  143 "Ê¹ÓÃÈı±¶»º³å (È«ÆÁ)(&T)"
           //-- "Enable VSync (Windowed)"
-    10646  134 "¿ªÆô´¹Ö±Í¬²½ (´°¿Ú)"
+    10646  144 "¿ªÆô´¹Ö±Í¬²½ (´°¿Ú)"
           //-- "Enable DWM Sync (Windowed)"
-    10103  135 "¿ªÆô DWM Í¬²½ (´°¿Ú)"
+    10103  145 "¿ªÆô DWM Í¬²½ (´°¿Ú)"
           //-- "Auto Frameskip"
-    10177  136 "×Ô¶¯ÌøÖ¡"
+    10177  146 "×Ô¶¯ÌøÖ¡"
   }
         //-- "Audio"
-  popup  137 "ÒôÆµ" {
+  popup  147 "ÒôÆµ" {
           //-- "Select &plugin"
-    popup  138 "Ñ¡Ôñ²å¼ş(&P)" {
+    popup  148 "Ñ¡Ôñ²å¼ş(&P)" {
             //-- "DirectSound"
-      10655  139 ""
+      10655  149 ""
             //-- "XAudio2"
-      10656  140 ""
+      10656  150 ""
     }
           //-- "Plugin &options"
-    10663  141 "²å¼şÑ¡Ïî(&O)"
+    10663  151 "²å¼şÑ¡Ïî(&O)"
           //-- "2-point 1st order sample interpolation"
-    10231  143 "2 µã²ÉÑù²å²¹"
+    10231  153 "2 µã²ÉÑù²å²¹"
           //-- "4-point 3rd order sample interpolation"
-    10233  144 "4 µã²ÉÑù²å²¹"
+    10233  154 "4 µã²ÉÑù²å²¹"
           //-- "Disable FM interpolation"
-    10240  146 "½ûÓÃ FM ²å²¹"
+    10240  156 "½ûÓÃ FM ²å²¹"
           //-- "4-point 3rd order FM interpolation"
-    10243  147 "4 µã FM ²å²¹"
+    10243  157 "4 µã FM ²å²¹"
           //-- "&Sound logging"
-    popup  149 "Â¼ÖÆÉùÒô(&S)" {
+    popup  159 "Â¼ÖÆÉùÒô(&S)" {
             //-- "Log to file..."
-      10606  150 "±£´æµ½ÎÄ¼ş..."
+      10606  160 "±£´æµ½ÎÄ¼ş..."
             //-- "Stop logging"
-      10607  151 "Í£Ö¹Â¼ÖÆ"
+      10607  161 "Í£Ö¹Â¼ÖÆ"
     }
           //-- "Buffer size..."
-    10200  152 "»º³å´óĞ¡..."
+    10200  162 "»º³å´óĞ¡..."
   }
         //-- "Input"
-  popup  153 "ÊäÈë" {
+  popup  163 "ÊäÈë" {
           //-- "Select &plugin"
-    popup  154 "Ñ¡Ôñ²å¼ş(&P)" {
+    popup  164 "Ñ¡Ôñ²å¼ş(&P)" {
             //-- "DirectInput"
-      10664  155 ""
+      10664  165 ""
     }
           //-- "&Auto-Fire Rate"
-    popup  157 "Á¬ÉäËÙ¶È" {
+    popup  167 "Á¬ÉäËÙ¶È(&A)" {
             //-- "Slow"
-      10260  158 "Âı"
+      10260  168 "Âı"
             //-- "Medium"
-      10261  159 "ÖĞ"
+      10261  169 "ÖĞ"
             //-- "Fast"
-      10262  160 "¿ì"
+      10262  170 "¿ì"
             //-- "Very Fast"
-      10263  161 "ºÜ¿ì"
+      10263  171 "ºÜ¿ì"
     }
           //-- "Map game inputs..."
-    10007  163 "¼üÎ»ÉèÖÃ..."
+    10007  173 "¼üÎ»ÉèÖÃ..."
           //-- "Set dipswitches..."
-    10009  164 "ÌøÏßÉèÖÃ..."
+    10009  174 "ÌøÏßÉèÖÃ..."
   }
         //-- "Misc"
-  popup  165 "ÔÓÏî" {
+  popup  175 "ÔÓÏî" {
           //-- "Options"
-    popup  166 "Ñ¡Ïî" {
+    popup  176 "Ñ¡Ïî" {
             //-- "Auto pause"
-      10300  167 "×Ô¶¯ÔİÍ£"
+      10300  177 "×Ô¶¯ÔİÍ£"
             //-- "Always process keyboard input"
-      10301  168 "×ÜÊÇÏìÓ¦¼üÅÌÊäÈë"
+      10301  178 "×ÜÊÇÏìÓ¦¼üÅÌÊäÈë"
             //-- "Display mode indicator"
-      10302  169 "ÏÔÊ¾ÌáÊ¾ĞÅÏ¢"
+      10302  179 "ÏÔÊ¾ÌáÊ¾ĞÅÏ¢"
             //-- "Modeless menu"
-      10303  170 "Ê¹ÓÃ·ÇÄ£Ì¬²Ëµ¥"
+      10303  180 "Ê¹ÓÃ·ÇÄ£Ì¬²Ëµ¥"
             //-- "Don\'t change Num Lock status"
-      10616  171 "²»¸Ä±äĞ¡¼üÅÌËø¶¨×´Ì¬"
+      10616  181 "²»¸Ä±äĞ¡¼üÅÌËø¶¨×´Ì¬"
             //-- "Create support folders at runtime"
-      10719  172 "ÔÚÔËĞĞÊ±´´½¨Ö§³ÖµÄÎÄ¼ş¼Ğ"
+      10719  182 "ÔÚÔËĞĞÊ±´´½¨Ö§³ÖµÄÎÄ¼ş¼Ğ"
+            //-- "Show Game List at start-up"
+      10733  183 "Æô¶¯Ê±ÏÔÊ¾ÓÎÏ·ÁĞ±í"
+            //-- "Scan ROMs at start-up (if needed)"
+      10734  184 "Æô¶¯Ê±É¨Ãè ROM (Èç¹ûĞèÒª)"
             //-- "Set application thread priority"
-      popup  174 "ÉèÖÃ³ÌĞòÏß³ÌÓÅÏÈ¼¶" {
+      popup  186 "ÉèÖÃ³ÌĞòÏß³ÌÓÅÏÈ¼¶" {
               //-- "High"
-        10311  175 "¸ß"
+        10311  187 "¸ß"
               //-- "Above normal"
-        10312  176 "½Ï¸ß"
+        10312  188 "½Ï¸ß"
               //-- "Normal"
-        10313  177 "ÆÕÍ¨"
+        10313  189 "ÆÕÍ¨"
               //-- "Below normal"
-        10314  178 "½ÏµÍ"
+        10314  190 "½ÏµÍ"
               //-- "Low"
-        10315  179 "µÍ"
+        10315  191 "µÍ"
       }
             //-- "Enable high resolution system timer"
-      10319  180 "¿ªÆô¸ß·Ö±æÂÊÏµÍ³¼ÆÊ±"
+      10319  192 "¿ªÆô¸ß·Ö±æÂÊÏµÍ³¼ÆÊ±"
+            //-- "Show Debug console (requires restart)"
+      10320  193 "ÏÔÊ¾µ÷ÊÔ¿ØÖÆÌ¨ (ĞèÒªÖØĞÂÆô¶¯)"
             //-- "Save High Scores when supported"
-      10654  182 "µ±Ö§³ÖÊ±±£´æ×î¸ß·Ö"
+      10654  195 "µ±Ö§³ÖÊ±±£´æ×î¸ß·Ö"
             //-- "Use alpha blend effects when supported"
-      10720  183 "µ±Ö§³ÖÊ±Ê¹ÓÃÍ¸Ã÷±í"
+      10720  196 "µ±Ö§³ÖÊ±Ê¹ÓÃÍ¸Ã÷±í"
             //-- "Display Gear-Shift Indicator when supported"
-      10727  184 "µ±Ö§³ÖÊ±ÏÔÊ¾»»µ²ÌáÊ¾"
+      10727  197 "µ±Ö§³ÖÊ±ÏÔÊ¾»»µ²ÌáÊ¾"
             //-- "AVI Writer Output size"
-      popup  185 "AVI ×÷ÕßÊä³öÏñËØ³ß´ç" {
+      popup  198 "AVI ×÷ÕßÊä³öÏñËØ³ß´ç" {
               //-- "1x"
-        10724  186 ""
+        10724  199 ""
               //-- "2x"
-        10725  187 ""
+        10725  200 ""
               //-- "3x"
-        10726  188 ""
+        10726  201 ""
       }
             //-- "Generate dat file"
-      popup  190 "Éú³ÉÊı¾İ¿âÎÄ¼ş..." {
+      popup  203 "Éú³ÉÊı¾İ¿âÎÄ¼ş..." {
               //-- "Generate dat (Arcade only)..."
-        10651  191 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Arcade)..."
+        10651  204 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Arcade)..."
               //-- "Generate dat (Megadrive only)..."
-        10653  192 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Megadrive)..."
+        10653  205 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Megadrive)..."
               //-- "Generate dat (PC-Engine only)..."
-        10714  193 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö PC-Engine)..."
+        10714  206 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö PC-Engine)..."
               //-- "Generate dat (TurboGrafx16 only)..."
-        10715  194 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö TurboGrafx16)..."
+        10715  207 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö TurboGrafx16)..."
               //-- "Generate dat (SuprGrafx only)..."
-        10716  195 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö SuprGrafx)..."
+        10716  208 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö SuprGrafx)..."
               //-- "Generate dat (Sega SG-1000 only)..."
-        10717  196 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Sega SG-1000)..."
+        10717  209 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Sega SG-1000)..."
               //-- "Generate dat (ColecoVision only)..."
-        10718  197 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö ColecoVision)..."
+        10718  210 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö ColecoVision)..."
               //-- "Generate dat (Master System only)..."
-        10721  198 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Master System)..."
+        10721  211 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Master System)..."
               //-- "Generate dat (Game Gear only)..."
-        10722  199 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Game Gear)..."
+        10722  212 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Game Gear)..."
               //-- "Generate dat (MSX 1 Games only)..."
-        10723  200 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö MSX 1)..."
+        10723  213 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö MSX 1)..."
+              //-- "Generate dat (ZX Spectrum Games only)..."
+        10732  214 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö ZX Spectrum Games)..."
+              //-- "Generate dat (NES Games only)..."
+        10735  215 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö NES Games)..."
+              //-- "Generate dat (FDS Games only)..."
+        10736  216 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö FDS Games)..."
+              //-- "Generate dat (Neo Geo Pocket Games only)..."
+        10737  217 "Éú³ÉÊı¾İ¿âÎÄ¼ş (½ö Neo Geo Pocket Games)..."
               //-- "Generate all dats..."
-        10729  202 "Éú³ÉËùÓĞÊı¾İ¿âÎÄ¼ş..."
+        10729  219 "Éú³ÉËùÓĞÊı¾İ¿âÎÄ¼ş..."
       }
             //-- "Configure ROM paths..."
-      10614  204 "ÉèÖÃ ROM Â·¾¶..."
+      10614  221 "ÉèÖÃ ROM Â·¾¶..."
             //-- "Configure support file paths..."
-      10615  205 "ÉèÖÃÏà¹ØÎÄ¼şÂ·¾¶..."
+      10615  222 "ÉèÖÃÏà¹ØÎÄ¼şÂ·¾¶..."
+            //-- "UI skin"
+      popup  224 "½éÃæÆ¤·ô" {
+              //-- "Select skin..."
+        10730  225 "Ñ¡ÔñÆ¤·ô..."
+              //-- "Set skin to default"
+        10731  226 "ÉèÖÃÄ¬ÈÏÆ¤·ô"
+      }
             //-- "UI language"
-      popup  207 "½çÃæÓïÑÔ" {
+      popup  227 "½çÃæÓïÑÔ" {
               //-- "Select UI language..."
-        10307  208 "Ñ¡Ôñ½çÃæÓïÑÔÎÄ¼ş..."
+        10307  228 "Ñ¡Ôñ½çÃæÓïÑÔÎÄ¼ş..."
               //-- "Export UI translation template..."
-        10308  209 "µ¼³ö½çÃæÓïÑÔ·­ÒëÄ£°å..."
+        10308  229 "µ¼³ö½çÃæÓïÑÔ·­ÒëÄ£°å..."
               //-- "Reset UI default language"
-        10635  210 "Ê¹ÓÃÄ¬ÈÏ½çÃæÓïÑÔ"
+        10635  230 "Ê¹ÓÃÄ¬ÈÏ½çÃæÓïÑÔ"
               //-- "Download UI language..."
-        10309  211 "ÏÂÔØ½çÃæÓïÑÔ..."
+        10309  231 "ÏÂÔØ½çÃæÓïÑÔ..."
       }
             //-- "Gamelist language"
-      popup  212 "ÓÎÏ·ÁĞ±íÓïÑÔ" {
+      popup  232 "ÓÎÏ·ÁĞ±íÓïÑÔ" {
               //-- "Select gamelist language..."
-        10673  213 "Ñ¡ÔñÓÎÏ·ÁĞ±íÓïÑÔÎÄ¼ş..."
+        10673  233 "Ñ¡ÔñÓÎÏ·ÁĞ±íÓïÑÔÎÄ¼ş..."
               //-- "Export gamelist translation template..."
-        10674  214 "µ¼³öÓÎÏ·ÁĞ±í·­ÒëÄ£°å..."
+        10674  234 "µ¼³öÓÎÏ·ÁĞ±í·­ÒëÄ£°å..."
               //-- "Reset gamelist default language"
-        10675  215 "Ê¹ÓÃÄ¬ÈÏÓÎÏ·ÁĞ±íÓïÑÔ"
+        10675  235 "Ê¹ÓÃÄ¬ÈÏÓÎÏ·ÁĞ±íÓïÑÔ"
       }
             //-- "Icons"
-      popup  217 "Í¼±ê" {
+      popup  237 "Í¼±ê" {
               //-- "Enable driver icons display"
-        10676  218 "¿ªÆôÇı¶¯Í¼±êÏÔÊ¾"
+        10676  238 "¿ªÆôÇı¶¯Í¼±êÏÔÊ¾"
               //-- "Parents only (use if you have problems)"
-        10677  219 "½ö¸¸Ïî (Í¼±êÏÔÊ¾ÓĞÎÊÌâÊ±¿ªÆô)"
+        10677  239 "½ö¸¸Ïî (Í¼±êÏÔÊ¾ÓĞÎÊÌâÊ±¿ªÆô)"
               //-- "Icon size"
-        popup  220 "Í¼±ê´óĞ¡" {
+        popup  240 "Í¼±ê´óĞ¡" {
                 //-- "16 x 16 pixels"
-          10678  221 "16 x 16 ÏñËØ"
+          10678  241 "16 x 16 ÏñËØ"
                 //-- "24 x 24 pixels"
-          10679  222 "24 x 24 ÏñËØ"
+          10679  242 "24 x 24 ÏñËØ"
                 //-- "32 x 32 pixels"
-          10680  223 "32 x 32 ÏñËØ"
+          10680  243 "32 x 32 ÏñËØ"
         }
               //-- "Save snapshot"
-        10318  225 "±£´æÓÎÏ·½ØÍ¼"
+        10318  245 "±£´æÓÎÏ·½ØÍ¼"
               //-- "Shot factory.."
-        10317  226 "½ØÍ¼¹¤³§..."
+        10317  246 "½ØÍ¼¹¤³§..."
               //-- "Enable cheats..."
-        10306  228 "ÆôÓÃ×÷±×Âë..."
+        10306  248 "ÆôÓÃ×÷±×Âë..."
               //-- "Cheat search"
-        popup  229 "×÷±×ÂëËÑË÷" {
+        popup  249 "×÷±×ÂëËÑË÷" {
                 //-- "Start New Search"
-          10628  230 "¿ªÊ¼ĞÂµÄËÑË÷"
+          10628  250 "¿ªÊ¼ĞÂµÄËÑË÷"
                 //-- "Target value has not changed"
-          10629  232 "Ä¿±êÖµÎ´¸Ä±ä"
+          10629  252 "Ä¿±êÖµÎ´¸Ä±ä"
                 //-- "Target value has changed"
-          10630  233 "Ä¿±êÖµÒÑ¸Ä±ä"
+          10630  253 "Ä¿±êÖµÒÑ¸Ä±ä"
                 //-- "Target value has decreased"
-          10631  234 "Ä¿±êÖµÒÑ¼õĞ¡"
+          10631  254 "Ä¿±êÖµÒÑ¼õĞ¡"
                 //-- "Target value has increased"
-          10632  235 "Ä¿±êÖµÒÑÔö´ó"
+          10632  255 "Ä¿±êÖµÒÑÔö´ó"
                 //-- "Dump search to file"
-          10633  237 "±£´æËÑË÷½á¹ûµ½ÎÄ¼ş"
+          10633  257 "±£´æËÑË÷½á¹ûµ½ÎÄ¼ş"
                 //-- "Exit Cheat Search"
-          10634  239 "ÍË³ö×÷±×ÂëËÑË÷"
+          10634  259 "ÍË³ö×÷±×ÂëËÑË÷"
         }
               //-- "Invoke 68K debugger..."
-        10392  241 "68K µ÷ÊÔÆ÷..."
+        10392  261 "68K µ÷ÊÔÆ÷..."
               //-- "Palette Viewer..."
-        10672  243 "µ÷É«°å²é¿´Æ÷..."
+        10672  263 "µ÷É«°å²é¿´Æ÷..."
               //-- "Associate with .fs and .fr files"
-        10330  245 "¹ØÁª .fs ºÍ .fr ÎÄ¼ş"
+        10330  265 "¹ØÁª .fs ºÍ .fr ÎÄ¼ş"
               //-- "Disassociate from .fs and .fr files"
-        10331  246 "½â³ı .fs ºÍ .fr ÎÄ¼ş¹ØÁª"
+        10331  266 "½â³ı .fs ºÍ .fr ÎÄ¼ş¹ØÁª"
               //-- "Save input mapping now"
-        10332  248 "±£´æµ±Ç°°´¼üÉè¶¨"
+        10332  268 "±£´æµ±Ç°°´¼üÉè¶¨"
               //-- "Auto-save input mapping"
-        10333  249 "×Ô¶¯±£´æ°´¼üÉè¶¨"
+        10333  269 "×Ô¶¯±£´æ°´¼üÉè¶¨"
               //-- "Save settings to .ini now"
-        10334  251 "±£´æµ±Ç°Éè¶¨µ½ÅäÖÃÎÄ¼ş"
+        10334  271 "±£´æµ±Ç°Éè¶¨µ½ÅäÖÃÎÄ¼ş"
               //-- "Reload settings from .ini"
-        10335  252 "´ÓÅäÖÃÎÄ¼şÖØĞÂÔØÈëÉè¶¨"
+        10335  272 "´ÓÅäÖÃÎÄ¼şÖØĞÂÔØÈëÉè¶¨"
       }
             //-- "Help"
-      popup  253 "°ïÖú" {
+      popup  273 "°ïÖú" {
               //-- "&Help"
-        10503  254 "°ïÖú(&H)"
+        10503  274 "°ïÖú(&H)"
               //-- "&What\'s New"
-        10505  256 "²é¿´¸üĞÂÄÚÈİ(&W)"
-              //-- "&FB Alpha homepage"
-        10504  258 "FB Alpha Ö÷Ò³(&F)"
+        10505  276 "²é¿´¸üĞÂÄÚÈİ(&W)"
+              //-- "&FB Neo homepage"
+        10504  278 "FB Neo Ö÷Ò³(&F)"
               //-- "&Neo-Source forums"
-        10506  259 "Neo-Source ÂÛÌ³(&N)"
+        10506  279 "Neo-Source ÂÛÌ³(&N)"
+              //-- "FB Neo &Github"
+        10507  280 "FB Neo Github(&G)"
               //-- "&System information"
-        10502  261 "ÏµÍ³ĞÅÏ¢(&S)"
-              //-- "&About FB Alpha"
-        10501  262 "¹ØÓÚ FB Alpha(&A)"
+        10502  282 "ÏµÍ³ĞÅÏ¢(&S)"
+              //-- "&About FB Neo"
+        10501  283 "¹ØÓÚ FB Neo(&A)"
       }
     }
   }
@@ -908,7 +953,7 @@ menu    140 {
           //-- "View Game Information"
     11901    3 "²é¿´ÓÎÏ·ĞÅÏ¢"
           //-- "View in Progetto EMMA"
-    11902    5 "²é¿´ Progetto EMMA"
+    11902    5 "ÔÚ Progetto EMMA ÖĞ²é¿´"
           //-- "Favorite"
     11903    7 "ÊÕ²Ø"
   }
@@ -918,8 +963,8 @@ menu    140 {
 dialog	  51 "ÖØ¶¨Òå¼üÎ»Éè¶¨" {
         //-- "OK"
       2	   0 "È·¶¨"
-        //-- "Double-click an input to change its mapping"
-  65535	   2 "Ë«»÷Ò»¸ö°´¼üÀ´¸Ä±äÊäÈëÉè¶¨"
+        //-- "Double-click an input to change its mapping, checked Marco to Auto-Fire"
+  65535	   2 "Ë«»÷Ò»¸ö°´¼üÀ´¸Ä±äÊäÈëÉè¶¨, Ö®ºóÑ¡ÖĞÒ»¸öºêÊµÏÖÁ¬Éä"
         //-- "Make selection in all three drop-down boxes, click apropriate button"
   65535	   5 "ÔÚÏÂÀ­²Ëµ¥ÖĞÑ¡ÔñÔ¤Éè/Ä¬ÈÏ¼üÎ»"
         //-- "Save preset"
@@ -928,18 +973,28 @@ dialog	  51 "ÖØ¶¨Òå¼üÎ»Éè¶¨" {
   20006	  10 "ÉèÎªÄ¬ÈÏÔ¤Éè"
         //-- "Use preset"
   20005	  11 "Ê¹ÓÃÔ¤Éè"
+        //-- "Analog Sensitivity"
+  65535	  12 "Ä£ÄâÁéÃô¶È"
+        //-- "Analog Sensitivity"
+  20022	  13 "Ä£ÄâÁéÃô¶È"
+        //-- "%"
+  65535	  15 "%"
 }
 
         //-- "Select control"
 dialog	  52 "Ñ¡Ôñ¿ØÖÆ¼ü" {
         //-- "Grab mouse"
   20007	   0 "¼ì²âÊó±ê"
+        //-- "Map Digital"
+  20026	   1 "Map Êı×Ö"
         //-- "Activate"
-  20011	   1 "Ó¦ÓÃ"
+  20011	   2 "Ó¦ÓÃ"
         //-- "Clear Input"
-      3	   2 "Çå³ıÊäÈë"
+      3	   3 "Çå³ıÊäÈë"
         //-- "Clear Lock"
-  20021	   3 "Çå³ıËø¶¨"
+  20021	   4 "Çå³ıËø¶¨"
+        //-- "Speed: "
+  20028	   9 "ËÙ¶È: "
 }
 
         //-- "Edit cheat settings"
@@ -975,15 +1030,17 @@ dialog	  55 "±à¼­ÌøÏßÉèÖÃ" {
         //-- ""
 dialog	  56 "" {
         //-- "Progress1"
-  20015	   1 ""
+  77	   1 ""
         //-- "Cancel"
       2	   5 "È¡Ïû"
 }
 
         //-- ""
 dialog	  57 "" {
-        //-- "FB Alpha contains parts of MAME && Final Burn.\n© 2004-2018, Team FB Alpha."
-  65535	   3 "FB Alpha °üº¬ MAME ºÍ Final Burn ²¿·Ö´úÂë. (c)2004-2018, FB Alpha ÍÅ¶Ó."
+        //-- "version"
+     83    1 "°æ±¾"
+        //-- "FB Neo contains parts of MAME && Final Burn.\n? 2004-2019, Team FBNeo."
+  65535	   3 "FB Neo °üº¬ MAME ºÍ Final Burn ²¿·Ö´úÂë. (c)2004-2019, FBNeo ÍÅ¶Ó."
         //-- "OK"
       1	   4 "È·¶¨"
         //-- "License"
@@ -992,6 +1049,8 @@ dialog	  57 "" {
 
         //-- ""
 dialog	  58 "" {
+        //-- "version"
+     83    1 "°æ±¾"
         //-- "OK"
       1	   4 "È·¶¨"
         //-- " I understand and agree to be bound by the terms of the above license agreement"
@@ -1062,18 +1121,18 @@ dialog	  61 "Ñ¡ÔñÓÎÏ·" {
   20304	   3 "±êÌâÍ¼"
         //-- "Select Game"
   20302	   8 "Ñ¡ÔñÓÎÏ·"
-        //-- "Game info:"
-  20065	  10 "ÓÎÏ·ĞÅÏ¢:"
-        //-- "ROM name:"
-  20063	  11 "ROM Ãû³Æ:"
-        //-- "ROM info:"
-  20064	  12 "ROM ĞÅÏ¢:"
-        //-- "Released by:"
-  20067	  13 "·¢²¼³§ÉÌ:"
+        //-- "Game:"
+  20065	  10 "ÓÎÏ·:"
+        //-- "ROM:"
+  20063	  11 "ROM:"
+        //-- "Info:"
+  20064	  12 "ĞÅÏ¢:"
+        //-- "Released:"
+  20067	  13 "³§ÉÌ:"
         //-- "Genre:"
-  20066	  14 "ÓÎÏ·ÀàĞÍ:"
+  20066	  14 "ÀàĞÍ:"
         //-- "Notes:"
-  20124	  15 "ÓÎÏ·×¢ÊÍ:"
+  20124	  15 "×¢ÊÍ:"
         //-- "Filters"
   20300	  22 "É¸Ñ¡"
         //-- "Game Info"
@@ -1199,7 +1258,7 @@ dialog	  67 "ÉèÖÃ 3D ÇòÃæÊôĞÔ" {
 }
 
         //-- "Adjust speed of the emulated CPU"
-dialog	  68 "µ÷ÕûÄ£Äâ CPU ËÙ¶È" {
+dialog	  68 "µ÷ÕûÄ£Äâ CPU µÄËÙ¶È" {
         //-- "OK"
       1	   0 "È·¶¨"
         //-- "CPU speed"
@@ -1210,16 +1269,16 @@ dialog	  68 "µ÷ÕûÄ£Äâ CPU ËÙ¶È" {
       2	   5 "È¡Ïû"
 }
 
-        //-- "FB Alpha system information report"
-dialog	  69 "FB Alpha ÏµÍ³ĞÅÏ¢±¨¸æ" {
+        //-- "FB Neo system information report"
+dialog	  69 "FB Neo ÏµÍ³ĞÅÏ¢±¨¸æ" {
         //-- "OK"
       1	   0 "È·¶¨"
         //-- "Save..."
   20138	   1 "±£´æ..."
 }
 
-        //-- "FB Alpha has encountered an unrecoverable problem and will be terminated"
-dialog	  70 "FB Alpha Óöµ½Ò»¸ö²»¿É»Ö¸´µÄÎÊÌâ¼´½«¹Ø±Õ" {
+        //-- "FB Neo has encountered an unrecoverable problem and will be terminated"
+dialog	  70 "FB Neo Óöµ½Ò»¸ö²»¿É»Ö¸´µÄÎÊÌâ¼´½«¹Ø±Õ" {
         //-- "OK"
       1	   1 "È·¶¨"
         //-- "Debug"
@@ -1230,8 +1289,8 @@ dialog	  70 "FB Alpha Óöµ½Ò»¸ö²»¿É»Ö¸´µÄÎÊÌâ¼´½«¹Ø±Õ" {
   20104	   4 "±£´æ"
 }
 
-        //-- "FB Alpha debugger"
-dialog	  71 "FB Alpha µ÷ÊÔÆ÷" {
+        //-- "FB Neo debugger"
+dialog	  71 "FB Neo µ÷ÊÔÆ÷" {
         //-- "Disassembly"
   65535	   3 "·´»ã±à"
         //-- "Internal CPU state"
@@ -1258,8 +1317,8 @@ dialog	  71 "FB Alpha µ÷ÊÔÆ÷" {
   20119	  28 "½ØÍ¼"
 }
 
-        //-- "FB Alpha debugger"
-dialog	  72 "FB Alpha µ÷ÊÔÆ÷" {
+        //-- "FB Neo debugger"
+dialog	  72 "FB Neo µ÷ÊÔÆ÷" {
         //-- "Execute"
       1	  10 "Ö´ĞĞ"
         //-- "Exit"
@@ -1278,8 +1337,8 @@ dialog	  72 "FB Alpha µ÷ÊÔÆ÷" {
   20119	  18 "½ØÍ¼"
 }
 
-        //-- "FB Alpha message"
-dialog	  73 "FB Alpha ĞÅÏ¢" {
+        //-- "FB Neo message"
+dialog	  73 "FB Neo ĞÅÏ¢" {
         //-- "OK"
       1	   0 "È·¶¨"
 }
@@ -1338,42 +1397,44 @@ dialog	  74 "ÉèÖÃÏà¹ØÎÄ¼şÂ·¾¶" {
   20971	  47 "ä¯ÀÀ..."
         //-- "Browse..."
   20972	  49 "ä¯ÀÀ..."
+        //-- "Browse..."
+  20973	  51 "ä¯ÀÀ..."
 }
 
         //-- "Palette Viewer"
 dialog	  75 "µ÷É«°å²é¿´Æ÷" {
         //-- "0"
-  20400	  16 ""
+  20400	  16 "0"
         //-- "1"
-  20401	  17 ""
+  20401	  17 "1"
         //-- "2"
-  20402	  18 ""
+  20402	  18 "2"
         //-- "3"
-  20403	  19 ""
+  20403	  19 "3"
         //-- "4"
-  20404	  20 ""
+  20404	  20 "4"
         //-- "5"
-  20405	  21 ""
+  20405	  21 "5"
         //-- "6"
-  20406	  22 ""
+  20406	  22 "6"
         //-- "7"
-  20407	  23 ""
+  20407	  23 "7"
         //-- "8"
-  20408	  24 ""
+  20408	  24 "8"
         //-- "9"
-  20409	  25 ""
+  20409	  25 "9"
         //-- "A"
-  20410	  26 ""
+  20410	  26 "A"
         //-- "B"
-  20411	  27 ""
+  20411	  27 "B"
         //-- "C"
-  20412	  28 ""
+  20412	  28 "C"
         //-- "D"
-  20413	  29 ""
+  20413	  29 "D"
         //-- "E"
-  20414	  30 ""
+  20414	  30 "E"
         //-- "F"
-  20415	  31 ""
+  20415	  31 "F"
         //-- "Selected colour: "
   20434	  32 "Ñ¡¶¨µÄÑÕÉ«:"
         //-- "Close"
@@ -1381,7 +1442,7 @@ dialog	  75 "µ÷É«°å²é¿´Æ÷" {
         //-- "Previous..."
   20432	  34 "Ç°Ò»¸ö..."
         //-- "Next..."
-  20433	  35 "ºóÒ»¸ö.."
+  20433	  35 "ºóÒ»¸ö..."
 }
 
         //-- "IPS Patch Manager"
@@ -1450,10 +1511,10 @@ dialog	  79 "NeoGeo CDZ ÓÎÏ·ÁĞ±í" {
   20812	   4 "Ä¿Â¼..."
         //-- "Scan sub-dirs"
   20809	   5 "É¨Ãè×ÓÄ¿Â¼"
-        //-- "Front Cover"
-  65535	   6 "·âÃæ"
-        //-- "Back Cover"
-  65535	   7 "·âµ×"
+        //-- "CD Cover"
+  65535	   6 "CD ·âÃæ"
+        //-- "Game Preview"
+  65535	   7 "ÓÎÏ·Ô¤ÀÀ"
         //-- "Options"
   65535	   9 "Ñ¡Ïî"
         //-- "Short name:"
@@ -1464,38 +1525,36 @@ dialog	  79 "NeoGeo CDZ ÓÎÏ·ÁĞ±í" {
   20818	  16 "¹âÅÌ¾µÏñ"
         //-- "Audio Tracks:"
   20819	  17 "Òô¹ì:"
-        //-- "Scan for ISO only"
-  20810	  22 "½öÉ¨Ãè ISO"
 }
 
         //-- "Game Information"
 dialog	  81 "ÓÎÏ·ĞÅÏ¢" {
         //-- "Tab1"
   20500	   0 ""
-        //-- "Game info:"
-  20065	   2 "ÓÎÏ·ĞÅÏ¢:"
-        //-- "ROM name:"
-  20063	   3 "ROM Ãû³Æ:"
-        //-- "ROM info:"
-  20064	   4 "ROM ĞÅÏ¢:"
-        //-- "Released by:"
-  20067	   5 "·¢²¼³§ÉÌ:"
+        //-- "Game:"
+  20065	   2 "ÓÎÏ·:"
+        //-- "ROM:"
+  20063	   3 "ROM:"
+        //-- "Info:"
+  20064	   4 "ĞÅÏ¢:"
+        //-- "Released:"
+  20067	   5 "³§ÉÌ:"
         //-- "Genre:"
-  20066	   6 "ÓÎÏ·ÀàĞÍ:"
+  20066	   6 "ÀàĞÍ:"
         //-- "Notes:"
-  20124	   7 "ÓÎÏ·×¢ÊÍ:"
+  20124	   7 "×¢ÊÍ:"
         //-- "Favorite"
-  20604	  19 "ÊÕ²Ø"
+  20604	  20 "ÊÕ²Ø"
         //-- "Rescan Romset"
-  20603	  20 "ÖØĞÂÉ¨Ãè Romset"
+  20603	  21 "ÖØĞÂÉ¨Ãè Rom ¼¯×é"
         //-- "Close"
-      2	  21 "¹Ø±Õ"
+      2	  22 "¹Ø±Õ"
 }
 
         //-- "Download Localisation Template"
 dialog	  82 "ÏÂÔØ±¾µØ»¯Ä£°å" {
         //-- "Language:"
-  20139	   1 "ÓïÒô:"
+  20139	   1 "ÓïÑÔ:"
         //-- "Cancel"
       2	   3 "È¡Ïû"
         //-- "OK"
@@ -1523,15 +1582,15 @@ dialog	 233 "" {
         //-- "Cancel"
       2	   4 "È¡Ïû"
         //-- "00:00:00"
-  20255	  10 ""
+  20255	  11 ""
         //-- "0"
-  20256	  11 ""
+  20256	  12 ""
         //-- "0"
-  20257	  12 ""
+  20257	  13 ""
         //-- "Open Read-Only"
-  20259	  15 "Ö»¶Á·½Ê½´ò¿ª"
+  20259	  17 "Ö»¶Á·½Ê½´ò¿ª"
         //-- "Show Joystick Movement"
-  20263	  16 "ÏÔÊ¾ÊäÈëÖ¸Áî"
+  20264	  18 "ÏÔÊ¾ÊäÈëÖ¸Áî"
 }
 
         //-- "Record input"
@@ -1589,10 +1648,10 @@ string   252 "X-Arcade(×ó±ß)"
 string   254 "X-Arcade(ÓÒ±ß)"
 
         //-- "Hot Rod (left side)"
-string   256 "Hot Rod(×ó±ß)"
+string   256 "Hot Rod (×ó±ß)"
 
         //-- "Hot Rod (right side)"
-string   258 "Hot Rod(ÓÒ±ß)"
+string   258 "Hot Rod (ÓÒ±ß)"
 
         //-- "Absolute"
 string   260 "È«²¿"
@@ -1760,7 +1819,7 @@ string   562 "´´½¨±¾µØÓÎÏ·ÁĞ±í·­ÒëÄ£°å"
 string   600 "Rom ĞÅÏ¢"
 
         //-- "Rom Info"
-string   602 "ROM ĞÅÏ¢"
+string   602 "Rom ĞÅÏ¢"
 
         //-- "Sample Info"
 string   604 "²ÉÑùĞÅÏ¢"
@@ -1853,7 +1912,7 @@ string   660 "ÓÎÏ·½áÊøÔ¤ÀÀÍ¼"
 string   662 "¹ã¸æÍ¼"
 
         //-- "Marquees"
-string   664 "Ìù»­"
+string   664 "±ß¿òÍ¼"
 
         //-- "Control Panels"
 string   666 "¿ØÖÆÃæ°åÍ¼"
@@ -1869,6 +1928,9 @@ string   672 "ÀúÊ·ÎÄ¼ş"
 
         //-- "EEPROM Saves"
 string   674 "EEPROM ±£´æ"
+
+        //-- "HDD Images"
+string   676 "´ÅÅÌ¾µÏñ"
 
         //-- "Path #1"
 string   680 "Â·¾¶ #1"
@@ -1939,8 +2001,8 @@ string   730 "´´½¨±¾µØÓÎÏ·ÁĞ±í·­ÒëÄ£°å"
         //-- "Select gamelist localisation template"
 string   732 "Ñ¡Ôñ±¾µØÓÎÏ·ÁĞ±íÎÄ¼ş"
 
-        //-- "FB Alpha gamelist localisation templates"
-string   734 "FB Alpha ÓÎÏ·ÁĞ±íÎÄ¼ş"
+        //-- "FB Neo gamelist localisation templates"
+string   734 "FB Neo ÓÎÏ·ÁĞ±íÎÄ¼ş"
 
         //-- "Select CD-ROM image..."
 string   740 "Ñ¡Ôñ CD-ROM ÎÄ¼ş..."
@@ -1957,8 +2019,11 @@ string   750 "´´½¨±¾µØÓïÑÔÎÄ¼ş·­ÒëÄ£°å"
         //-- "Select localisation template"
 string   752 "Ñ¡Ôñ±¾µØÓïÑÔÎÄ¼ş"
 
-        //-- "FB Alpha localisation templates"
-string   754 "FB Alpha ÓïÑÔÎÄ¼ş"
+        //-- "FB Neo localisation templates"
+string   754 "FB Neo ÓïÑÔÎÄ¼ş"
+
+        //-- "Neo Geo Pocket"
+string   758 ""
 
         //-- "Filters"
 string   760 "¹ıÂËÆ÷"
@@ -1987,7 +2052,7 @@ string   774 ""
         //-- "Psikyo"
 string   776 ""
 
-        //-- "Sega"
+        //-- "Sega Arcade"
 string   778 ""
 
         //-- "Taito"
@@ -1996,10 +2061,10 @@ string   780 ""
         //-- "Toaplan"
 string   782 ""
 
-        //-- "Misc (pre 90s)"
+        //-- "Misc (Pre-90s)"
 string   784 ""
 
-        //-- "Misc (post 90s)"
+        //-- "Misc (Post-90s)"
 string   786 ""
 
         //-- "Megadrive"
@@ -2077,20 +2142,38 @@ string   834 ""
         //-- "MSX"
 string   836 ""
 
+        //-- "ZX Spectrum"
+string   838 ""
+
+        //-- "Midway"
+string   840 ""
+
+        //-- "Capcom"
+string   842 ""
+
+        //-- "Sega"
+string   844 ""
+
+        //-- "NES"
+string   846 ""
+
+        //-- "FDS"
+string   848 ""
+
         //-- "Genre"
 string   850 "ÓÎÏ·ÀàĞÍ"
 
-        //-- "Shooter - Horizontal"
-string   852 "Éä»÷ - ºáÏò"
+        //-- "Shooter / Horizontal / Sh\'mup"
+string   852 "ºá°æÉä»÷
 
-        //-- "Shooter - Vertical"
-string   854 "Éä»÷ - ×İÏò"
+        //-- "Shooter / Vertical / Sh\'mup"
+string   854 "Êú°æÉä»÷
 
-        //-- "Fighter - Scrolling"
-string   856 "¸ñ¶· - ¾íÖá"
+        //-- "Fighting / Beat \'em Up"
+string   856 "¸ñ¶·´³¹Ø
 
-        //-- "Fighter - Versus"
-string   858 "¸ñ¶· - ¶ÔÕ½"
+        //-- "Fighting / Versus"
+string   858 "¶ÔÕ½¸ñ¶·"
 
         //-- "BIOS"
 string   860 ""
@@ -2113,7 +2196,7 @@ string   870 "ÃÔÄãÓÎÏ·"
         //-- "Pinball"
 string   872 "µ¯Öé"
 
-        //-- "Platform"
+        //-- "Platformer"
 string   874 "Æ½Ì¨"
 
         //-- "Puzzle"
@@ -2122,11 +2205,11 @@ string   876 "ÒæÖÇ"
         //-- "Quiz"
 string   878 "ÎÊ´ğ"
 
-        //-- "Sports - Misc"
-string   880 "ÌåÓı - ÆäËü"
+        //-- "Sports"
+string   880 "ÌåÓı"
 
-        //-- "Sports - Football"
-string   882 "ÌåÓı - ×ãÇò"
+        //-- "Sports / Football"
+string   882 "×ãÇò"
 
         //-- "Misc"
 string   884 "ÔÓÀà"
@@ -2137,8 +2220,23 @@ string   886 "Âé½«"
         //-- "Racing"
 string   888 "Èü³µ"
 
-        //-- "Shooter - Other"
-string   890 "Éä»÷ - ÆäËü"
+        //-- "Shooter"
+string   890 "Éä»÷"
+
+        //-- "Run \'n Gun (Shooter)"
+string   892 "ÅÜ¿áÉä»÷"
+
+        //-- "Strategy"
+string   894 "²ßÂÔ"
+
+        //-- "Action  (Classic)"
+string   896 "¶¯×÷ (´«Í³)"
+
+        //-- "RPG"
+string   898 "½ÇÉ«°çÑİ"
+
+        //-- "Simulator"
+string   900 "Ä£Äâ"
 
         //-- "Family"
 string   940 "ÏµÁĞ"
@@ -2149,7 +2247,7 @@ string   942 "ºÏ½ğµ¯Í·"
         //-- "Street Fighter"
 string   944 "½ÖÍ·°ÔÍõ"
 
-        //-- "King of Fighters"
+        //-- "The King of Fighters"
 string   946 "È­»Ê"
 
         //-- "Darkstalkers"
@@ -2173,11 +2271,20 @@ string   958 "ºÀÑªËÂÒ»×å"
         //-- "Other"
 string   960 "ÆäËü"
 
+        //-- "Sonic the Hedgehog"
+string   962 "Ë÷Äá¿Ë"
+
+        //-- "DonPachi"
+string   964 "Ê×Áì·ä"
+
+        //-- "Mahou Daisakusen"
+string   966 "Ä§·¨´ó×÷Õ½"
+
         //-- "Favorites"
-string   990 "ÊÕ²Ø"
+string   990 "ÊÕ²Ø¼Ğ"
 
         //-- "IPS Patch Manager"
-string  1000 "IPS ²¹¶¡¹ÜÀí"
+string  1000 "IPS ¹ÜÀíÆ÷"
 
         //-- "%s%sNeo Geo CDZ%sSelect Game"
 string  1010 "%s%sNeo Geo CDZ%sÑ¡ÔñÓÎÏ·"
@@ -2300,7 +2407,7 @@ string  1218 "¹ã¸æÍ¼"
 string  1220 "»úÌ¨Í¼"
 
         //-- "Marquee"
-string  1222 "Ìù»­"
+string  1222 "Ñ¡¿òÍ¼"
 
         //-- "Controls"
 string  1224 "¿ØÖÆÃæ°åÍ¼"
@@ -2317,7 +2424,13 @@ string  1230 "ÀúÊ·"
         //-- "Sample Info"
 string  1232 "²ÉÑùĞÅÏ¢"
 
-        //-- " (clone of %s"
+        //-- "HDD Info"
+string  1234 "´ÅÅÌ¾µÏñĞÅÏ¢"
+
+        //-- "Select Skin"
+string  1400 "Ñ¡ÔñÆ¤·ô"
+
+        //-- " (Clone of %s"
 string  1600 " (Ô­×÷ %s"
 
         //-- ", uses ROMs from %s"
@@ -2326,38 +2439,38 @@ string  1602 ", ´Ó %s Ñ¡Ôñ ROMs"
         //-- "%suses ROMs from %s"
 string  1604 "%s´Ó %s Ñ¡Ôñ ROMs"
 
-        //-- "%suses board-ROMs from %s"
-string  1606 "%s´Ó %s Ñ¡Ôñ board-ROMs"
+        //-- "%suses Board-ROMs from %s"
+string  1606 "%sĞèÒª BIOS ÎÄ¼ş %s µÄÖ§³Ö"
 
         //-- "%suses samples from %s"
 string  1608 "%s´Ó %s Ñ¡Ôñ²ÉÑùÎÄ¼ş"
 
-        //-- "%s%i player%s"
-string  1610 "%s%i ÈËÓÎÏ·%s"
+        //-- "%s%i Player%s"
+string  1610 "%s×î¶à¿É %i ÈËÓÎÏ·%s"
 
-        //-- "s max"
+        //-- "s Max"
 string  1612 " "
 
-        //-- "%s (%s, %s hardware)"
+        //-- "%s (%s, %s Hardware)"
 string  1614 "%s (%s, %s Ó²¼ş)"
 
         //-- "Neo Geo MVS Cartidge"
 string  1616 "Neo Geo MVS ¿¨´ø"
 
-        //-- "%shigh scores supported"
-string  1618 "%sÒÑÖ§³Ö¸ß·Ö¼ÇÂ¼"
+        //-- "%sHigh Scores Supported"
+string  1618 "%sÖ§³Ö¸ß·Ö¼ÇÂ¼"
 
-        //-- "cartridge"
+        //-- "Cartridge"
 string  1620 "¿¨´ø"
 
-        //-- "hardware"
+        //-- "Hardware"
 string  1622 "Ó²¼ş"
 
         //-- "Empty"
 string  1624 "¿ÕµÄ"
 
         //-- "Unidentified CD"
-string  1626 "Î´È·ÈÏ CD"
+string  1626 "²»¿ÉÊ¶±ğµÄ CD"
 
         //-- "Error"
 string  1800 "´íÎó"
@@ -2372,10 +2485,10 @@ string  1804 "ĞÅÏ¢"
 string  1806 "Î´Öª"
 
         //-- "The ROMset is OK."
-string  1810 "ROM Õı³£."
+string  1810 "ROM ¼¯×éÕı³£."
 
         //-- "The ROMset exhibits the following problems:"
-string  1812 "ROM ´æÔÚÏÂÁĞÎÊÌâ:"
+string  1812 "ROM ¼¯×é´æÔÚÏÂÁĞÎÊÌâ:"
 
         //-- "No data was found, the game will not run!"
 string  1814 "Î´ÕÒµ½Êı¾İ, ÓÎÏ·ÎŞ·¨ÔËĞĞ!"
@@ -2437,6 +2550,9 @@ string  1850 "´Ó %.512s ¶ÁÈ¡ %.32hs ´íÎó"
         //-- "CRC mismatch reading %.32hs from %.512s"
 string  1852 "´Ó %.512s ¶ÁÈ¡ %.32hs Ê± CRC ²»Æ¥Åä"
 
+        //-- "No HDD data was found, the game will not run!"
+string  1854 "Î´ÕÒµ½´ÅÅÌ¾µÏñÊı¾İ£¬ÓÎÏ·ÎŞ·¨ÔËĞĞ£¡"
+
         //-- "There was a problem starting \'%.128s\'.\n"
 string  1860 "Æô¶¯ \'%.128s\' Ê±³öÏÖÎÊÌâ.\n"
 
@@ -2462,7 +2578,7 @@ string  1880 "ÉèÖÃ \'%dx%dx%dbpp (%dHz)\' ÏÔÊ¾Ä£Ê½Ê±³öÏÖÎÊÌâ"
 string  1882 "\n\nÕâ²»ÊÇ±ê×¼ VGA ·Ö±æÂÊ, ÇëÈ·¶¨ÄúµÄÏÔ¿¨Ö§³Ö´Ë·Ö±æÂÊ."
 
         //-- "Couldn\'t intialise \'%s\' module. Try installing the Direct X End User runtimes (June 2010)."
-string  1884 "ÎŞ·¨³õÊ¼»¯ \'%s\' Ä£¿é. Çë³¢ÊÔ°²×° Direct X End User runtimes (June 2010)."
+string  1884 "ÎŞ·¨³õÊ¼»¯ \'%s\' Ä£¿é. Çë³¢ÊÔ°²×° DirectX ×îÖÕÓÃ»§ÔËĞĞ×é¼ş (2010 Äê 7 ÔÂ°æ)."
 
         //-- "Error creating "
 string  1890 "´´½¨´íÎó"
@@ -2471,7 +2587,7 @@ string  1890 "´´½¨´íÎó"
 string  1892 "¶ÁÈ¡´íÎó"
 
         //-- " is for an unavailable game."
-string  1894 "ÊÇ²»¿ÉÓÃÓÎÏ·µÄ."
+string  1894 "ÊÇ²»¿ÉÓÃµÄÓÎÏ·."
 
         //-- " does not work with this version of %s."
 string  1896 "²»ÊÊÓÃÓÚµ±Ç°°æ±¾ %s."
@@ -2483,20 +2599,23 @@ string  1898 "ĞèÒª¸üĞÂ°æ±¾ %s, ÇëÉı¼¶."
 string  1910 "Î´ÕÒµ½ \'kailleraclient.dll\'."
 
         //-- "No driver has been selected from the list."
-string  1912 "Î´Ñ¡ÔñÁĞ±íÖĞµÄÇı¶¯."
+string  1912 "ÉĞÎ´Ñ¡ÖĞÁĞ±íÖĞµÄÓÎÏ·."
 
         //-- "No driver has been selected for slot 1."
 string  1914 "¿¨²Û 1 Ã»ÓĞÇı¶¯"
 
         //-- "This game isn\'t working. Load it anyway?"
-string  1916 "´ËÓÎÏ·ÎŞ·¨ÔËĞĞ. ÊÇ·ñ¼ÓÔØ?"
+string  1916 "´ËÓÎÏ·ÎŞ·¨ÔËĞĞ. ÈÔÒª¼ÌĞøÂğ?"
 
         //-- "Couldn\'t initialise CD emulation."
 string  1918 "ÎŞ·¨³õÊ¼»¯ CD Ä£Äâ."
 
-        //-- "Failed to connect to Internet"
-string  1950 "ÎŞ·¨Á¬½ÓÍøÂç"
+        //-- "Double-click the macro to change its mapping first"
+string  1930 "ÇëÏÈÎªºê·ÖÅä°´¼ü"
 
-        //-- "Failed to access FB Alpha website"
-string  1952 "ÎŞ·¨·ÃÎÊ FB Alpha ÍøÒ³"
+        //-- "Failed to connect to Internet"
+string  1950 "Á¬½ÓÍøÂçÊ§°Ü"
+
+        //-- "Failed to access FB Neo website"
+string  1952 "ÎŞ·¨·ÃÎÊ FB Neo ÍøÕ¾"
 
