@@ -1,6 +1,7 @@
 // translation template for FinalBurn Neo
+// russian translation by teorex
 
-version 0x029744
+version 0x100000
 
 // codepage 1252
 
@@ -338,6 +339,7 @@ menu    100 {
       10719  182 "Создавать папки support при запуске"
             //-- "Show Game List at start-up"
       10733  183 "Показывать список игр при запуске"
+            //-- "Scan ROMs at start-up (if needed)"
       10734  184 ""
             //-- "Set application process priority"
       popup  186 "Установить приоритет приложения" {
