@@ -952,8 +952,8 @@ menu    140 {
     11900    1 "运行"
           //-- "View Game Information"
     11901    3 "查看游戏信息"
-          //-- "View in Progetto EMMA"
-    11902    5 "在 Progetto EMMA 中查看"
+          //-- "View in Arcade Database"
+    11902    5 "在街机数据库中查看"
           //-- "Favorite"
     11903    7 "收藏"
   }
