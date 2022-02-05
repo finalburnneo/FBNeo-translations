@@ -1,6 +1,6 @@
 // translation template for FinalBurn Neo
 
-version 0x100001
+version 0x100003
 
 // codepage 1252
 
@@ -50,465 +50,505 @@ menu    100 {
     10010   24 "调整 CPU 速度..."
           //-- "Reset CPU speed to 100%"
     10011   25 "重置 CPU 速度为 100%"
+          //-- "Lua Scripting..."
+    popup    27 "Lua 脚本..." {
+            //-- "&New Lua Script Window..."
+      11812    28 "新建 Lua 脚本窗口(&N)..."
+            //-- "&Close Script Window"
+      11813    29 "关闭脚本窗口(&C)"
+    }
           //-- "Memory Card..."
-    popup   27 "记忆卡" {
+    popup   31 "记忆卡" {
             //-- "Create new memory card..."
-      10020   28 "创建新记忆卡..."
+      10020   32 "创建新记忆卡..."
             //-- "Select memory card..."
-      10021   29 "选择记忆卡..."
+      10021   33 "选择记忆卡..."
             //-- "Insert memory card"
-      10022   30 "插入记忆卡..."
+      10022   34 "插入记忆卡..."
             //-- "Eject memory card"
-      10023   31 "退出记忆卡..."
+      10023   35 "退出记忆卡..."
     }
           //-- "Replay..."
-    popup   33 "回放..." {
+    popup   37 "回放..." {
             //-- "Replay input..."
-      10003   34 "回放游戏输入..."
+      10003   38 "回放游戏输入..."
             //-- "Record input..."
-      10004   35 "记录游戏输入..."
+      10004   39 "记录游戏输入..."
             //-- "Stop replay/record"
-      10005   36 "停止回放/记录"
+      10005   40 "停止回放/记录"
     }
           //-- "Save states..."
-    popup   38 "保存进度" {
+    popup   42 "保存进度" {
             //-- "Load state..."
-      10030   39 "载入游戏进度..."
+      10030   43 "载入游戏进度..."
             //-- "Save state..."
-      10031   40 "保存游戏进度..."
+      10031   44 "保存游戏进度..."
             //-- "State slots..."
-      popup   41 "存盘点..." {
+      popup   45 "存盘点..." {
               //-- "Activate previous slot"
-        10034   42 "激活前一个存盘点"
+        10034   46 "激活前一个存盘点"
               //-- "Activate next slot"
-        10035   43 "激活下一个存盘点"
+        10035   47 "激活下一个存盘点"
               //-- "MENU_STATE_LOAD_SLOT"
-        10032   44 ""
+        10032   48 ""
               //-- "MENU_STATE_SAVE_SLOT"
-        10033   45 ""
+        10033   49 ""
               //-- "Undo last state save"
-        10037   46 "取消上次游戏进度"
+        10037   50 "取消上次游戏进度"
       }
             //-- "Restore full state on load"
-      10036   47 "载入时恢复完整游戏进度"
+      10036   51 "载入时恢复完整游戏进度"
     }
           //-- "Record AVI"
-    11827   49 "录制 AVI"
+    11827   53 "录制 AVI"
           //-- "Stop recording"
-    11828   50 "停止录制"
+    11828   54 "停止录制"
           //-- "Exit emulator"
-    10012   52 "退出程序"
+    10012   56 "退出程序"
   }
         //-- "Video"
-  popup   53 "视频" {
+  popup   57 "视频" {
           //-- "&Select blitter"
-    popup   54 "选择视频模式(&S)" {
+    popup   58 "选择视频模式(&S)" {
             //-- "Basic"
-      10121   55 "普通模式"
+      10121   59 "普通模式"
             //-- "SoftFX"
-      10123   56 "软件模式"
+      10123   60 "软件模式"
             //-- "Enhanced"
-      10122   57 "增强模式"
+      10122   61 "增强模式"
             //-- "Experimental"
-      10124   58 "试验模式"
+      10124   62 "试验模式"
             //-- "DirectX9 Alt"
-      10125   59 "DX9 替换模式"
+      10125   63 "DX9 替换模式"
     }
           //-- "&Blitter options"
-    10643   60 "视频模式选项(&B)"
+    10643   64 "视频模式选项(&B)"
           //-- "&Stretch"
-    popup   61 "硬件拉伸(&S)" {
+    popup   65 "硬件拉伸(&S)" {
             //-- "&Normal stretch"
-      10110   62 "普通拉伸(&N)"
+      10110   66 "普通拉伸(&N)"
             //-- "&Full stretch"
-      10111   63 "全屏拉伸(&F)"
+      10111   67 "全屏拉伸(&F)"
             //-- "Correct &aspect ratio"
-      10112   64 "强制调整外观比例(&A)"
+      10112   68 "强制调整外观比例(&A)"
     }
           //-- "&Enable gamma correction"
-    10150   66 "启用伽玛校正(&E)"
+    10150   70 "启用伽玛校正(&E)"
           //-- "&Gamma correction settings"
-    popup   67 "伽玛校正设置(&G)" {
+    popup   71 "伽玛校正设置(&G)" {
             //-- "&Darken midtones"
-      10151   68 "暗色调(&D)"
+      10151   72 "暗色调(&D)"
             //-- "&Lighten midtones"
-      10152   69 "亮色调(&L)"
+      10152   73 "亮色调(&L)"
             //-- "MENU_GAMMA_OTHER"
-      10153   70 ""
+      10153   74 ""
             //-- "Use video &hardware when possible"
-      10154   72 "优先使用硬件显示(&H)"
+      10154   76 "优先使用硬件显示(&H)"
             //-- "Use video hardware &exclusively"
-      10155   73 "强制使用硬件显示(&E)"
+      10155   77 "强制使用硬件显示(&E)"
             //-- "Use &software exclusively"
-      10156   74 "强制使用软件显示(&S)"
+      10156   78 "强制使用软件显示(&S)"
     }
           //-- "&Window size"
-    popup   76 "窗口大小(&W)" {
+    popup   80 "窗口大小(&W)" {
             //-- "&Auto"
-      10170   77 "自动调整(&A)"
+      10170   81 "自动调整(&A)"
             //-- "&Single size"
-      10171   79 "原始大小(&S)"
+      10171   83 "原始大小(&S)"
             //-- "&Double size"
-      10172   80 "双倍大小(&D)"
+      10172   84 "双倍大小(&D)"
             //-- "&Triple size"
-      10173   81 "三倍大小(&T)"
+      10173   85 "三倍大小(&T)"
             //-- "&Quadruple size"
-      10174   82 "四倍大小(&Q)"
+      10174   86 "四倍大小(&Q)"
             //-- "&Maximum size"
-      10175   83 "最大化窗口(&M)"
+      10175   87 "最大化窗口(&M)"
     }
           //-- "Toggle &fullscreen mode"
-    10102   85 "全屏显示(&F)"
+    10102   89 "全屏显示(&F)"
           //-- "Auto Switch to Fullscreen after loading"
-    10613   86 "载入游戏后自动切换到全屏"
+    10613   90 "载入游戏后自动切换到全屏"
           //-- "Fullscreen Resolution (Horizontal)"
-    popup   87 "全屏显示分辨率 (水平方向)" {
+    popup   91 "全屏显示分辨率 (水平方向)" {
             //-- "MENU_RES_ARCADE"
-      10130   88 ""
+      10130   92 ""
             //-- "&Single size"
-      10136   90 "原始大小(&S)"
+      10136   94 "原始大小(&S)"
             //-- "&Double size"
-      10137   91 "双倍大小(&D)"
+      10137   95 "双倍大小(&D)"
             //-- "&Triple size"
-      10138   92 "三倍大小(&T)"
+      10138   96 "三倍大小(&T)"
             //-- "&Quadruple size"
-      10139   93 "四倍大小(&Q)"
+      10139   97 "四倍大小(&Q)"
             //-- "MENU_RES_1"
-      10131   95 ""
+      10131   99 ""
             //-- "MENU_RES_2"
-      10132   96 ""
+      10132   100 ""
             //-- "MENU_RES_3"
-      10133   97 ""
+      10133   101 ""
             //-- "MENU_RES_4"
-      10134   98 ""
+      10134   102 ""
             //-- "MENU_RES_OTHER"
-      10135  100 ""
+      10135  104 ""
     }
           //-- "Fullscreen Resolution (Vertical)"
-    popup  101 "全屏显示分辨率 (垂直方向)" {
+    popup  105 "全屏显示分辨率 (垂直方向)" {
             //-- "MENU_RES_ARCADE_VERTICAL"
-      10700  102 ""
+      10700  106 ""
             //-- "&Single size"
-      10706  104 "原始大小(&S)"
+      10706  108 "原始大小(&S)"
             //-- "&Double size"
-      10707  105 "双倍大小(&D)"
+      10707  109 "双倍大小(&D)"
             //-- "&Triple size"
-      10708  106 "三倍大小(&T)"
+      10708  110 "三倍大小(&T)"
             //-- "&Quadruple size"
-      10709  107 "四倍大小(&Q)"
+      10709  111 "四倍大小(&Q)"
             //-- "MENU_RES_1_VERTICAL"
-      10701  109 ""
+      10701  113 ""
             //-- "MENU_RES_2_VERTICAL"
-      10702  110 ""
+      10702  114 ""
             //-- "MENU_RES_3_VERTICAL"
-      10703  111 ""
+      10703  115 ""
             //-- "MENU_RES_4_VERTICAL"
-      10704  112 ""
+      10704  116 ""
             //-- "MENU_RES_OTHER_VERTICAL"
-      10705  114 ""
+      10705  118 ""
     }
           //-- "Fullscreen bit&depth"
-    popup  115 "全屏显示色深(&D)" {
+    popup  119 "全屏显示色深(&D)" {
             //-- "&16bit"
-      10141  116 "16 位(&1)"
+      10141  120 "16 位(&1)"
             //-- "&24bit"
-      10142  117 "24 位(&2)"
+      10142  121 "24 位(&2)"
             //-- "&32bit"
-      10143  118 "32 位(&3)"
+      10143  122 "32 位(&3)"
     }
           //-- "Choose Fullscreen Monitor"
-    10728  119 "选择全屏显示器"
+    10729  123 "选择全屏显示器"
           //-- "&Monitor properties"
-    popup  121 "显示器属性(&M)" {
+    popup  125 "显示器属性(&M)" {
             //-- "Automatically detect fullscreen resolution and aspect ratio"
-      10650  122 "自动检测全屏分辨率与比例"
+      10650  126 "自动检测全屏分辨率与比例"
             //-- "Select aspect ratio (Horizontal)"
-      popup  124 "选择比例 (水平)" {
+      popup  128 "选择比例 (水平)" {
               //-- "Normal CRT aspect ratio"
-        10190  125 "普通 CRT 显示器比例"
+        10190  129 "普通 CRT 显示器比例"
               //-- "Normal LCD aspect ratio"
-        10191  126 "普通 LCD 显示器比例"
+        10191  130 "普通 LCD 显示器比例"
               //-- "Widescreen CRT aspect ratio"
-        10192  127 "宽屏 CRT 显示器比例"
+        10192  131 "宽屏 CRT 显示器比例"
               //-- "Widescreen LCD aspect ratio"
-        10193  128 "宽屏 LCD 显示器比例"
+        10193  132 "宽屏 LCD 显示器比例"
       }
             //-- "Select aspect ratio (Vertical)"
-      popup  129 "选择比例 (垂直)" {
+      popup  133 "选择比例 (垂直)" {
               //-- "Normal CRT aspect ratio (landscape)"
-        10270  130 "普通 CRT 显示器比例 (横向)"
+        10270  134 "普通 CRT 显示器比例 (横向)"
               //-- "Normal LCD aspect ratio (landscape)"
-        10271  131 "普通 LCD 显示器比例 (横向)"
+        10271  135 "普通 LCD 显示器比例 (横向)"
               //-- "Widescreen CRT aspect ratio (landscape)"
-        10272  132 "宽屏 CRT 显示器比例 (横向)"
+        10272  136 "宽屏 CRT 显示器比例 (横向)"
               //-- "Widescreen LCD aspect ratio (landscape)"
-        10273  133 "宽屏 LCD 显示器比例 (横向)"
+        10273  137 "宽屏 LCD 显示器比例 (横向)"
               //-- "Normal CRT aspect ratio (portrait)"
-        10274  134 "普通 CRT 显示器比例 (纵向)"
+        10274  138 "普通 CRT 显示器比例 (纵向)"
               //-- "Normal LCD aspect ratio (portrait)"
-        10275  135 "普通 LCD 显示器比例 (纵向)"
+        10275  139 "普通 LCD 显示器比例 (纵向)"
               //-- "Widescreen CRT aspect ratio (portrait)"
-        10276  136 "宽屏 CRT 显示器比例 (纵向)"
+        10276  140 "宽屏 CRT 显示器比例 (纵向)"
               //-- "Widescreen LCD aspect ratio (portrait)"
-        10277  137 "宽屏 LCD 显示器比例 (纵向)"
+        10277  141 "宽屏 LCD 显示器比例 (纵向)"
       }
             //-- "Mirrored vertical alignment"
-      10194  139 "垂直画面镜像显示"
+      10194  143 "垂直画面镜像显示"
     }
           //-- "&Rotate vertically aligned games"
-    10181  141 "竖版游戏自动旋转画面(&R)"
+    10181  145 "竖版游戏自动旋转画面(&R)"
           //-- "Force 60Hz refresh rate"
-    10176  142 "强制刷新率为 60Hz"
+    10176  146 "强制刷新率为 60Hz"
           //-- "Enable &Triple Buffering (Fullscreen)"
-    10100  143 "使用三倍缓冲 (全屏)(&T)"
+    10100  147 "使用三倍缓冲 (全屏)(&T)"
           //-- "Enable VSync (Windowed)"
-    10646  144 "开启垂直同步 (窗口)"
+    10646  148 "开启垂直同步 (窗口)"
           //-- "Enable DWM Sync (Windowed)"
-    10103  145 "开启 DWM 同步 (窗口)"
+    10103  149 "开启 DWM 同步 (窗口)"
           //-- "Auto Frameskip"
-    10177  146 "自动跳帧"
+    10177  150 "自动跳帧"
+          //-- "Enable RunAhead"
+    10178  151 "启用提前运行"
   }
         //-- "Audio"
-  popup  147 "音频" {
+  popup  152 "音频" {
           //-- "Select &plugin"
-    popup  148 "选择插件(&P)" {
+    popup  153 "选择插件(&P)" {
             //-- "DirectSound"
-      10655  149 ""
+      10655  154 ""
             //-- "XAudio2"
-      10656  150 ""
+      10656  155 ""
     }
           //-- "Plugin &options"
-    10663  151 "插件选项(&O)"
+    10663  156 "插件选项(&O)"
+          //-- "&Audio Volume"
+    popup  157 "音量" {
+            //-- "100% (max)"
+      10691  158 "100% (最大)"
+            //-- "90%"
+      10690  159 "音量 90%"
+            //-- "80%"
+      10689  160 "音量 80"
+            //-- "70%"
+      10688  161 "音量 70%"
+            //-- "60%"
+      10687  162 "音量 60%"
+            //-- "50%"
+      10686  163 "音量 50"
+            //-- "40%"
+      10685  164 "音量 40%"
+            //-- "30%"
+      10684  165 "音量 30%"
+            //-- "20%"
+      10683  166 "音量 20%"
+            //-- "10%"
+      10682  167 "音量 10%"
+            //-- "0% (mute)"
+      10681  168 "音量 0% (静音)"
+    }
           //-- "2-point 1st order sample interpolation"
-    10231  153 "2 点采样插补"
+    10231  170 "2 点采样插补"
           //-- "4-point 3rd order sample interpolation"
-    10233  154 "4 点采样插补"
+    10233  171 "4 点采样插补"
           //-- "Disable FM interpolation"
-    10240  156 "禁用 FM 插补"
+    10240  173 "禁用 FM 插补"
           //-- "4-point 3rd order FM interpolation"
-    10243  157 "4 点 FM 插补"
+    10243  174 "4 点 FM 插补"
           //-- "&Sound logging"
-    popup  159 "录制声音(&S)" {
+    popup  176 "录制声音(&S)" {
             //-- "Log to file..."
-      10606  160 "保存到文件..."
+      10606  177 "保存到文件..."
             //-- "Stop logging"
-      10607  161 "停止录制"
+      10607  178 "停止录制"
     }
           //-- "Buffer size..."
-    10200  162 "缓冲大小..."
+    10200  179 "缓冲大小..."
   }
         //-- "Input"
-  popup  163 "输入" {
+  popup  180 "输入" {
           //-- "Select &plugin"
-    popup  164 "选择插件(&P)" {
+    popup  181 "选择插件(&P)" {
             //-- "DirectInput"
-      10664  165 ""
+      10664  182 "直接输入"
     }
           //-- "&Auto-Fire Rate"
-    popup  167 "连射速度(&A)" {
+    popup  184 "连射速度" {
             //-- "Slow"
-      10260  168 "慢"
+      10260  185 "慢"
             //-- "Medium"
-      10261  169 "中"
+      10261  186 "中"
             //-- "Fast"
-      10262  170 "快"
+      10262  187 "快"
+            //-- "Faster"
+      10263  188 "很快"
             //-- "Very Fast"
-      10263  171 "很快"
+      10264  189 "非常快"
+            //-- "Very Faster"
+      10265  190 "最快"
     }
           //-- "Map game inputs..."
-    10007  173 "键位设置..."
+    10007  192 "键位设置..."
           //-- "Set dipswitches..."
-    10009  174 "跳线设置..."
+    10009  193 "跳线设置..."
   }
         //-- "Misc"
-  popup  175 "杂项" {
+  popup  194 "杂项" {
           //-- "Options"
-    popup  176 "选项" {
+    popup  195 "选项" {
             //-- "Auto pause"
-      10300  177 "自动暂停"
+      10300  196 "自动暂停"
             //-- "Always process keyboard input"
-      10301  178 "总是响应键盘输入"
+      10301  197 "总是响应键盘输入"
             //-- "Display mode indicator"
-      10302  179 "显示提示信息"
+      10302  198 "显示提示信息"
             //-- "Modeless menu"
-      10303  180 "使用非模态菜单"
+      10303  199 "使用非模态菜单"
             //-- "Don\'t change Num Lock status"
-      10616  181 "不改变小键盘锁定状态"
+      10616  200 "不改变小键盘锁定状态"
             //-- "Create support folders at runtime"
-      10719  182 "在运行时创建支持的文件夹"
+      10719  201 "在运行时创建支持的文件夹"
             //-- "Show Game List at start-up"
-      10733  183 "启动时显示游戏列表"
+      10734  202 "启动时显示游戏列表"
             //-- "Scan ROMs at start-up (if needed)"
-      10734  184 "启动时扫描 ROM (如果需要)"
-            //-- "Set application thread priority"
-      popup  186 "设置程序线程优先级" {
+      10735  203 "启动时扫描 ROM (如果需要)"
+            //-- "Set application process priority"
+      popup  205 "设置程序进程优先级" {
               //-- "High"
-        10311  187 "高"
+        10311  206 "高"
               //-- "Above normal"
-        10312  188 "较高"
+        10312  207 "较高"
               //-- "Normal"
-        10313  189 "普通"
+        10313  208 "普通"
               //-- "Below normal"
-        10314  190 "较低"
+        10314  209 "较低"
               //-- "Low"
-        10315  191 "低"
+        10315  210 "低"
       }
             //-- "Enable high resolution system timer"
-      10319  192 "开启高分辨率系统计时"
+      10319  211 "开启高分辨率系统计时"
             //-- "Show Debug console (requires restart)"
-      10320  193 "显示调试控制台 (需要重新启动)"
+      10320  212 "显示调试控制台 (需要重新启动)"
             //-- "Save High Scores when supported"
-      10654  195 "当支持时保存最高分"
+      10654  214 "当支持时保存最高分"
             //-- "Use alpha blend effects when supported"
-      10720  196 "当支持时使用透明表"
+      10720  215 "当支持时使用透明表"
             //-- "Display Gear-Shift Indicator when supported"
-      10727  197 "当支持时显示换挡提示"
+      10727  216 "当支持时显示换挡提示"
+            //-- "Display Lightgun Reticles when supported"
+      10728  217 "支持时显示光枪十字准星"
             //-- "AVI Writer Output size"
-      popup  198 "AVI 作者输出像素尺寸" {
+      popup  218 "AVI 作者输出像素尺寸" {
               //-- "1x"
-        10724  199 ""
+        10724  219 ""
               //-- "2x"
-        10725  200 ""
+        10725  220 ""
               //-- "3x"
-        10726  201 ""
+        10726  221 ""
       }
             //-- "Generate dat file"
-      popup  203 "生成数据库文件..." {
+      popup  223 "生成数据库文件..." {
               //-- "Generate dat (Arcade only)..."
-        10651  204 "生成数据库文件 (仅 Arcade 游戏)..."
+        10651  224 "生成数据库文件 (仅 Arcade)..."
               //-- "Generate dat (Megadrive only)..."
-        10653  205 "生成数据库文件 (仅 Megadrive 游戏)..."
+        10653  225 "生成数据库文件 (仅 Megadrive)..."
               //-- "Generate dat (PC-Engine only)..."
-        10714  206 "生成数据库文件 (仅 PC-Engine 游戏)..."
+        10714  226 "生成数据库文件 (仅 PC-Engine)..."
               //-- "Generate dat (TurboGrafx16 only)..."
-        10715  207 "生成数据库文件 (仅 TurboGrafx16 游戏)..."
+        10715  227 "生成数据库文件 (仅 TurboGrafx16)..."
               //-- "Generate dat (SuprGrafx only)..."
-        10716  208 "生成数据库文件 (仅 SuprGrafx 游戏)..."
+        10716  228 "生成数据库文件 (仅 SuprGrafx)..."
               //-- "Generate dat (Sega SG-1000 only)..."
-        10717  209 "生成数据库文件 (仅 Sega SG-1000 游戏)..."
+        10717  229 "生成数据库文件 (仅 Sega SG-1000)..."
               //-- "Generate dat (ColecoVision only)..."
-        10718  210 "生成数据库文件 (仅 ColecoVision 游戏)..."
+        10718  230 "生成数据库文件 (仅 ColecoVision)..."
               //-- "Generate dat (Master System only)..."
-        10721  211 "生成数据库文件 (仅 Master System 游戏)..."
+        10721  231 "生成数据库文件 (仅 Master System)..."
               //-- "Generate dat (Game Gear only)..."
-        10722  212 "生成数据库文件 (仅 Game Gear 游戏)..."
+        10722  232 "生成数据库文件 (仅 Game Gear)..."
               //-- "Generate dat (MSX 1 Games only)..."
-        10723  213 "生成数据库文件 (仅 MSX 1 游戏)..."
+        10723  233 "生成数据库文件 (仅 MSX 1)..."
               //-- "Generate dat (ZX Spectrum Games only)..."
-        10732  214 "生成数据库文件 (仅 ZX Spectrum 游戏)..."
+        10733  234 "生成数据库文件 (仅 ZX Spectrum Games)..."
               //-- "Generate dat (NES Games only)..."
-        10735  215 "生成数据库文件 (仅 NES 游戏)..."
+        10736  235 "生成数据库文件 (仅 NES Games)..."
               //-- "Generate dat (FDS Games only)..."
-        10736  216 "生成数据库文件 (仅 FDS 游戏)..."
+        10737  236 "生成数据库文件 (仅 FDS Games)..."
               //-- "Generate dat (Neo Geo Pocket Games only)..."
-        10737  217 "生成数据库文件 (仅 Neo Geo Pocket 游戏)..."
+        10738  237 "生成数据库文件 (仅 Neo Geo Pocket Games)..."
               //-- "Generate dat (Fairchild Channel F Games only)..."
-        10738  218 "生成数据库文件 (仅 Fairchild Channel F 游戏)..."
+        10739  238 "生成数据库文件 (仅 Fairchild Channel F Games)..."
               //-- "Generate all dats..."
-        10729  220 "生成所有数据库文件..."
+        10730  240 "生成所有数据库文件..."
       }
             //-- "Configure ROM paths..."
-      10614  222 "设置 ROM 路径..."
+      10614  242 "设置 ROM 路径..."
             //-- "Configure support file paths..."
-      10615  223 "设置相关文件路径..."
+      10615  243 "设置相关文件路径..."
             //-- "UI skin"
-      popup  225 "介面皮肤" {
+      popup  245 "介面皮肤" {
               //-- "Select skin..."
-        10730  226 "选择皮肤..."
+        10731  246 "选择皮肤..."
               //-- "Set skin to default"
-        10731  227 "设置默认皮肤"
+        10732  247 "设置默认皮肤"
       }
             //-- "UI language"
-      popup  228 "界面语言" {
+      popup  248 "界面语言" {
               //-- "Select UI language..."
-        10307  229 "选择界面语言文件..."
+        10307  249 "选择界面语言文件..."
               //-- "Export UI translation template..."
-        10308  230 "导出界面语言翻译模板..."
+        10308  250 "导出界面语言翻译模板..."
               //-- "Reset UI default language"
-        10635  231 "使用默认界面语言"
+        10635  251 "使用默认界面语言"
               //-- "Download UI language..."
-        10309  232 "下载界面语言..."
+        10309  252 "下载界面语言..."
       }
             //-- "Gamelist language"
-      popup  233 "游戏列表语言" {
+      popup  253 "游戏列表语言" {
               //-- "Select gamelist language..."
-        10673  234 "选择游戏列表语言文件..."
+        10673  254 "选择游戏列表语言文件..."
               //-- "Export gamelist translation template..."
-        10674  235 "导出游戏列表翻译模板..."
+        10674  255 "导出游戏列表翻译模板..."
               //-- "Reset gamelist default language"
-        10675  236 "使用默认游戏列表语言"
+        10675  256 "使用默认游戏列表语言"
       }
             //-- "Icons"
-      popup  238 "图标" {
+      popup  258 "图标" {
               //-- "Enable driver icons display"
-        10676  239 "开启驱动图标显示"
+        10676  259 "开启驱动图标显示"
               //-- "Parents only (use if you have problems)"
-        10677  240 "仅父项 (图标显示有问题时开启)"
+        10677  260 "仅父项 (图标显示有问题时开启)"
               //-- "Icon size"
-        popup  241 "图标大小" {
+        popup  261 "图标大小" {
                 //-- "16 x 16 pixels"
-          10678  242 "16 x 16 像素"
+          10678  262 "16 x 16 像素"
                 //-- "24 x 24 pixels"
-          10679  243 "24 x 24 像素"
+          10679  263 "24 x 24 像素"
                 //-- "32 x 32 pixels"
-          10680  244 "32 x 32 像素"
+          10680  264 "32 x 32 像素"
         }
               //-- "Save snapshot"
-        10318  246 "保存游戏截图"
+        10318  266 "保存游戏截图"
               //-- "Shot factory.."
-        10317  247 "截图工厂..."
+        10317  267 "截图工厂..."
               //-- "Enable cheats..."
-        10306  249 "启用作弊码..."
+        10306  269 "启用作弊码..."
               //-- "Cheat search"
-        popup  250 "作弊码搜索" {
+        popup  270 "作弊码搜索" {
                 //-- "Start New Search"
-          10628  251 "开始新的搜索"
+          10628  271 "开始新的搜索"
                 //-- "Target value has not changed"
-          10629  253 "目标值未改变"
+          10629  273 "目标值未改变"
                 //-- "Target value has changed"
-          10630  254 "目标值已改变"
+          10630  274 "目标值已改变"
                 //-- "Target value has decreased"
-          10631  255 "目标值已减小"
+          10631  275 "目标值已减小"
                 //-- "Target value has increased"
-          10632  256 "目标值已增大"
+          10632  276 "目标值已增大"
                 //-- "Dump search to file"
-          10633  258 "保存搜索结果到文件"
+          10633  278 "保存搜索结果到文件"
                 //-- "Exit Cheat Search"
-          10634  260 "退出作弊码搜索"
+          10634  280 "退出作弊码搜索"
         }
               //-- "Invoke 68K debugger..."
-        10392  262 "68K 调试器..."
+        10392  282 "68K 调试器..."
               //-- "Palette Viewer..."
-        10672  264 "调色板查看器..."
+        10672  284 "调色板查看器..."
               //-- "Associate with .fs and .fr files"
-        10330  266 "关联 .fs 和 .fr 文件"
+        10330  286 "关联 .fs 和 .fr 文件"
               //-- "Disassociate from .fs and .fr files"
-        10331  267 "解除 .fs 和 .fr 文件关联"
+        10331  287 "解除 .fs 和 .fr 文件关联"
               //-- "Save input mapping now"
-        10332  269 "保存当前按键设定"
+        10332  289 "保存当前按键设定"
               //-- "Auto-save input mapping"
-        10333  270 "自动保存按键设定"
+        10333  290 "自动保存按键设定"
               //-- "Save settings to .ini now"
-        10334  272 "保存当前设定到配置文件"
+        10334  292 "保存当前设定到配置文件"
               //-- "Reload settings from .ini"
-        10335  273 "从配置文件重新载入设定"
+        10335  293 "从配置文件重新载入设定"
       }
             //-- "Help"
-      popup  274 "帮助" {
+      popup  294 "帮助" {
               //-- "&Help"
-        10503  275 "帮助(&H)"
+        10503  295 "帮助(&H)"
               //-- "&What\'s New"
-        10505  277 "查看更新内容(&W)"
+        10505  297 "查看更新内容(&W)"
               //-- "&FB Neo homepage"
-        10504  279 "FB Neo 主页(&F)"
+        10504  299 "FB Neo 主页(&F)"
               //-- "&Neo-Source forums"
-        10506  280 "Neo-Source 论坛(&N)"
+        10506  300 "Neo-Source 论坛(&N)"
               //-- "FB Neo &Github"
-        10507  281 "FB Neo Github(&G)"
+        10507  301 "FB Neo Github(&G)"
               //-- "&System information"
-        10502  283 "系统信息(&S)"
+        10502  303 "系统信息(&S)"
               //-- "&About FB Neo"
-        10501  284 "关于 FB Neo(&A)"
+        10501  304 "关于 FB Neo(&A)"
       }
     }
   }
@@ -817,7 +857,7 @@ menu    113 {
 
 menu    114 {
         //-- "DirectX9 Alt"
-  popup    0 "DX9 替换模式" {
+  popup    0 "DirectX9 替换模式" {
           //-- "Point filtering"
     11701    1 "点过滤"
           //-- "Linear filtering"
@@ -895,7 +935,7 @@ menu    114 {
             //-- "DDT3x"
       11435   39 ""
             //-- "Force image to SoftFX size"
-      11490   41 "强制图像为软件特效大小(&F)"
+      11490   41 "强制图像为软件特效大小"
     }
           //-- "Advanced settings"
     popup   43 "高级设置" {
@@ -916,14 +956,10 @@ menu    130 {
     10201    1 "使用低音过滤"
           //-- "Sound disabled"
     10210    3 "静音"
-          //-- "11025Hz samplerate"
-    10211    4 "11025Hz 采样率"
-          //-- "22050Hz samplerate"
-    10212    5 "22050Hz 采样率"
           //-- "44100Hz samplerate"
-    10213    6 "44100Hz 采样率"
+    10213    4 "44100Hz 采样率"
           //-- "48000Hz samplerate"
-    10214    7 "48000Hz 采样率"
+    10214    5 "48000Hz 采样率"
   }
 }
 
@@ -936,14 +972,10 @@ menu    131 {
     10203    2 "使用回声效果"
           //-- "Sound disabled"
     10220    4 "静音"
-          //-- "11025Hz samplerate"
-    10221    5 "11025Hz 采样率"
-          //-- "22050Hz samplerate"
-    10222    6 "22050Hz 采样率"
           //-- "44100Hz samplerate"
-    10223    7 "44100Hz 采样率"
+    10223    5 "44100Hz 采样率"
           //-- "48000Hz samplerate"
-    10224    8 "48000Hz 采样率"
+    10224    6 "48000Hz 采样率"
   }
 }
 
@@ -955,9 +987,19 @@ menu    140 {
           //-- "View Game Information"
     11901    3 "查看游戏信息"
           //-- "View in Arcade Database"
-    11902    5 "在街机数据库中查看"
+    11902    5 "查看街机游戏数据库"
           //-- "Favorite"
     11903    7 "收藏"
+  }
+}
+
+menu    150 {
+        //-- "Console"
+  popup    0 "控制台" {
+          //-- "&Font..."
+    20372    1 "字体(&F)..."
+          //-- "Clear"
+    20371    2 "清除"
   }
 }
 
@@ -965,7 +1007,7 @@ menu    140 {
 dialog	  51 "重定义键位设定" {
         //-- "OK"
       2	   0 "确定"
-        //-- "Double-click an input to change its mapping, checked Marco to Auto-Fire"
+        //-- "Double-click an input to change its mapping, Check the macro to auto-fire"
   65535	   2 "双击一个按键来改变输入设定, 之后选中一个宏实现连射"
         //-- "Make selection in all three drop-down boxes, click apropriate button"
   65535	   5 "在下拉菜单中选择预设/默认键位"
@@ -1032,7 +1074,7 @@ dialog	  55 "编辑跳线设置" {
         //-- ""
 dialog	  56 "" {
         //-- "Progress1"
-  77	   1 ""
+     77	   1 "进度1"
         //-- "Cancel"
       2	   5 "取消"
 }
@@ -1041,8 +1083,8 @@ dialog	  56 "" {
 dialog	  57 "" {
         //-- "version"
      83    1 "版本"
-        //-- "FB Neo contains parts of MAME && Final Burn.\n? 2004-2019, Team FBNeo."
-  65535	   3 "FB Neo 包含 MAME 和 Final Burn 部分代码. (c)2004-2019, FBNeo 团队."
+        //-- "FB Neo contains parts of MAME && Final Burn.\n 2004-2021, Team FBNeo."
+  65535	   3 "FB Neo 包含 MAME 和 Final Burn 部分代码. (c)2004-2021, FBNeo 团队。"
         //-- "OK"
       1	   4 "确定"
         //-- "License"
@@ -1056,7 +1098,7 @@ dialog	  58 "" {
         //-- "OK"
       1	   4 "确定"
         //-- " I understand and agree to be bound by the terms of the above license agreement"
-  20054	   5 "我了解并同意上述绑定的协议"
+  20054	   5 " 我理解并同意受上述许可协议条款的约束"
 }
 
         //-- ""
@@ -1130,7 +1172,7 @@ dialog	  61 "选择游戏" {
         //-- "Info:"
   20064	  12 "信息:"
         //-- "Released:"
-  20067	  13 "厂商:"
+  20067	  13 "发布:"
         //-- "Genre:"
   20066	  14 "类型:"
         //-- "Notes:"
@@ -1152,9 +1194,9 @@ dialog	  61 "选择游戏" {
         //-- "Latin text only"
   20075	  30 "只显示拉丁文"
         //-- "ROMs Dirs..."
-  20600	  31 "ROM 路径..."
+  20600	  31 "ROMs 路径..."
         //-- "Scan ROMs"
-  20601	  32 "扫描 ROM"
+  20601	  32 "扫描 ROMs "
         //-- "Cancel"
       2	  33 "取消"
         //-- "Play"
@@ -1406,37 +1448,37 @@ dialog	  74 "设置相关文件路径" {
         //-- "Palette Viewer"
 dialog	  75 "调色板查看器" {
         //-- "0"
-  20400	  16 "0"
+  20400	  16 ""
         //-- "1"
-  20401	  17 "1"
+  20401	  17 ""
         //-- "2"
-  20402	  18 "2"
+  20402	  18 ""
         //-- "3"
-  20403	  19 "3"
+  20403	  19 ""
         //-- "4"
-  20404	  20 "4"
+  20404	  20 ""
         //-- "5"
-  20405	  21 "5"
+  20405	  21 ""
         //-- "6"
-  20406	  22 "6"
+  20406	  22 ""
         //-- "7"
-  20407	  23 "7"
+  20407	  23 ""
         //-- "8"
-  20408	  24 "8"
+  20408	  24 ""
         //-- "9"
-  20409	  25 "9"
+  20409	  25 ""
         //-- "A"
-  20410	  26 "A"
+  20410	  26 ""
         //-- "B"
-  20411	  27 "B"
+  20411	  27 ""
         //-- "C"
-  20412	  28 "C"
+  20412	  28 ""
         //-- "D"
-  20413	  29 "D"
+  20413	  29 ""
         //-- "E"
-  20414	  30 "E"
+  20414	  30 ""
         //-- "F"
-  20415	  31 "F"
+  20415	  31 ""
         //-- "Selected colour: "
   20434	  32 "选定的颜色:"
         //-- "Close"
@@ -1444,11 +1486,13 @@ dialog	  75 "调色板查看器" {
         //-- "Previous..."
   20432	  34 "前一个..."
         //-- "Next..."
-  20433	  35 "后一个..."
+  20433	  35 "下一个.."
 }
 
         //-- "IPS Patch Manager"
 dialog	  77 "IPS 补丁管理" {
+        //-- "Language:"
+  20129	   4 "语言:"
         //-- "Deselect All"
   20130	   6 "取消所有"
         //-- "Cancel"
@@ -1578,7 +1622,7 @@ dialog	  83 "选择全屏显示器" {
 }
 
         //-- "Replay input"
-dialog	 233 "" {
+dialog	 233 "回放输入" {
         //-- "OK"
       1	   0 "确定"
         //-- "Cancel"
@@ -1596,7 +1640,7 @@ dialog	 233 "" {
 }
 
         //-- "Record input"
-dialog	 234 "" {
+dialog	 234 "记录输入" {
         //-- "OK"
       1	   0 "确定"
         //-- "Cancel"
@@ -1607,11 +1651,27 @@ dialog	 234 "" {
   20262	   8 "从开机时开始记录"
 }
 
+        //-- "Lua Script"
+dialog	  235 "Lua 脚本" {
+        //-- "Browse..."
+  20365	   0 "浏览..."
+        //-- "Run"
+  20366	   1 "运行"
+        //-- "Stop"
+  20367	   2 "停止"
+        //-- "Output Console"
+  20373	   5 "输出控制台"
+        //-- "Script File"
+  20374	   6 "脚本文件"
+        //-- "Edit"
+  20370	   7 "编辑"
+}
+
         //-- "This appears to be the first time you run %s v%.20s.\n\n"
-string   200 "这是您第一次运行 %s v%.20s.\n\n"
+string   200 "这是您第一次运行 %s v%.20 秒。\n\n"
 
         //-- "Please take some time to match the audio/video settings to your system capabilities and personal preferences. If you continue to use and/or distribute this software, you must agree to be bound by the terms of license agreement, which is always accessible via the about dialog.\n\n"
-string   202 "请您用一点时间来调整一下音频/视频设定以符合您系统的具体情况, 如果您想继续使用并/或发布本软件, 您必须同意绑定的协议, 您可以通过关于对话框查看它们.\n\n"
+string   202 "请您用一点时间来调整一下音频/视频设定以符合您系统的具体情况, 如果您想继续使用并/或发布本软件, 您必须同意绑定的协议, 您可以通过关于对话框查看它们。\n\n"
 
         //-- "Note that this is alpha quality software. As such, it likely will exhibit problems, including audio/video options not behaving correctly, the emulation of some games misses some features, and may exhibit stability problems. CAVEAT LECTOR!"
 string   204 "注意这是公测版本软件, 所以可能存在某些问题, 包括音频/视频表现不正确, 模拟某些游戏缺少部分内容, 也可能会存在稳定性问题。切记!"
@@ -1686,10 +1746,10 @@ string   320 "创建新的记忆卡"
 string   322 "选择新的记忆卡"
 
         //-- "Loading and initialising %s..."
-string   340 "载入并初始化 %s..."
+string   340 "读取并初始化 %s..."
 
         //-- "Loading"
-string   342 "正在载入"
+string   342 "正在读取"
 
         //-- "Record Input to File"
 string   350 "记录游戏输入到文件"
@@ -1701,7 +1761,7 @@ string   352 "回放游戏输入文件"
 string   360 "选择路径:"
 
         //-- "Load State"
-string   380 "载入游戏进度"
+string   380 "读取游戏进度"
 
         //-- "Save State"
 string   382 "保存游戏进度"
@@ -1710,7 +1770,7 @@ string   382 "保存游戏进度"
 string   384 "存盘点 %d 已激活"
 
         //-- "state loaded"
-string   386 "游戏进度载入完毕"
+string   386 "游戏进度读取完毕"
 
         //-- "load error"
 string   388 "读取错误"
@@ -1731,13 +1791,13 @@ string   422 "未载入游戏"
 string   440 "*** 开始联机游戏:"
 
         //-- "*** You are player %i. "
-string   442 "*** 您是玩家 %1."
+string   442 "*** 您是玩家 %1。"
 
         //-- "There are %i total players."
-string   444 "共有 %i 位玩家."
+string   444 "共有 %i 位玩家。"
 
         //-- "*** Player %1i <%.32hs> dropped from the game."
-string   446 "*** 玩家 %1i <%.32hs> 掉线了."
+string   446 "*** 玩家 %1i <%.32hs> 掉线了。"
 
         //-- "too much text"
 string   448 "文字太多"
@@ -1764,7 +1824,7 @@ string   482 "音量 %03i %%"
 string   484 "静音"
 
         //-- "Sound Restored"
-string   486 "声音恢复"
+string   486 "还原声音"
 
         //-- "This input recording"
 string   500 "当前游戏输入记录文件"
@@ -1914,7 +1974,7 @@ string   660 "游戏结束预览图"
 string   662 "广告图"
 
         //-- "Marquees"
-string   664 "边框图"
+string   664 "贴画"
 
         //-- "Control Panels"
 string   666 "控制面板图"
@@ -2007,13 +2067,13 @@ string   732 "选择本地游戏列表文件"
 string   734 "FB Neo 游戏列表文件"
 
         //-- "Select CD-ROM image..."
-string   740 "选择 CD-ROM 文件..."
+string   740 "选择光盘镜像文件..."
 
         //-- "Select CD-ROM image"
-string   742 "选择 CD-ROM 文件"
+string   742 "选择光盘镜像文件"
 
         //-- "CD images"
-string   744 "CD 镜像%s"
+string   744 "光盘镜像"
 
         //-- "Create localisation template"
 string   750 "创建本地语言文件翻译模板"
@@ -2025,6 +2085,9 @@ string   752 "选择本地语言文件"
 string   754 "FB Neo 语言文件"
 
         //-- "Neo Geo Pocket"
+string   756 ""
+
+        //-- "Fairchild Channel F"
 string   758 ""
 
         //-- "Filters"
@@ -2034,7 +2097,7 @@ string   760 "过滤器"
 string   762 "硬件"
 
         //-- "Cave"
-string   764 ""
+string   764 "CAVE"
 
         //-- "CPS-1"
 string   766 ""
@@ -2052,31 +2115,31 @@ string   772 ""
 string   774 ""
 
         //-- "Psikyo"
-string   776 ""
+string   776 "彩京"
 
         //-- "Sega Arcade"
-string   778 ""
+string   778 "街机"
 
         //-- "Taito"
-string   780 ""
+string   780 "太东"
 
         //-- "Toaplan"
-string   782 ""
+string   782 "东亚企划"
 
         //-- "Misc (Pre-90s)"
-string   784 ""
+string   784 "其它 (90 年之前)"
 
         //-- "Misc (Post-90s)"
-string   786 ""
+string   786 "其它 (90 年之后)"
 
         //-- "Megadrive"
-string   788 ""
+string   788 "MD"
 
         //-- "Pacman"
 string   790 ""
 
         //-- "Konami"
-string   792 ""
+string   792 "科乐美"
 
         //-- "Galaxian"
 string   794 ""
@@ -2103,34 +2166,34 @@ string   806 "自制"
 string   808 "演示"
 
         //-- "Genuine"
-string   810 "原版"
+string   810 "原作"
 
         //-- "Showing %i of %i sets [%i Unavailable sets]"
 string   812 "显示 %i 个在 %i 个集组中 [%i 个不可用集组]"
 
         //-- "Kaneko"
-string   814 ""
+string   814 "KANEKO"
 
         //-- "SNES"
-string   816 ""
+string   816 "SFC"
 
         //-- "Data East"
 string   818 ""
 
         //-- "Capcom (Other)"
-string   820 ""
+string   820 "卡普空 (其它)"
 
         //-- "Seta"
-string   822 ""
+string   822 "SETA"
 
         //-- "Technos"
-string   824 ""
+string   824 "TECHNōS"
 
         //-- "PC-Engine"
-string   826 ""
+string   826 "任天堂（PCE)"
 
         //-- "Master System"
-string   828 ""
+string   828 "SMS"
 
         //-- "SG-1000"
 string   830 ""
@@ -2139,40 +2202,40 @@ string   830 ""
 string   832 ""
 
         //-- "Game Gear"
-string   834 ""
+string   834 "GG"
 
         //-- "MSX"
 string   836 ""
 
         //-- "ZX Spectrum"
-string   838 ""
+string   838 "Spectrum"
 
         //-- "Midway"
 string   840 ""
 
         //-- "Capcom"
-string   842 ""
+string   842 "卡普空"
 
         //-- "Sega"
-string   844 ""
+string   844 "世嘉"
 
         //-- "NES"
-string   846 ""
+string   846 "FC"
 
         //-- "FDS"
-string   848 ""
+string   848 "FC 磁碟机"
 
         //-- "Genre"
 string   850 "游戏类型"
 
         //-- "Shooter / Horizontal / Sh\'mup"
-string   852 "横版射击
+string   852 "横版射击"
 
         //-- "Shooter / Vertical / Sh\'mup"
-string   854 "竖版射击
+string   854 "竖版射击"
 
         //-- "Fighting / Beat \'em Up"
-string   856 "格斗闯关
+string   856 "动作闯关"
 
         //-- "Fighting / Versus"
 string   858 "对战格斗"
@@ -2187,7 +2250,7 @@ string   862 "砖块"
 string   864 "赌博"
 
         //-- "Ball & Paddle"
-string   866 "球和拍"
+string   866 "球拍"
 
         //-- "Maze"
 string   868 "迷宫"
@@ -2214,7 +2277,7 @@ string   880 "体育"
 string   882 "足球"
 
         //-- "Misc"
-string   884 "杂类"
+string   884 "其它"
 
         //-- "Mahjong"
 string   886 "麻将"
@@ -2239,6 +2302,9 @@ string   898 "角色扮演"
 
         //-- "Simulator"
 string   900 "模拟"
+
+        //-- "Adventure"
+string   902 "冒险"
 
         //-- "Family"
 string   940 "系列"
@@ -2283,7 +2349,7 @@ string   964 "首领蜂"
 string   966 "魔法大作战"
 
         //-- "Favorites"
-string   990 "收藏夹"
+string   990 "收藏"
 
         //-- "IPS Patch Manager"
 string  1000 "IPS 管理器"
@@ -2409,7 +2475,7 @@ string  1218 "广告图"
 string  1220 "机台图"
 
         //-- "Marquee"
-string  1222 "选框图"
+string  1222 "贴画"
 
         //-- "Controls"
 string  1224 "控制面板图"
@@ -2460,7 +2526,7 @@ string  1614 "%s (%s, %s 硬件)"
 string  1616 "Neo Geo MVS 卡带"
 
         //-- "%sHigh Scores Supported"
-string  1618 "%s支持高分记录"
+string  1618 "%s已支持高分记录"
 
         //-- "Cartridge"
 string  1620 "卡带"
@@ -2472,7 +2538,7 @@ string  1622 "硬件"
 string  1624 "空的"
 
         //-- "Unidentified CD"
-string  1626 "不可识别的 CD"
+string  1626 "无法识别的 CD"
 
         //-- "Error"
 string  1800 "错误"
@@ -2487,7 +2553,7 @@ string  1804 "信息"
 string  1806 "未知"
 
         //-- "The ROMset is OK."
-string  1810 "ROM 集组正常."
+string  1810 "ROM 集组没有问题。"
 
         //-- "The ROMset exhibits the following problems:"
 string  1812 "ROM 集组存在下列问题:"
@@ -2502,28 +2568,28 @@ string  1816 "关键数据丢失, 游戏无法运行!"
 string  1818 "关键数据不正确, 游戏可能无法运行!"
 
         //-- "data is missing."
-string  1820 "数据丢失."
+string  1820 "数据丢失。"
 
         //-- "data is invalid."
-string  1822 "数据不正确."
+string  1822 "数据不正确。"
 
         //-- "%.32hs was found (%.512s).\n"
-string  1824 "%.32hs 找到 (%.512s).\n"
+string  1824 "%.32hs 找到 (%.512s)。\n"
 
         //-- "%.32hs was not found.\n"
-string  1826 "%.32hs 未找到.\n"
+string  1826 "%.32hs 未找到。\n"
 
         //-- "The following ROMs are invalid:\n"
 string  1828 "下列 ROMs 不正确:\n"
 
         //-- "%.32hs has a CRC of %.8X (correct is %.8X).\n"
-string  1830 "%.32hs CRC 为 %.8X (应为 %.8X).\n"
+string  1830 "%.32hs CRC 为 %.8X (应为 %.8X)。\n"
 
         //-- "%.32hs is %dk which is too small (correct is %dkB).\n"
-string  1832 "%.32hs 是 %dk 太小 (应为 %dkB).\n"
+string  1832 "%.32hs 是 %dk 太小 (应为 %dkB)。\n"
 
         //-- "%.32hs is %dk which is too large (correct is %dkB).\n"
-string  1834 "%.32hs 是 %dk 太大 (应为 %dkB).\n"
+string  1834 "%.32hs 是 %dk 太大 (应为 %dkB)。\n"
 
         //-- "essential "
 string  1836 "关键"
@@ -2544,80 +2610,80 @@ string  1844 "声音"
 string  1846 ""
 
         //-- "Error loading %.32hs, requested by %.128s.\nThe emulation will likely suffer problems."
-string  1848 "载入 %.128s 需要的 %.32hs 错误\n模拟可能会出现问题."
+string  1848 "载入 %.128s 需要的 %.32hs 错误\n模拟可能会出现问题。"
 
         //-- "Error reading %.32hs from %.512s"
-string  1850 "从 %.512s 读取 %.32hs 错误"
+string  1850 "从 %.512s 读取 %.32hs 错误。"
 
         //-- "CRC mismatch reading %.32hs from %.512s"
-string  1852 "从 %.512s 读取 %.32hs 时 CRC 不匹配"
+string  1852 "从 %.512s 读取 %.32hs 时 CRC 不匹配。"
 
         //-- "No HDD data was found, the game will not run!"
-string  1854 "未找到磁盘镜像数据，游戏无法运行！"
+string  1854 "未找到磁盘镜像数据, 游戏将无法运行！"
 
         //-- "There was a problem starting \'%.128s\'.\n"
-string  1860 "启动 \'%.128s\' 时出现问题.\n"
+string  1860 "启动 \'%.128s\' 时出现问题。\n"
 
         //-- "%.32s is not supported by %.32s."
-string  1870 "%.32s 不被 %.32s 所支持."
+string  1870 "%.32s 不被 %.32s 所支持。"
 
         //-- "Couldn\'t create main window."
-string  1872 "无法创建主窗口."
+string  1872 "无法创建主窗口。"
 
         //-- "Couldn\'t intialise \'%s\' module."
-string  1874 "无法初始化 \'%s\' 模块."
+string  1874 "无法初始化 \'%s\' 模块。"
 
         //-- "Couldn\'t create a triple buffer."
-string  1876 "无法创建三倍缓冲."
+string  1876 "无法创建三倍缓冲。"
 
         //-- "No appropriate display mode supported. Please adjust your full-screen settings."
-string  1878 "没有适合的显示模式可用, 请您调整您的全屏显示设置."
+string  1878 "没有适合的显示模式可用, 请您调整您的全屏显示设置。"
 
         //-- "Problem setting \'%dx%dx%dbpp (%dHz)\' display mode"
-string  1880 "设置 \'%dx%dx%dbpp (%dHz)\' 显示模式时出现问题"
+string  1880 "设置 \'%dx%dx%dbpp (%dHz)\' 显示模式时出现问题。"
 
         //-- "\n\nThis is not a standard VGA resolution; please make sure it is supported by your video card."
-string  1882 "\n\n这不是标准 VGA 分辨率, 请确定您的显卡支持此分辨率."
+string  1882 "\n\n这不是标准 VGA 分辨率, 请确定您的显卡支持此分辨率。"
 
         //-- "Couldn\'t intialise \'%s\' module. Try installing the Direct X End User runtimes (June 2010)."
-string  1884 "无法初始化 \'%s\' 模块. 请尝试安装 DirectX 最终用户运行组件 (2010 年 7 月版)."
+string  1884 "无法初始化 \'%s\' 模块. 请尝试安装 DirectX 最终用户可再发行组件 (2010年7月版)。"
 
         //-- "Error creating "
-string  1890 "创建错误"
+string  1890 "创建错误 "
 
         //-- "Error loading "
-string  1892 "读取错误"
+string  1892 "读取错误 "
 
         //-- " is for an unavailable game."
-string  1894 "是不可用的游戏."
+string  1894 " 是不可用的游戏。"
 
         //-- " does not work with this version of %s."
-string  1896 "不适用于当前版本 %s."
+string  1896 " 不适用于当前版本 %s。"
 
         //-- " requires a more recent version of %s, please upgrade."
-string  1898 "需要更新版本 %s, 请升级."
+string  1898 " 需要更新版本 %s, 请升级。"
 
         //-- "Error finding \'kailleraclient.dll\'."
-string  1910 "未找到 \'kailleraclient.dll\'."
+string  未找到 \'kailleraclient.dll\'。"
 
         //-- "No driver has been selected from the list."
-string  1912 "尚未选中列表中的游戏."
+string  1912 "未选择列表中的驱动。"
 
         //-- "No driver has been selected for slot 1."
-string  1914 "卡槽 1 没有驱动"
+string  1914 "卡槽 1 内没有已选定的驱动。"
 
         //-- "This game isn\'t working. Load it anyway?"
-string  1916 "此游戏无法运行. 仍要继续吗?"
+string  1916 "此游戏无法运行, 是否读取?"
 
         //-- "Couldn\'t initialise CD emulation."
-string  1918 "无法初始化 CD 模拟."
+string  1918 "无法初始化光盘模拟。"
 
         //-- "Double-click the macro to change its mapping first"
-string  1930 "请先为宏分配按键"
+string  1930 "双击后, 请先为宏分配按键。"
 
         //-- "Failed to connect to Internet"
-string  1950 "连接网络失败"
+string  1950 "连接网络失败。"
 
         //-- "Failed to access FB Neo website"
-string  1952 "无法访问 FB Neo 网站"
+string  1952 "无法访问 FB Neo 网站。"
 
