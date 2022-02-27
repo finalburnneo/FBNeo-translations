@@ -439,7 +439,7 @@ menu    100 {
               //-- "Generate dat (NES Games only)..."
         10736  235 "仅生成: FC / NES 卡带机 ..."
               //-- "Generate dat (FDS Games only)..."
-        10737  236 "仅生成: FC / NES ..."
+        10737  236 "仅生成: FC / NES 磁碟机 ..."
               //-- "Generate dat (Neo Geo Pocket Games only)..."
         10738  237 "仅生成: Neo Geo Pocket ..."
               //-- "Generate dat (Fairchild Channel F Games only)..."
