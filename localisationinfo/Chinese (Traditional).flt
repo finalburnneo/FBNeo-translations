@@ -35,13 +35,13 @@ menu    100 {
       10626   13 "無最近玩過的遊戲"
     }
           //-- "Start Neo Geo Multi-slot..."
-    10711   15 "?動 Neo Geo 多卡插槽 ..."
+    10711   15 "啟動 Neo Geo 多卡插槽 ..."
           //-- "Load Neo Geo CDZ game..."
     10713   17 "載入 Neo Geo CDZ 遊戲 ..."
           //-- "Select CD image (CUE/CCD)..."
     10710   18 "選擇 CD 鏡像 (CUE/CCD) ..."
           //-- "Start Neo Geo CDZ..."
-    10712   19 "?動 Neo Geo CDZ ..."
+    10712   19 "啟動 Neo Geo CDZ ..."
           //-- "Exit game"
     10006   21 "退出遊戲"
           //-- "Pause game"
@@ -97,12 +97,12 @@ menu    100 {
         10037   50 "撤消上次保存狀態"
       }
             //-- "Restore full state on load"
-      10036   51 "載入時恢複完整遊戲進度"
+      10036   51 "載入時恢復完整遊戲進度"
     }
           //-- "Record AVI"
-    11827   53 "錄制 AVI"
+    11827   53 "錄製 AVI"
           //-- "Stop recording"
-    11828   54 "停止錄制"
+    11828   54 "停止錄製"
           //-- "Exit emulator"
     10012   56 "退出程序"
   }
@@ -130,10 +130,10 @@ menu    100 {
             //-- "&Full stretch"
       10111   67 "全屏拉伸(&F)"
             //-- "Correct &aspect ratio"
-      10112   68 "強制調整外觀比例(&A)"
+      10112   68 "強製調整外觀比例(&A)"
     }
           //-- "&Enable gamma correction"
-    10150   70 "?用伽瑪校正(&E)"
+    10150   70 "啟用伽瑪校正(&E)"
           //-- "&Gamma correction settings"
     popup   71 "伽瑪校正設置(&G)" {
             //-- "&Darken midtones"
@@ -145,9 +145,9 @@ menu    100 {
             //-- "Use video &hardware when possible"
       10154   76 "優先使用硬件顯示(&H)"
             //-- "Use video hardware &exclusively"
-      10155   77 "強制使用硬件顯示(&E)"
+      10155   77 "強製使用硬件顯示(&E)"
             //-- "Use &software exclusively"
-      10156   78 "強制使用軟件顯示(&S)"
+      10156   78 "強製使用軟件顯示(&S)"
     }
           //-- "&Window size"
     popup   80 "窗口大小(&W)" {
@@ -265,17 +265,17 @@ menu    100 {
           //-- "&Rotate vertically aligned games"
     10181  145 "豎版遊戲自動旋轉畫面(&R)"
           //-- "Force 60Hz refresh rate"
-    10176  146 "強制刷新率為 60Hz"
+    10176  146 "強製刷新率為 60Hz"
           //-- "Enable &Triple Buffering (Fullscreen)"
-    10100  147 "?用三倍緩衝 (全屏)(&T)"
+    10100  147 "啟用三倍緩沖 (全屏)(&T)"
           //-- "Enable VSync (Windowed)"
-    10646  148 "?用垂直同步 (窗口)"
+    10646  148 "啟用垂直同步 (窗口)"
           //-- "Enable DWM Sync (Windowed)"
-    10103  149 "?用 DWM 同步 (窗口)"
+    10103  149 "啟用 DWM 同步 (窗口)"
           //-- "Auto Frameskip"
     10177  150 "自動跳幀"
           //-- "Enable RunAhead"
-    10178  151 "?用提前運行"
+    10178  151 "啟用提前運行"
   }
         //-- "Audio"
   popup  152 "音頻" {
@@ -322,14 +322,14 @@ menu    100 {
           //-- "4-point 3rd order FM interpolation"
     10243  174 "4 點 FM 插補"
           //-- "&Sound logging"
-    popup  176 "錄制聲音(&S)" {
+    popup  176 "錄製聲音(&S)" {
             //-- "Log to file..."
       10606  177 "保存到文件 ..."
             //-- "Stop logging"
-      10607  178 "停止錄制"
+      10607  178 "停止錄製"
     }
           //-- "Buffer size..."
-    10200  179 "緩衝大小 ..."
+    10200  179 "緩沖大小 ..."
   }
         //-- "Input"
   popup  180 "輸入" {
@@ -375,9 +375,9 @@ menu    100 {
             //-- "Create support folders at runtime"
       10719  201 "在運行時創建支持的文件夾"
             //-- "Show Game List at start-up"
-      10734  202 "?動時顯示遊戲列表"
+      10734  202 "啟動時顯示遊戲列表"
             //-- "Scan ROMs at start-up (if needed)"
-      10735  203 "?動時掃描遊戲 (如果需要)"
+      10735  203 "啟動時掃描遊戲 (如果需要)"
             //-- "Set application process priority"
       popup  205 "設置程序進程優先級" {
               //-- "High"
@@ -392,9 +392,9 @@ menu    100 {
         10315  210 "低"
       }
             //-- "Enable high resolution system timer"
-      10319  211 "?用高分辨率系統計時"
+      10319  211 "啟用高分辨率系統計時"
             //-- "Show Debug console (requires restart)"
-      10320  212 "顯示調試控制台 (需要重新?動)"
+      10320  212 "顯示調試控製臺 (需要重新啟動)"
             //-- "Save High Scores when supported"
       10654  214 "當支持時保存最高分"
             //-- "Use alpha blend effects when supported"
@@ -402,7 +402,7 @@ menu    100 {
             //-- "Display Gear-Shift Indicator when supported"
       10727  216 "當支持時顯示換擋提示"
             //-- "Display Lightgun Reticles when supported"
-      10728  217 "支持時顯示光槍十字准星"
+      10728  217 "支持時顯示光槍十字準星"
             //-- "AVI Writer Output size"
       popup  218 "AVI 作者輸出像素尺寸" {
               //-- "1x"
@@ -456,7 +456,7 @@ menu    100 {
               //-- "Select skin..."
         10731  246 "選擇皮膚 ..."
               //-- "Set skin to default"
-        10732  247 "設置?默認皮膚"
+        10732  247 "設置為默認皮膚"
       }
             //-- "UI language"
       popup  248 "界面語言" {
@@ -481,9 +481,9 @@ menu    100 {
             //-- "Icons"
       popup  258 "圖標" {
               //-- "Enable driver icons display"
-        10676  259 "?用遊戲圖標顯示"
+        10676  259 "啟用遊戲圖標顯示"
               //-- "Parents only (use if you have problems)"
-        10677  260 "僅父項 (圖標顯示有問題時開?)"
+        10677  260 "僅父項 (圖標顯示有問題時開啟)"
               //-- "Icon size"
         popup  261 "圖標大小" {
                 //-- "16 x 16 pixels"
@@ -498,7 +498,7 @@ menu    100 {
               //-- "Shot factory.."
         10317  267 "截圖工廠 ..."
               //-- "Enable cheats..."
-        10306  269 "?用作弊碼 ..."
+        10306  269 "啟用作弊碼 ..."
               //-- "Cheat search"
         popup  270 "作弊碼搜索" {
                 //-- "Start New Search"
@@ -548,7 +548,7 @@ menu    100 {
               //-- "&System information"
         10502  303 "系統信息(&S)"
               //-- "&About FB Neo"
-        10501  304 "關于 FB Neo(&A)"
+        10501  304 "關於 FB Neo(&A)"
       }
     }
   }
@@ -566,9 +566,9 @@ menu    110 {
           //-- "&Rotate scanlines"
     11106    5 "旋轉掃描線(&R)"
           //-- "Force &Flip"
-    11143    7 "強制翻轉(&F)"
+    11143    7 "強製翻轉(&F)"
           //-- "Buffering &method"
-    popup    9 "緩衝方式(&M)" {
+    popup    9 "緩沖方式(&M)" {
             //-- "&Autodetect"
       10160   10 "自動檢測(&A)"
             //-- "&Video memory"
@@ -585,11 +585,11 @@ menu    111 {
           //-- "Disable all effects"
     11101    1 "關閉所有效果"
           //-- "Enable &bi-linear filtering"
-    11102    3 "?用雙線過濾(&B)"
+    11102    3 "啟用雙線過濾(&B)"
           //-- "&Rotate scanlines and RGB effects"
     11113    4 "旋轉掃描線並使用 RGB 效果(&R)"
           //-- "Enable &Pre-scale"
-    11107    6 "?用預縮放(&P)"
+    11107    6 "啟用預縮放(&P)"
           //-- "Pre-scale using Soft&FX"
     11108    7 "軟件特效預縮放(&F)"
           //-- "SoftFX algorithm"
@@ -665,14 +665,14 @@ menu    111 {
             //-- "DDT3x"
       11235   43 ""
             //-- "Force image to SoftFX size"
-      11290   45 "強制圖像為軟件特效大小"
+      11290   45 "強製圖像為軟件特效大小"
     }
           //-- "Enable &Scanlines"
-    11005   47 "?用掃描線(&S)"
+    11005   47 "啟用掃描線(&S)"
           //-- "Set scanline &intensity..."
     11109   48 "設置掃描線亮度(&I) ..."
           //-- "Enable phosphor &feedback"
-    11103   50 "?用亮點反饋(&F)"
+    11103   50 "啟用亮點反饋(&F)"
           //-- "Set &phosphor feedback intensity..."
     11110   51 "設置亮點反饋亮度(&P) ..."
           //-- "&No effects"
@@ -698,16 +698,16 @@ menu    111 {
             //-- "Aperture grille"
       11127   65 "光圈格柵"
             //-- "Large oversaturated RGB dot"
-      11128   67 "非標准較大 RGB 點"
+      11128   67 "非標準較大 RGB 點"
             //-- "Huge oversaturated pattern"
-      11129   68 "非標准超大類型"
+      11129   68 "非標準超大類型"
     }
           //-- "Set 3&D projection properties..."
     11111   70 "設置 3D 球面屬性(&D) ..."
           //-- "Advanced settings"
     popup   72 "高級設置" {
             //-- "Force &16-bit emulation"
-      11141   73 "強制使用 16 位色(&1)"
+      11141   73 "強製使用 16 位色(&1)"
             //-- "Use DirectX texture &management"
       11142   74 "使用 DirectX 材質管理(&M)"
     }
@@ -788,9 +788,9 @@ menu    112 {
           //-- "DDT3x"
     11335   35 ""
           //-- "&Force image to SoftFX size"
-    11390   37 "強制圖像為軟件特效大小(&F)"
+    11390   37 "強製圖像為軟件特效大小(&F)"
           //-- "Buffering &method"
-    popup   38 "緩衝方式(&M)" {
+    popup   38 "緩沖方式(&M)" {
             //-- "&Autodetect"
       10163   39 "自動檢測(&A)"
             //-- "&Video memory"
@@ -807,11 +807,11 @@ menu    113 {
         //-- "Experimental"
   popup    0 "試驗方式" {
           //-- "Enable point filtering"
-    11601    1 "?用近點過濾"
+    11601    1 "啟用近點過濾"
           //-- "Enable linear filtering"
-    11602    2 "?用線性過濾"
+    11602    2 "啟用線性過濾"
           //-- "Enable cubic filtering"
-    11603    3 "?用立體過濾"
+    11603    3 "啟用立體過濾"
           //-- "Cubic filter quality"
     popup    4 "立體過濾品質" {
             //-- "Lightly filtered"
@@ -836,7 +836,7 @@ menu    113 {
       11619   16 "米契爾自由規則 ..."
     }
           //-- "Enable &Scanlines"
-    11010   18 "?用掃描線(&S)"
+    11010   18 "啟用掃描線(&S)"
           //-- "Set scanline &intensity..."
     11144   19 "設置掃描線亮度(&I) ..."
           //-- "Advanced settings"
@@ -875,7 +875,7 @@ menu    114 {
             //-- "CRT Easy Mode"
       11454    9 "CRT 簡易模式"
             //-- "CRT Standard"
-      11455   10 "CRT 標准模式"
+      11455   10 "CRT 標準模式"
             //-- "CRT Bicubic"
       11456   11 "CRT 插值模式"
             //-- "CRT CGA"
@@ -954,12 +954,12 @@ menu    114 {
             //-- "DDT3x"
       11435   48 ""
             //-- "Force image to SoftFX size"
-      11490   50 "強制圖像使用軟件特效大小"
+      11490   50 "強製圖像使用軟件特效大小"
     }
           //-- "Advanced settings"
     popup   52 "高級設置" {
             //-- "Force &16-bit emulation"
-      11491   53 "強制使用 16 位色(&1)"
+      11491   53 "強製使用 16 位色(&1)"
             //-- "Hardware vertex processing"
       11703   54 "硬件頂點處理"
             //-- "Motion blur"
@@ -1014,7 +1014,7 @@ menu    140 {
 
 menu    150 {
         //-- "Console"
-  popup    0 "控制台" {
+  popup    0 "控製臺" {
           //-- "&Font..."
     20372    1 "字體(&F) ..."
           //-- "Clear"
@@ -1045,7 +1045,7 @@ dialog	  51 "重定義鍵位設定" {
 }
 
         //-- "Select control"
-dialog	  52 "選擇控制鍵" {
+dialog	  52 "選擇控製鍵" {
         //-- "Grab mouse"
   20007	   0 "檢測鼠標"
         //-- "Map Digital"
@@ -1065,7 +1065,7 @@ dialog	  53 "編輯作弊設定" {
         //-- "Select a cheat to change it."
   65535	   1 "選擇一個作弊選項並改變它"
         //-- "Defaults"
-  20013	   4 "恢複默認"
+  20013	   4 "恢復默認"
         //-- "OK"
       1	   5 "確定"
         //-- "Cancel"
@@ -1083,7 +1083,7 @@ dialog	  55 "編輯跳線設置" {
         //-- "Select a setting to change it."
   65535	   1 "選擇一個跳線設置並改變它"
         //-- "Defaults"
-  20013	   4 "恢複默認"
+  20013	   4 "恢復默認"
         //-- "OK"
       1	   5 "確定"
         //-- "Cancel"
@@ -1195,7 +1195,7 @@ dialog	  61 "選擇遊戲" {
         //-- "Genre:"
   20066	  14 "類型:"
         //-- "Notes:"
-  20124	  15 "注釋:"
+  20124	  15 "註釋:"
         //-- "Filters"
   20300	  22 "篩選"
         //-- "Game Info"
@@ -1341,7 +1341,7 @@ dialog	  69 "FB Neo 系統信息報告" {
 }
 
         //-- "FB Neo has encountered an unrecoverable problem and will be terminated"
-dialog	  70 "FB Neo 遇到一個不可恢複的問題即將關閉" {
+dialog	  70 "FB Neo 遇到一個不可恢復的問題即將關閉" {
         //-- "OK"
       1	   1 "確定"
         //-- "Debug"
@@ -1355,7 +1355,7 @@ dialog	  70 "FB Neo 遇到一個不可恢複的問題即將關閉" {
         //-- "FB Neo debugger"
 dialog	  71 "FB Neo 調試器" {
         //-- "Disassembly"
-  65535	   3 "反彙編"
+  65535	   3 "反匯編"
         //-- "Internal CPU state"
   65535	   8 "CPU 內部狀態"
         //-- "Memory map"
@@ -1499,7 +1499,7 @@ dialog	  75 "調色板查看器" {
         //-- "F"
   20415	  31 ""
         //-- "Selected colour: "
-  20434	  32 "選定的?色:"
+  20434	  32 "選定的顏色:"
         //-- "Close"
       2	  33 "關閉"
         //-- "Previous..."
@@ -1607,7 +1607,7 @@ dialog	  81 "遊戲信息" {
         //-- "Genre:"
   20066	   6 "類型:"
         //-- "Notes:"
-  20124	   7 "注釋:"
+  20124	   7 "註釋:"
         //-- "Favorite"
   20604	  20 "收藏"
         //-- "Rescan Romset"
@@ -1681,7 +1681,7 @@ dialog	  235 "Lua 腳本" {
         //-- "Stop"
   20367	   2 "停止"
         //-- "Output Console"
-  20373	   5 "輸出控制台"
+  20373	   5 "輸出控製臺"
         //-- "Script File"
   20374	   6 "腳本文件"
         //-- "Edit"
@@ -1692,13 +1692,13 @@ dialog	  235 "Lua 腳本" {
 string   200 "這是您第一次運行 %s v%.20 秒。\n\n"
 
         //-- "Please take some time to match the audio/video settings to your system capabilities and personal preferences. If you continue to use and/or distribute this software, you must agree to be bound by the terms of license agreement, which is always accessible via the about dialog.\n\n"
-string   202 "請您用一點時間來調整一下音頻/視頻設定以符合您系統的具體情況, 如果您想繼續使用並/或發布本軟件, 您必須同意綁定的協議, 您可以通過關于對話框查看它們。\n\n"
+string   202 "請您用一點時間來調整一下音頻/視頻設定以符合您系統的具體情況, 如果您想繼續使用並/或發布本軟件, 您必須同意綁定的協議, 您可以通過關於對話框查看它們。\n\n"
 
         //-- "Note that this is alpha quality software. As such, it likely will exhibit problems, including audio/video options not behaving correctly, the emulation of some games misses some features, and may exhibit stability problems. CAVEAT LECTOR!"
-string   204 "注意這是公測版本軟件, 所以可能存在某些問題, 包括音頻/視頻表現不正確, 模擬某些遊戲缺少部分內容, 也可能會存在穩定性問題。切記!"
+string   204 "註意這是公測版本軟件, 所以可能存在某些問題, 包括音頻/視頻表現不正確, 模擬某些遊戲缺少部分內容, 也可能會存在穩定性問題。切記!"
 
         //-- "Note that this is beta quality software. As such, it likely may be missing some features, or exhibit some problems with your system."
-string   206 "注意這是內測版本軟件, 所以可能缺少一些功能, 或者對您的系統造成一些問題。"
+string   206 "註意這是內測版本軟件, 所以可能缺少一些功能, 或者對您的系統造成一些問題。"
 
         //-- "Cheat name"
 string   220 "作弊名稱"
@@ -1752,10 +1752,10 @@ string   280 "跳線組"
 string   282 "設定"
 
         //-- "Move control or press key for %.100hs"
-string   300 "移動控制或按下鍵 %.100hs"
+string   300 "移動控製或按下鍵 %.100hs"
 
         //-- "Move control or press key"
-string   302 "移動控制或按下鍵"
+string   302 "移動控製或按下鍵"
 
         //-- "Waiting for %.80s to be released..."
 string   304 "等待 %.80s 後釋放 ..."
@@ -1830,13 +1830,13 @@ string   460 "PNG 圖像已保存"
 string   462 "PNG 圖像錯誤 %1d"
 
         //-- "Rec AVI ON"
-string   464 "開始錄制 AVI"
+string   464 "開始錄製 AVI"
 
         //-- "Rec AVI OFF"
-string   466 "停止 AVI 錄制"
+string   466 "停止 AVI 錄製"
 
         //-- "No volume control"
-string   480 "沒有音量控制"
+string   480 "沒有音量控製"
 
         //-- "volume %03i %%"
 string   482 "音量 %03i %%"
@@ -1866,13 +1866,13 @@ string   508 "當前遊戲進度文件"
 string   510 "%s 遊戲進度文件"
 
         //-- "sound recording"
-string   512 "聲音錄制文件"
+string   512 "聲音錄製文件"
 
         //-- "This sound recording"
-string   514 "當前聲音錄制文件"
+string   514 "當前聲音錄製文件"
 
         //-- "%s Sound Recording Files"
-string   516 "%s 聲音錄制文件"
+string   516 "%s 聲音錄製文件"
 
         //-- "%s Memory Card Files"
 string   518 "%s 記憶卡文件"
@@ -1998,16 +1998,16 @@ string   662 "廣告圖"
 string   664 "貼畫"
 
         //-- "Control Panels"
-string   666 "控制面板圖"
+string   666 "控製面板圖"
 
         //-- "Cabinets"
-string   668 "機台圖"
+string   668 "機臺圖"
 
         //-- "PCBs"
 string   670 "電路板圖"
 
         //-- "History.dat"
-string   672 "曆史文件"
+string   672 "歷史文件"
 
         //-- "EEPROM Saves"
 string   674 "EEPROM 保存"
@@ -2181,7 +2181,7 @@ string   802 "工程版"
 string   804 "修改版"
 
         //-- "Homebrew"
-string   806 "自制"
+string   806 "自製"
 
         //-- "Demo"
 string   808 "演示"
@@ -2208,7 +2208,7 @@ string   820 "卡普空 (其它)"
 string   822 "SETA"
 
         //-- "Technos"
-string   824 "TECHN?S"
+string   824 "TECHNOS"
 
         //-- "PC-Engine"
 string   826 "PC-E"
@@ -2283,7 +2283,7 @@ string   870 "迷你遊戲"
 string   872 "彈珠"
 
         //-- "Platformer"
-string   874 "平台"
+string   874 "平臺"
 
         //-- "Puzzle"
 string   876 "益智"
@@ -2406,7 +2406,7 @@ string  1050 "保存遊戲進度到已激活存盤點(存盤點 %d)\tF10"
 string  1052 "未選擇遊戲"
 
         //-- "Number of Frames"
-string  1070 "緩衝幀數值"
+string  1070 "緩沖幀數值"
 
         //-- "Select desired filter sharpness"
 string  1072 "選擇過濾器所需的銳度"
@@ -2493,13 +2493,13 @@ string  1216 "遊戲結束圖"
 string  1218 "廣告圖"
 
         //-- "Cabinet"
-string  1220 "機台圖"
+string  1220 "機臺圖"
 
         //-- "Marquee"
 string  1222 "貼畫"
 
         //-- "Controls"
-string  1224 "控制面板圖"
+string  1224 "控製面板圖"
 
         //-- "PCB"
 string  1226 "電路板圖"
@@ -2508,7 +2508,7 @@ string  1226 "電路板圖"
 string  1228 "Rom 信息"
 
         //-- "History"
-string  1230 "曆史"
+string  1230 "歷史"
 
         //-- "Sample Info"
 string  1232 "采樣信息"
@@ -2643,7 +2643,7 @@ string  1852 "從 %.512s 讀取 %.32hs 時 CRC 不匹配。"
 string  1854 "未找到磁盤鏡像數據, 遊戲將無法運行！"
 
         //-- "There was a problem starting \'%.128s\'.\n"
-string  1860 "?動 \'%.128s\' 時出現問題。\n"
+string  1860 "啟動 \'%.128s\' 時出現問題。\n"
 
         //-- "%.32s is not supported by %.32s."
 string  1870 "%.32s 不被 %.32s 所支持。"
@@ -2655,7 +2655,7 @@ string  1872 "無法創建主窗口。"
 string  1874 "無法初始化 \'%s\' 模塊。"
 
         //-- "Couldn\'t create a triple buffer."
-string  1876 "無法創建三倍緩衝。"
+string  1876 "無法創建三倍緩沖。"
 
         //-- "No appropriate display mode supported. Please adjust your full-screen settings."
 string  1878 "沒有適合的顯示模式可用, 請您調整您的全屏顯示設置。"
@@ -2664,7 +2664,7 @@ string  1878 "沒有適合的顯示模式可用, 請您調整您的全屏顯示設置。"
 string  1880 "設置 \'%dx%dx%dbpp (%dHz)\' 顯示模式時出現問題。"
 
         //-- "\n\nThis is not a standard VGA resolution; please make sure it is supported by your video card."
-string  1882 "\n\n這不是標准 VGA 分辨率, 請確定您的顯卡支持此分辨率。"
+string  1882 "\n\n這不是標準 VGA 分辨率, 請確定您的顯卡支持此分辨率。"
 
         //-- "Couldn\'t intialise \'%s\' module. Try installing the Direct X End User runtimes (June 2010)."
 string  1884 "無法初始化 \'%s\' 模塊. 請嘗試安裝 DirectX 最終用戶可再發行組件 (2010年7月版)。"
@@ -2679,7 +2679,7 @@ string  1892 "讀取錯誤 "
 string  1894 " 是不可用的遊戲。"
 
         //-- " does not work with this version of %s."
-string  1896 " 不適用于當前版本 %s。"
+string  1896 " 不適用於當前版本 %s。"
 
         //-- " requires a more recent version of %s, please upgrade."
 string  1898 " 需要更新版本 %s, 請升級。"
