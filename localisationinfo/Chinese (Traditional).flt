@@ -1102,8 +1102,8 @@ dialog	  56 "" {
 dialog	  57 "" {
         //-- "version"
      83    1 "版本"
-        //-- "FB Neo contains parts of MAME && Final Burn.\n 2004-2021, Team FBNeo."
-  65535	   3 "FB Neo 包含 MAME 和 Final Burn 部分代碼. (c)2004-2021, FBNeo 團隊。"
+        //-- "FB Neo contains parts of MAME && Final Burn.\n 2004-2022, Team FBNeo."
+  65535	   3 "FB Neo 包含 MAME 和 Final Burn 部分代碼。				(C)2004-2022, FBNeo 團隊。"
         //-- "OK"
       1	   4 "確定"
         //-- "License"
