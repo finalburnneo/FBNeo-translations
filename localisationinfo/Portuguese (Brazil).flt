@@ -2715,6 +2715,9 @@ string  1882 "\n\nEsta não é uma resolução VGA padrão; por favor certifique
         //-- "Couldn\'t intialise \'%s\' module. Try installing the Direct X End User runtimes (June 2010)."
 string  1884 "Não pode-se inicializar o módulo \'%s\'. Tente instalar o Direct X End User runtimes (June 2010)."
 
+        //-- "Unable to load shader \'%S\'."
+string  1886 "Incapaz de carregar o shader \'%S\'."
+
         //-- "Error creating "
 string  1890 "Erro criando "
 
