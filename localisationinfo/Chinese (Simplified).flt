@@ -401,7 +401,7 @@ menu    100 {
             //-- "Modeless menu"
       10303  215 "使用非模态菜单"
             //-- "Don\'t change Num Lock status"
-      10616  215 "不改变小键盘锁定状态"
+      10616  216 "不改变小键盘锁定状态"
             //-- "Create support folders at runtime"
       10719  217 "在运行时创建支持的文件夹"
             //-- "Show Game List at start-up"
