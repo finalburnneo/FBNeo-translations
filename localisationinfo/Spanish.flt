@@ -331,13 +331,13 @@ menu    100 {
       10681  177 "0% (Silencio)"
     }
           //-- "2-point 1st order sample interpolation"
-    10231  179 "Interpolación muestra 1er orden de 2-puntos"
+    10231  179 "Interpolación muestra de 2 puntos y 1er orden"
           //-- "4-point 3rd order sample interpolation"
-    10233  180 "Interpolación muestra 3er orden de 4-puntos"
+    10233  180 "Interpolación muestra de 4 puntos y 3er orden"
           //-- "Disable FM interpolation"
     10240  182 "Desactivar interpolación FM"
           //-- "4-point 3rd order FM interpolation"
-    10243  183 "Interpolación 3er orden de 4-puntos"
+    10243  183 "Interpolación FM de 4 puntos y 3er orden"
           //-- "&Sound logging"
     popup  185 "&Registro de sonido" {
             //-- "Log to file..."
@@ -401,7 +401,7 @@ menu    100 {
             //-- "Display mode indicator"
       10302  215 "Mostrar el indicador de modo"
             //-- "Modeless menu"
-      10303  216 "Menú sin modelo"
+      10303  216 "Menú compacto"
             //-- "Don\'t change Num Lock status"
       10616  217 "No cambiar estado de la tecla bloqueo numérico"
             //-- "Create support folders at runtime"
@@ -1028,9 +1028,9 @@ menu    130 {
           //-- "Sound disabled"
     10210    3 "Sonido desactivado"
           //-- "44100Hz samplerate"
-    10213    4 "Frecuencia a 44100 Hz"
+    10213    4 "Frecuencia de muestreo de 44100 Hz"
           //-- "48000Hz samplerate"
-    10214    5 "Frecuencia a 48000 Hz"
+    10214    5 "Frecuencia de muestreo de 48000 Hz"
   }
 }
 
@@ -1044,9 +1044,9 @@ menu    131 {
           //-- "Sound disabled"
     10220    4 "Sonido desactivado"
           //-- "44100Hz samplerate"
-    10223    5 "Frecuencia a 44100 Hz"
+    10223    5 "Frecuencia de muestreo de 44100 Hz"
           //-- "48000Hz samplerate"
-    10224    6 "Frecuencia a 48000 Hz"
+    10224    6 "Frecuencia de muestreo de 48000 Hz"
   }
 }
 
@@ -1153,21 +1153,21 @@ dialog	  56 "" {
         //-- ""
 dialog	  57 "" {
         //-- "version"
-     83	   1 ""
+     83	   1 "Versión"
         //-- "FB Neo contains parts of MAME && Final Burn.\n© 2004-2023, Team FBNeo."
-  65535	   3 ""
+  65535	   3 "FB Neo contiene partes de MAME && Final Burn. © 2004-2024, Equipo FB Neo."
         //-- "OK"
-      1	   4 ""
+      1	   4 "Aceptar"
         //-- "License"
-  20052	   5 ""
+  20052	   5 "Licencia"
 }
 
         //-- ""
 dialog	  58 "" {
         //-- "version"
-     83	   1 ""
+     83	   1 "Versión"
         //-- "OK"
-      1	   4 ""
+      1	   4 "Aceptar"
         //-- " I understand and agree to be bound by the terms of the above license agreement"
   20054	   5 ""
 }
@@ -1175,7 +1175,7 @@ dialog	  58 "" {
         //-- ""
 dialog	  59 "" {
         //-- "Close"
-  20019	   0 ""
+  20019	   0 "Cerrar"
 }
 
         //-- "Edit ROMs paths"
@@ -1241,11 +1241,11 @@ dialog	  61 "Seleccionar un juego" {
         //-- "ROM:"
   20063	  11 ""
         //-- "Info:"
-  20064	  12 "Info:"
+  20064	  12 "Aviso:"
         //-- "Released:"
   20067	  13 "Publicado:"
         //-- "Genre:"
-  20066	  14 "Genero:"
+  20066	  14 "Género:"
         //-- "Notes:"
   20124	  15 "Notas:"
         //-- "Filters"
@@ -1285,7 +1285,7 @@ dialog	  61 "Seleccionar un juego" {
         //-- "Shots Factory"
 dialog	  62 "Fábrica de capturas" {
         //-- "Keep"
-  20207	   0 ""
+  20207	   0 "Asir"
         //-- "&Capture"
   20061	   1 "&Capturar"
         //-- "OK"
@@ -1367,7 +1367,7 @@ dialog	  67 "Seleccione propiedades de la proyección 3D" {
         //-- "OK"
       1	   0 "Aceptar"
         //-- "Screen Angle"
-  20094	   3 "Angulo de pantalla"
+  20094	   3 "Ángulo de pantalla"
         //-- "Fishbowl Factor"
   20096	   6 "Factor de pecera"
         //-- "Cancel"
@@ -1387,77 +1387,77 @@ dialog	  68 "Ajustar velocidad de la CPU emulada" {
 }
 
         //-- "FB Neo system information report"
-dialog	  69 "" {
+dialog	  69 "Reporte de información del sistema FB Neo" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Aceptar"
         //-- "Save..."
-  20138	   1 ""
+  20138	   1 "Guardar..."
 }
 
         //-- "FB Neo has encountered an unrecoverable problem and will be terminated"
-dialog	  70 "" {
+dialog	  70 "FB Neo ha encontrado un problema irrecuperable y será cerrado" {
         //-- "OK"
-      1	   1 ""
+      1	   1 "Aceptar"
         //-- "Debug"
-  20102	   2 ""
+  20102	   2 "Depurar"
         //-- "Details"
-  20103	   3 ""
+  20103	   3 "Detalles"
         //-- "Log"
-  20104	   4 ""
+  20104	   4 "Registro"
 }
 
         //-- "FB Neo debugger"
-dialog	  71 "" {
+dialog	  71 "Depurador FB Neo" {
         //-- "Disassembly"
-  65535	   3 ""
+  65535	   3 "Desmontaje"
         //-- "Internal CPU state"
-  65535	   8 ""
+  65535	   8 "Estado interno CPU"
         //-- "Memory map"
-  65535	  11 ""
+  65535	  11 "Mapa memoria"
         //-- "Debugger messages"
-  65535	  16 ""
+  65535	  16 "Mensajes depurador"
         //-- "Execute"
-      1	  20 ""
+      1	  20 "Ejecutar"
         //-- "Exit"
-      2	  22 ""
+      2	  22 "Salir"
         //-- "Go!"
-  20114	  23 ""
+  20114	  23 "¡Ir!"
         //-- "Step frame"
-  20118	  24 ""
+  20118	  24 "Paso marco"
         //-- "Step"
-  20115	  25 ""
+  20115	  25 "Paso"
         //-- "Step into"
-  20116	  26 ""
+  20116	  26 "Entrar en"
         //-- "Skip"
-  20117	  27 ""
+  20117	  27 "Saltar"
         //-- "Screenshot"
-  20119	  28 ""
+  20119	  28 "Captura"
 }
 
         //-- "FB Neo debugger"
-dialog	  72 "" {
+dialog	  72 "Depurador FB Neo" {
         //-- "Execute"
-      1	  10 ""
+      1	  10 "Ejecutar"
         //-- "Exit"
-      2	  12 ""
+      2	  12 "Salir"
         //-- "Go!"
-  20114	  13 ""
+  20114	  13 "¡Ir!"
         //-- "Step frame"
-  20118	  14 ""
+  20118	  14 "Paso marco"
         //-- "Step"
-  20115	  15 ""
+  20115	  15 "Paso"
         //-- "Step into"
-  20116	  16 ""
+  20116	  16 "Entrar en"
         //-- "Skip"
-  20117	  17 ""
+  20117	  17 "Saltar"
         //-- "Screenshot"
-  20119	  18 ""
+  20119	  18 "Captura"
 }
 
         //-- "FB Neo message"
-dialog	  73 "" {
+dialog	  73 "Mensaje FB Neo" {
         //-- "OK"
-      1	   0 ""
+      1	   0 "Aceptar"
 }
 
         //-- "Edit support file paths"
@@ -1601,7 +1601,7 @@ dialog	  79 "Lista de juegos Neo-Geo CDZ" {
         //-- "CD Cover"
   20303	   6 "Portada"
         //-- "Game Preview"
-  20304	   7 "Vista previa del juego"
+  20304	   7 "Vista previa"
         //-- "Options"
   65535	   9 "Opciones"
         //-- "Short name:"
@@ -1623,11 +1623,11 @@ dialog	  81 "Información del juego" {
         //-- "ROM:"
   20063	   3 ""
         //-- "Info:"
-  20064	   4 ""
+  20064	   4 "Aviso:"
         //-- "Released:"
   20067	   5 "Publicado:"
         //-- "Genre:"
-  20066	   6 "Genero:"
+  20066	   6 "Género:"
         //-- "Notes:"
   20124	   7 "Notas:"
         //-- "Favorite"
@@ -1931,10 +1931,10 @@ string   562 "Crear plantilla de localización de lista de juegos"
 string   600 "Información del ROM"
 
         //-- "Rom Info"
-string   602 ""
+string   602 "ROMs"
 
         //-- "Sample Info"
-string   604 "Muestra Info"
+string   604 "Muestras"
 
         //-- "Name"
 string   606 "Nombre"
@@ -1943,7 +1943,7 @@ string   606 "Nombre"
 string   608 "Tamaño (Bytes)"
 
         //-- "CRC32"
-string   610 ""
+string   610 "CRC32"
 
         //-- "Type"
 string   612 "Tipo"
@@ -1967,7 +1967,7 @@ string   622 "%s, Gráficos"
 string   624 "%s, Sonido"
 
         //-- "%s, BIOS"
-string   626 ""
+string   626 "%s, BIOS"
 
         //-- "No Dump"
 string   628 "Sin volcado"
@@ -1976,7 +1976,7 @@ string   628 "Sin volcado"
 string   630 "Vistas previas"
 
         //-- "Titles"
-string   632 "Título"
+string   632 "Títulos"
 
         //-- "Icons"
 string   634 "Iconos"
@@ -2276,16 +2276,16 @@ string   846 ""
 string   848 ""
 
         //-- "Genre"
-string   850 "Genero"
+string   850 "Género"
 
         //-- "Shooter / Horizontal / Sh\'mup"
-string   852 "Tirador / Horizontal / Sh\'mup"
+string   852 "Disparos / Horizontal / Disparales"
 
         //-- "Shooter / Vertical / Sh\'mup"
-string   854 "Tirador / Vertical / Sh\'mup"
+string   854 "Disparos / Vertical / Disparales"
 
         //-- "Fighting / Beat \'em Up"
-string   856 "Lucha / Beat \'em Up"
+string   856 "Lucha / Golpéalos"
 
         //-- "Fighting / Versus"
 string   858 "Lucha / Versus"
@@ -2339,7 +2339,7 @@ string   888 "Carreras"
 string   890 "Disparos"
 
         //-- "Run \'n Gun (Shooter)"
-string   892 "Run \'n Gun (Disparos)"
+string   892 "Corre y dispara (Disparos)"
 
         //-- "Strategy"
 string   894 "Estrategia"
@@ -2462,46 +2462,46 @@ string  1084 "Dirección %08X Valor %02X"
 string  1086 "Búsqueda de trucos cerrada"
 
         //-- "English (US)"
-string  1100 ""
+string  1100 "Inglés"
 
         //-- "Simplified Chinese"
-string  1102 ""
+string  1102 "Chino simplificado"
 
         //-- "Traditional Chinese"
-string  1104 ""
+string  1104 "Chino tradicional"
 
         //-- "Japanese"
-string  1106 ""
+string  1106 "Japonés"
 
         //-- "Korean"
-string  1108 ""
+string  1108 "Coreano"
 
         //-- "French"
-string  1110 ""
+string  1110 "Francés"
 
         //-- "Spanish"
-string  1112 ""
+string  1112 "Español"
 
         //-- "Italian"
-string  1114 ""
+string  1114 "Italiano"
 
         //-- "German"
-string  1116 ""
+string  1116 "Alemán"
 
         //-- "Portuguese"
-string  1118 ""
+string  1118 "Portugués"
 
         //-- "Polish"
-string  1120 ""
+string  1120 "Polaco"
 
         //-- "Hungarian"
-string  1122 ""
+string  1122 "Húngaro"
 
         //-- "Game Information"
 string  1200 "Información del juego"
 
         //-- "In Game"
-string  1202 "En juego"
+string  1202 "Vista previa"
 
         //-- "Title"
 string  1204 "Título"
@@ -2540,16 +2540,16 @@ string  1224 "Controles"
 string  1226 ""
 
         //-- "Rom Info"
-string  1228 ""
+string  1228 "ROMs"
 
         //-- "History"
 string  1230 "Historia"
 
         //-- "Sample Info"
-string  1232 "Muestra Info"
+string  1232 "Muestras"
 
         //-- "HDD Info"
-string  1234 ""
+string  1234 "Disco duro"
 
         //-- "Select Skin"
 string  1400 "Tema"
@@ -2564,16 +2564,16 @@ string  1602 ", usa ROMs de %s
 string  1604 "%susa ROMs de %s
 
         //-- "%suses Board-ROMs from %s"
-string  1606 "%susa Placa-ROMs de %s"
+string  1606 "%susa placa-ROMs de %s"
 
         //-- "%suses samples from %s"
-string  1608 "%susa muestras de %s"
+string  1608 "%sUsa muestras de %s"
 
         //-- "%s%i Player%s"
-string  1610 "%s%i Jugador%s"
+string  1610 "%s%i jugadore%s"
 
         //-- "s Max"
-string  1612 ""
+string  1612 "s máximo"
 
         //-- "%s (%s, %s Hardware)"
 string  1614 ""
@@ -2582,7 +2582,7 @@ string  1614 ""
 string  1616 "Cartucho Neo-Geo MVS"
 
         //-- "%sHigh Scores Supported"
-string  1618 "%sPuntuaciones soportados"
+string  1618 "%sPuntuaciones soportadas"
 
         //-- "Cartridge"
 string  1620 "Cartucho"
@@ -2615,25 +2615,25 @@ string  1810 "El ROMset es correcto"
 string  1812 "El ROMset exhibe los siguientes problemas:"
 
         //-- "No data was found, the game will not run!"
-string  1814 "¡No se encontraron datos, el juego no iniciara!"
+string  1814 "No se encontraron datos, ¡el juego no iniciara!"
 
         //-- "essential data is missing, the game will not run!"
-string  1816 "¡Datos escenciales perdidos, el juego no iniciara!"
+string  1816 "Datos escenciales perdidos, ¡el juego no iniciara!"
 
         //-- "essential data is invalid, the game might not run!"
 string  1818 "¡Datos escenciales invalidos, es posible que el juego no se ejecute! "
 
         //-- "data is missing."
-string  1820 "Datos perdidos"
+string  1820 "datos perdidos"
 
         //-- "data is invalid."
-string  1822 "Datos invalidos"
+string  1822 "datos invalidos"
 
         //-- "%.32hs was found (%.512s).\n"
-string  1824 "%.32hs fue encontrado (%.512s).\n"
+string  1824 "%.32hs fue encontrado (%.512s)\n"
 
         //-- "%.32hs was not found.\n"
-string  1826 "%.32hs no fue encontrado.\n"
+string  1826 "%.32hs no fue encontrado\n"
 
         //-- "The following ROMs are invalid:\n"
 string  1828 "Los siguientes ROMs son invalidos:\n"
@@ -2648,22 +2648,22 @@ string  1832 "%.32hs es de %dk lo cual es demasiado pequeño (Lo corecto es: %dkB
 string  1834 "%.32hs es de %dk lo cual es demasiado grande (Lo corecto es: %dkB).\n"
 
         //-- "essential "
-string  1836 "Escencial"
+string  1836 "Escencial "
 
         //-- "program "
-string  1838 "Programa"
+string  1838 "Programa "
 
         //-- "BIOS "
-string  1840 ""
+string  1840 "BIOS "
 
         //-- "graphics "
-string  1842 "Gráficos"
+string  1842 "Gráficos "
 
         //-- "sound "
-string  1844 "Sonido"
+string  1844 "Sonido "
 
         //-- "ROM "
-string  1846 ""
+string  1846 "ROM "
 
         //-- "Error loading %.32hs, requested by %.128s.\nThe emulation will likely suffer problems."
 string  1848 "Error al cargar %.32hs, solicitado por %.128s.\nLa emulación probablemente sufrirá problemas"
@@ -2708,10 +2708,10 @@ string  1884 "No se pudo inicializar el módulo \'%s\'. Intente instalar los tiem
 string  1886 "No se puede cargar el shader \'%S\'"
 
         //-- "Error creating "
-string  1890 "Error al crear"
+string  1890 "Error al crear "
 
         //-- "Error loading "
-string  1892 "Error al cargar"
+string  1892 "Error al cargar "
 
         //-- " is for an unavailable game."
 string  1894 " es para un juego no disponible"
