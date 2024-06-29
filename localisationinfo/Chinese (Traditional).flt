@@ -2697,8 +2697,8 @@ string  1876 "無法創建三倍緩沖。"
         //-- "No appropriate display mode supported. Please adjust your full-screen settings."
 string  1878 "沒有適合的顯示模式可用, 請您調整您的全屏顯示設置。"
 
-        //-- "Problem setting \'%dx%dx%dbpp (%dHz)\' display mode"
-string  1880 "設置 \'%dx%dx%dbpp (%dHz)\' 顯示模式時出現問題。"
+        //-- "Problem setting \'%dx%dx%dbpp\' display mode"
+string  1880 "設置 \'%dx%dx%dbpp\' 顯示模式時出現問題。"
 
         //-- "\n\nThis is not a standard VGA resolution; please make sure it is supported by your video card."
 string  1882 "\n\n這不是標準 VGA 分辨率, 請確定您的顯卡支持此分辨率。"
@@ -2725,7 +2725,7 @@ string  1896 " 不適用於當前版本 %s。"
 string  1898 " 需要更新版本 %s, 請升級。"
 
         //-- "Error finding \'kailleraclient.dll\'."
-string  未找到 \'kailleraclient.dll\'。"
+string  1910 未找到 Kaillera 客戶端。"
 
         //-- "No driver has been selected from the list."
 string  1912 "未選擇列表中的驅動。"
