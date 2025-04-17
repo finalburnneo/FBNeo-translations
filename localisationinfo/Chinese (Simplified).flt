@@ -435,7 +435,7 @@ menu    100 {
             //-- "Show Debug console (requires restart)"
       10320  232 "显示调试控制台 (需要重新启动)"
             //-- "Save High Scores when supported"
-      10654  233 "当支持时保存最高分"
+      10654  234 "当支持时保存最高分"
             //-- "Use alpha blend effects when supported"
       10720  235 "当支持时使用透明表"
             //-- "Display Gear-Shift Indicator when supported"
