@@ -91,13 +91,13 @@ menu    100 {
       10023   46 "彈出記憶卡..."
     }
           //-- "Replay..."
-    popup   48 "重播..." {
+    popup   48 "回放..." {
             //-- "Replay input..."
-      10003   49 "重播遊戲輸入..."
+      10003   49 "回放遊戲輸入..."
             //-- "Record input..."
       10004   50 "記錄遊戲輸入..."
             //-- "Stop replay/record"
-      10005   51 "停止重播/記錄"
+      10005   51 "停止回放/記錄"
     }
           //-- "Save states..."
     popup   53 "保存即時存檔" {
@@ -108,15 +108,15 @@ menu    100 {
             //-- "State slots..."
       popup   56 "即時存檔位置..." {
               //-- "Activate previous slot"
-        10034   57 "啟動前一個位置"
+        10034   57 "激活前一個位置"
               //-- "Activate next slot"
-        10035   58 "啟動下一個位置"
+        10035   58 "激活下一個位置"
               //-- "MENU_STATE_LOAD_SLOT"
         10032   59 ""
               //-- "MENU_STATE_SAVE_SLOT"
         10033   60 ""
               //-- "Undo last state save"
-        10037   61 "撤銷上次保存狀態"
+        10037   61 "撤消上次保存狀態"
       }
             //-- "Restore full state on load"
       10036   62 "載入時恢復完整遊戲進度"
@@ -126,16 +126,16 @@ menu    100 {
           //-- "Stop recording"
     11828   65 "停止錄製"
           //-- "Exit emulator"
-    10012   67 "退出程式"
+    10012   67 "退出程序"
   }
         //-- "Video"
   popup   68 "視頻" {
           //-- "&Select blitter"
-    popup   69 "選擇視訊模式(&S)" {
+    popup   69 "選擇視頻模式(&S)" {
             //-- "Basic"
       10121   70 "普通模式"
             //-- "SoftFX"
-      10123   71 "軟體模式"
+      10123   71 "軟件模式"
             //-- "Enhanced"
       10122   72 "增強模式"
             //-- "Experimental"
@@ -144,9 +144,9 @@ menu    100 {
       10125   74 "DX9 替換模式"
     }
           //-- "&Blitter options"
-    10643   75 "視訊模式選項(&B)"
+    10643   75 "視頻模式選項(&B)"
           //-- "&Stretch"
-    popup   76 "硬體拉伸(&S)" {
+    popup   76 "硬件拉伸(&S)" {
             //-- "&Normal stretch"
       10110   77 "普通拉伸(&N)"
             //-- "&Full stretch"
@@ -167,11 +167,11 @@ menu    100 {
             //-- "MENU_GAMMA_OTHER"
       10153   86 ""
             //-- "Use video &hardware when possible"
-      10154   88 "優先使用硬體顯示(&H)"
+      10154   88 "優先使用硬件顯示(&H)"
             //-- "Use video hardware &exclusively"
-      10155   89 "強制使用硬體顯示(&E)"
+      10155   89 "強制使用硬件顯示(&E)"
             //-- "Use &software exclusively"
-      10156   90 "強制使用軟體顯示(&S)"
+      10156   90 "強制使用軟件顯示(&S)"
     }
           //-- "&Window size"
     popup   92 "窗口大小(&W)" {
@@ -186,14 +186,14 @@ menu    100 {
             //-- "&Quadruple size"
       10174   98 "四倍大小(&Q)"
             //-- "&Maximum size"
-      10175   99 "最大化視窗(&M)"
+      10175   99 "最大化窗口(&M)"
     }
           //-- "Toggle &fullscreen mode"
     10102   101 "全屏顯示(&F)"
           //-- "Auto Switch to Fullscreen after loading"
     10613   102 "載入遊戲後自動切換到全屏"
           //-- "Fullscreen Resolution (Horizontal)"
-    popup  103 "全屏顯示解析度 (水準方向)" {
+    popup  103 "全屏顯示分辨率 (水平方向)" {
             //-- "MENU_RES_ARCADE"
       10130  104 ""
             //-- "&Single size"
@@ -216,7 +216,7 @@ menu    100 {
       10135  116 ""
     }
           //-- "Fullscreen Resolution (Vertical)"
-    popup  117 "全屏顯示解析度 (垂直方向)" {
+    popup  117 "全屏顯示分辨率 (垂直方向)" {
             //-- "MENU_RES_ARCADE_VERTICAL"
       10700  118 ""
             //-- "&Single size"
@@ -252,9 +252,9 @@ menu    100 {
           //-- "&Monitor properties"
     popup  137 "顯示器屬性(&M)" {
             //-- "Automatically detect fullscreen resolution and aspect ratio"
-      10650  138 "自動檢測全屏解析度與比例"
+      10650  138 "自動檢測全屏分辨率與比例"
             //-- "Select aspect ratio (Horizontal)"
-      popup  140 "選擇比例 (水準)" {
+      popup  140 "選擇比例 (水平)" {
               //-- "Normal CRT aspect ratio"
         10190  141 "普通 CRT 顯示器比例"
               //-- "Normal LCD aspect ratio"
@@ -293,27 +293,27 @@ menu    100 {
           //-- "Enable &Triple Buffering (Fullscreen)"
     10100  159 "啟用三倍緩衝 (全屏)(&T)"
           //-- "Enable Windowed Fullscreen (DX9 Blitters)"
-    10101  160 "啟用窗口化全屏 (DX9 點陣圖映射)"
+    10101  160 "啟用窗口化全屏 (DX9 位圖映射)"
           //-- "Enable VSync (Windowed)"
-    10646  161 "啟用垂直同步 (視窗)"
+    10646  161 "啟用垂直同步 (窗口)"
           //-- "Enable DWM Sync (Windowed)"
-    10103  162 "啟用 DWM 同步 (視窗)"
+    10103  162 "啟用 DWM 同步 (窗口)"
           //-- "Auto Frameskip"
     10177  163 "自動跳幀"
           //-- "Enable RunAhead"
     10178  164 "啟用提前運行"
   }
         //-- "Audio"
-  popup  165 "音訊" {
+  popup  165 "音頻" {
           //-- "Select &plugin"
-    popup  166 "選擇外掛程式(&P)" {
+    popup  166 "選擇插件(&P)" {
             //-- "DirectSound"
       10655  167 ""
             //-- "XAudio2"
       10656  168 ""
     }
           //-- "Plugin &options"
-    10663  169 "外掛程式選項(&O)"
+    10663  169 "插件選項(&O)"
           //-- "&Audio Volume"
     popup  170 "音量" {
             //-- "100% (max)"
@@ -350,7 +350,7 @@ menu    100 {
           //-- "&Sound logging"
     popup  189 "錄製聲音(&S)" {
             //-- "Log to file..."
-      10606  190 "保存到檔..."
+      10606  190 "保存到文件..."
             //-- "Stop logging"
       10607  191 "停止錄製"
     }
@@ -360,7 +360,7 @@ menu    100 {
         //-- "Input"
   popup  193 "輸入" {
           //-- "Select &plugin"
-    popup  194 "選擇外掛程式(&P)" {
+    popup  194 "選擇插件(&P)" {
             //-- "DirectInput"
       10664  195 ""
     }
@@ -380,7 +380,7 @@ menu    100 {
       10265  203 "最快"
     }
           //-- "&Rewind Settings"
-    popup  205 "回退設置(&R)" {
+    popup  205 "倒帶設置(&R)" {
             //-- "Enabled"
       10280  206 "啟用"
             //-- "128MB"
@@ -394,227 +394,322 @@ menu    100 {
             //-- "1GB"
       10285  211 ""
     }
+          //-- "SOCD Settings"
+    popup  213 "SOCD 設置" {
+            //-- "Player 1"
+      popup  214 "玩家 1" {
+              //-- "P1 SOCD-N"
+        10750  215 ""
+              //-- "P1 SOCD-L (4 Way)"
+        10751  216 "P1 SOCD-L (4 方向)"
+              //-- "P1 SOCD-L (8 Way)"
+        10752  217 "P1 SOCD-L (8 方向)"
+              //-- "P1 SOCD-F"
+        10753  218 ""
+              //-- "P1 SOCD-U"
+        10754  219 ""
+              //-- "P1 SOCD-D+L"
+        10755  220 ""
+      }
+            //-- "Player 2"
+      popup  221 "玩家 2" {
+              //-- "P2 SOCD-N"
+        10756  222 ""
+              //-- "P2 SOCD-L (4 Way)"
+        10757  223 "P2 SOCD-L (4 方向)"
+              //-- "P2 SOCD-L (8 Way)"
+        10758  224 "P2 SOCD-L (8 方向)"
+              //-- "P2 SOCD-F"
+        10759  225 ""
+              //-- "P2 SOCD-U"
+        10760  226 ""
+              //-- "P2 SOCD-D+L"
+        10761  227 ""
+      }
+            //-- "Player 3"
+      popup  228 "玩家 3" {
+              //-- "P3 SOCD-N"
+        10762  229 ""
+              //-- "P3 SOCD-L (4 Way)"
+        10763  230 "P3 SOCD-L (4 方向)"
+              //-- "P3 SOCD-L (8 Way)"
+        10764  231 "P3 SOCD-L (8 方向)"
+              //-- "P3 SOCD-F"
+        10765  232 ""
+              //-- "P3 SOCD-U"
+        10766  233 ""
+              //-- "P3 SOCD-D+L"
+        10767  234 ""
+      }
+            //-- "Player 4"
+      popup  235 "玩家 4" {
+              //-- "P4 SOCD-N"
+        10768  236 ""
+              //-- "P4 SOCD-L (4 Way)"
+        10769  237 "P4 SOCD-L (4 方向)"
+              //-- "P4 SOCD-L (8 Way)"
+        10770  238 "P4 SOCD-L (8 方向)"
+              //-- "P4 SOCD-F"
+        10771  239 ""
+              //-- "P4 SOCD-U"
+        10772  240 ""
+              //-- "P4 SOCD-D+L"
+        10773  241 ""
+      }
+            //-- "Player 5"
+      popup  242 "玩家 5" {
+              //-- "P5 SOCD-N"
+        10774  243 ""
+              //-- "P5 SOCD-L (4 Way)"
+        10775  244 "P5 SOCD-L (4 方向)"
+              //-- "P5 SOCD-L (8 Way)"
+        10776  245 "P5 SOCD-L (8 方向)"
+              //-- "P5 SOCD-F"
+        10777  246 ""
+              //-- "P5 SOCD-U"
+        10778  247 ""
+              //-- "P5 SOCD-D+L"
+        10779  248 ""
+      }
+            //-- "Player 6"
+      popup  249 "玩家 6" {
+              //-- "P6 SOCD-N"
+        10780  250 ""
+              //-- "P6 SOCD-L (4 Way)"
+        10781  251 "P6 SOCD-L (4 方向)"
+              //-- "P6 SOCD-L (8 Way)"
+        10782  252 "P6 SOCD-L (8 方向)"
+              //-- "P6 SOCD-F"
+        10783  253 ""
+              //-- "P6 SOCD-U"
+        10784  254 ""
+              //-- "P6 SOCD-D+L"
+        10785  255 ""
+      }
+            //-- "Restore all defaults"
+      10786  257 "重置全部設置"
+    }
           //-- "Map game inputs..."
-    10007  213 "映射遊戲輸入..."
+    10007  259 "映射遊戲輸入..."
           //-- "Set dipswitches..."
-    10009  214 "設置 dip 開關..."
+    10009  260 "設置 dip 開關..."
   }
         //-- "Misc"
-  popup  215 "雜項" {
+  popup  261 "雜項" {
           //-- "Options"
-    popup  216 "選項" {
+    popup  262 "選項" {
             //-- "Auto pause"
-      10300  217 "自動暫停"
+      10300  263 "自動暫停"
             //-- "Always process keyboard input"
-      10301  218 "總是回應鍵盤輸入"
+      10301  264 "總是響應鍵盤輸入"
             //-- "Display mode indicator"
-      10302  219 "顯示提示資訊"
+      10302  265 "顯示提示信息"
             //-- "Don\'t change Num Lock status"
-      10616  220 "不改變小鍵盤鎖定狀態"
+      10616  266 "不改變小鍵盤鎖定狀態"
             //-- "Create support folders at runtime"
-      10719  221 "在運行時創建支援的資料夾"
+      10719  267 "在運行時創建支持的文件夾"
             //-- "Show Game List at start-up"
-      10734  222 "啟動時顯示遊戲清單"
+      10734  268 "啟動時顯示遊戲列表"
             //-- "Scan ROMs at start-up (if needed)"
-      10735  223 "啟動時掃描遊戲 (如果需要)"
+      10735  269 "啟動時掃描遊戲 (如果需要)"
             //-- "Quickly scan directories (zip only)"
-      10741  224 "快速掃描目錄 (僅 zip)"
+      10741  270 "快速掃描目錄 (僅 zip)"
             //-- "Menu options"
-      popup  226 "功能表選項" {
+      popup  272 "菜單選項" {
               //-- "Modeless menu"
-        10303  227 "非模化菜單"
+        10303  273 "非模化菜單"
               //-- "Adaptive pop-up direction"
-        10305  228 "自我調整彈出方向"
+        10305  274 "自適應彈出方向"
       }
             //-- "Set application process priority"
-      popup  230 "設置程式進程優先順序" {
+      popup  276 "設置程序進程優先級" {
               //-- "High"
-        10311  231 "高"
+        10311  277 "高"
               //-- "Above normal"
-        10312  232 "較高"
+        10312  278 "較高"
               //-- "Normal"
-        10313  233 "普通"
+        10313  279 "普通"
               //-- "Below normal"
-        10314  234 "較低"
+        10314  280 "較低"
               //-- "Low"
-        10315  235 "低"
+        10315  281 "低"
       }
             //-- "Enable high resolution system timer"
-      10319  236 "啟用高解析度系統計時"
+      10319  282 "啟用高分辨率系統計時"
             //-- "Show Debug console (requires restart)"
-      10320  237 "顯示調試控制台 (需要重新開機)"
+      10320  283 "顯示調試控制台 (需要重新啟動)"
             //-- "Save High Scores when supported"
-      10654  239 "當支持時保存最高分"
+      10654  285 "當支持時保存最高分"
             //-- "Use alpha blend effects when supported"
-      10720  240 "當支援時使用透明表"
+      10720  286 "當支持時使用透明表"
             //-- "Display Gear-Shift Indicator when supported"
-      10727  241 "當支援時顯示換擋提示"
+      10727  287 "當支持時顯示換擋提示"
             //-- "Display Lightgun Reticles when supported"
-      10728  242 "支援時顯示光槍十字準星"
+      10728  288 "支持時顯示光槍十字準星"
             //-- "AVI Writer Output size"
-      popup  243 "AVI 錄製輸出圖元尺寸" {
+      popup  289 "AVI 錄製輸出像素尺寸" {
               //-- "1x"
-        10724  244 ""
+        10724  290 ""
               //-- "2x"
-        10725  245 ""
+        10725  291 ""
               //-- "3x"
-        10726  246 ""
+        10726  292 ""
       }
             //-- "Generate dat file"
-      popup  248 "生成 dat 檔" {
+      popup  294 "生成 dat 文件" {
               //-- "Generate dat (Arcade only)..."
-        10651  249 "生成 dat (僅街機)..."
+        10651  295 "生成 dat (僅街機)..."
               //-- "Generate dat (Neo Geo only)..."
-        10652  250 "生成 dat (僅 Neo Geo)..."
+        10652  296 "生成 dat (僅 Neo Geo)..."
               //-- "Generate dat (Megadrive only)..."
-        10653  251 "生成 dat (僅 Megadrive)"
+        10653  297 "生成 dat (僅 Megadrive)"
               //-- "Generate dat (PC-Engine only)..."
-        10714  252 "生成 dat (僅 PC-Engine)..."
+        10714  298 "生成 dat (僅 PC-Engine)..."
               //-- "Generate dat (TurboGrafx16 only)..."
-        10715  253 "生成 dat (僅 TurboGrafx16)..."
+        10715  299 "生成 dat (僅 TurboGrafx16)..."
               //-- "Generate dat (SuprGrafx only)..."
-        10716  254 "生成 dat (僅 TSuprGrafx)..."
+        10716  300 "生成 dat (僅 TSuprGrafx)..."
               //-- "Generate dat (Sega SG-1000 only)..."
-        10717  255 "生成 dat (僅 Sega SG-1000)..."
+        10717  301 "生成 dat (僅 Sega SG-1000)..."
               //-- "Generate dat (ColecoVision only)..."
-        10718  256 "生成 dat (僅 ColecoVision)..."
+        10718  302 "生成 dat (僅 ColecoVision)..."
               //-- "Generate dat (Master System only)..."
-        10721  257 "生成 dat (僅 Master System)..."
+        10721  303 "生成 dat (僅 Master System)..."
               //-- "Generate dat (Game Gear only)..."
-        10722  258 "生成 dat (僅 Game Gear)..."
+        10722  304 "生成 dat (僅 Game Gear)..."
               //-- "Generate dat (MSX 1 Games only)..."
-        10723  259 "生成 dat (僅 MSX 1 遊戲)..."
+        10723  305 "生成 dat (僅 MSX 1 遊戲)..."
               //-- "Generate dat (ZX Spectrum Games only)..."
-        10733  260 "生成 dat (僅 ZX Spectrum 遊戲)..."
+        10733  306 "生成 dat (僅 ZX Spectrum 遊戲)..."
               //-- "Generate dat (NES Games only)..."
-        10736  261 "生成 dat (僅 NES 遊戲)..."
+        10736  307 "生成 dat (僅 NES 遊戲)..."
               //-- "Generate dat (FDS Games only)..."
-        10737  262 "生成 dat (僅 FDS 遊戲)..."
+        10737  308 "生成 dat (僅 FDS 遊戲)..."
               //-- "Generate dat (SNES Games only)..."
-        10738  263 "生成 dat (僅 SNES 遊戲)..."
+        10738  309 "生成 dat (僅 SNES 遊戲)..."
               //-- "Generate dat (Neo Geo Pocket Games only)..."
-        10739  264 "生成 dat (僅 Neo Geo Pocket 遊戲)..."
+        10739  310 "生成 dat (僅 Neo Geo Pocket 遊戲)..."
               //-- "Generate dat (Fairchild Channel F Games only)..."
-        10740  265 "生成 dat (僅 Fairchild Channel F 遊戲)..."
+        10740  311 "生成 dat (僅 Fairchild Channel F 遊戲)..."
               //-- "Generate all dats..."
-        10730  267 "生成所有 dat..."
+        10730  313 "生成所有 dat..."
       }
             //-- "Configure ROM paths..."
-      10614  269 "設置 ROM 路徑..."
+      10614  315 "設置 ROM 路徑..."
             //-- "Configure support file paths..."
-      10615  270 "設置支援檔目錄..."
+      10615  316 "設置支持文件目錄..."
             //-- "UI skin"
-      popup  272 "UI 皮膚" {
+      popup  318 "UI 皮膚" {
               //-- "Select skin..."
-        10731  273 "選擇皮膚..."
+        10731  319 "選擇皮膚..."
               //-- "Set skin to default"
-        10732  274 "設置為默認皮膚"
+        10732  320 "設置為默認皮膚"
       }
             //-- "UI language"
-      popup  275 "UI 語言" {
+      popup  321 "UI 語言" {
               //-- "Select UI language..."
-        10307  276 "選擇 UI 語言..."
+        10307  322 "選擇 UI 語言..."
               //-- "Export UI translation template..."
-        10308  277 "匯出 UI 翻譯範本..."
+        10308  323 "導出 UI 翻譯模板..."
               //-- "Reset UI default language"
-        10635  278 "重置 UI 語言"
+        10635  324 "重置 UI 語言"
               //-- "Download UI language..."
-        10309  279 "下載 UI 語言..."
+        10309  325 "下載 UI 語言..."
       }
             //-- "Gamelist language"
-      popup  280 "遊戲清單語言" {
+      popup  326 "遊戲列表語言" {
               //-- "Select gamelist language..."
-        10673  281 "選擇遊戲清單語言..."
+        10673  327 "選擇遊戲列表語言..."
               //-- "Export gamelist translation template..."
-        10674  282 "匯出遊戲清單翻譯範本..."
+        10674  328 "導出遊戲列表翻譯模板..."
               //-- "Reset gamelist default language"
-        10675  283 "重置遊戲清單為預設語言"
+        10675  329 "重置遊戲列表為默認語言"
       }
             //-- "Icons"
-      popup  285 "圖示" {
+      popup  331 "圖標" {
               //-- "Enable driver icons display"
-        10676  286 "啟用驅動圖示顯示"
+        10676  332 "啟用驅動圖標顯示"
               //-- "Parents only (use if you have problems)"
-        10677  287 "僅父項 (圖示顯示有問題時開啟)"
+        10677  333 "僅父項 (圖標顯示有問題時開啟)"
               //-- "Icon size"
-        popup  288 "圖示大小" {
+        popup  334 "圖標大小" {
                 //-- "16 x 16 pixels"
-          10678  289 "16 x 16 圖元"
+          10678  335 "16 x 16 像素"
                 //-- "24 x 24 pixels"
-          10679  290 "24 x 24 圖元"
+          10679  336 "24 x 24 像素"
                 //-- "32 x 32 pixels"
-          10680  291 "32 x 32 圖元"
+          10680  337 "32 x 32 像素"
         }
               //-- "Display icon by..."
-        popup  292 "顯示圖示按..." {
+        popup  338 "顯示圖標按..." {
                 //-- "By game"
-          10692  293 "按遊戲"
+          10692  339 "按遊戲"
                 //-- "By hardware"
-          10693  294 "按硬體"
+          10693  340 "按硬件"
         }
               //-- "Refresh icons"
-        10694  296 "刷新圖示"
+        10694  342 "刷新圖標"
       }
             //-- "Save snapshot"
-      10318  298 "保存截圖"
+      10318  344 "保存截圖"
             //-- "Save snapshot as title"
-      10336  299 "將截圖保存為標題"
+      10336  345 "將截圖保存為標題"
             //-- "Save snapshot as preview"
-      10337  300 "將截圖保存為預覽"
+      10337  346 "將截圖保存為預覽"
             //-- "Shot factory.."
-      10317  301 "截圖工廠..."
+      10317  347 "截圖工廠..."
             //-- "Enable cheats..."
-      10306  303 "啟用作弊碼..."
+      10306  349 "啟用作弊碼..."
             //-- "Cheat search"
-      popup  304 "作弊碼搜索" {
+      popup  350 "作弊碼搜索" {
               //-- "Start New Search"
-        10628  305 "開始新的搜索"
+        10628  351 "開始新的搜索"
               //-- "Target value has not changed"
-        10629  307 "目標值未改變"
+        10629  353 "目標值未改變"
               //-- "Target value has changed"
-        10630  308 "目標值已改變"
+        10630  354 "目標值已改變"
               //-- "Target value has decreased"
-        10631  309 "目標值已減小"
+        10631  355 "目標值已減小"
               //-- "Target value has increased"
-        10632  310 "目標值已增大"
+        10632  356 "目標值已增大"
               //-- "Dump search to file"
-        10633  312 "保存搜索結果到檔"
+        10633  358 "保存搜索結果到文件"
               //-- "Exit Cheat Search"
-        10634  314 "退出作弊碼搜索"
+        10634  360 "退出作弊碼搜索"
       }
             //-- "Invoke 68K debugger..."
-    10392  316 "調用 68K 調試器..."
+    10392  362 "調用 68K 調試器..."
             //-- "Palette Viewer..."
-    10672  318 "調色板檢視器..."
+    10672  364 "調色板查看器..."
             //-- "Associate with .fs and .fr files"
-    10330  320 "關聯 .fs 和 .fr 文件"
+    10330  366 "關聯 .fs 和 .fr 文件"
             //-- "Disassociate from .fs and .fr files"
-    10331  321 "解除 .fs 和 .fr 文件關聯"
+    10331  367 "解除 .fs 和 .fr 文件關聯"
             //-- "Save input mapping now"
-    10332  323 "立即保存輸入映射"
+    10332  369 "立即保存輸入映射"
             //-- "Auto-save input mapping"
-    10333  324 "自動保存輸入映射"
+    10333  370 "自動保存輸入映射"
             //-- "Save settings to .ini now"
-    10334  326 "立即保存設置到 .ini"
+    10334  372 "立即保存設置到 .ini"
             //-- "Reload settings from .ini"
-    10335  327 "從 .ini 重新載入設置"
+    10335  373 "從 .ini 重新載入設置"
     }
           //-- "Help"
-    popup  328 "幫助" {
+    popup  374 "幫助" {
             //-- "&Help"
-      10503  329 "幫助(&H)"
+      10503  375 "幫助(&H)"
             //-- "&What\'s New"
-      10505  331 "查看更新內容(&W)"
+      10505  377 "查看更新內容(&W)"
             //-- "&FB Neo homepage"
-      10504  333 "FB Neo 主頁(&F)"
+      10504  379 "FB Neo 主頁(&F)"
             //-- "&Neo-Source forums"
-      10506  334 "Neo-Source 論壇(&N)"
+      10506  380 "Neo-Source 論壇(&N)"
             //-- "FB Neo &Github"
-      10507  335 "FB Neo 代碼庫(&G)"
+      10507  381 "FB Neo 代碼庫(&G)"
             //-- "&System information"
-      10502  337 "系統資訊(&S)"
+      10502  383 "系統信息(&S)"
             //-- "&About FB Neo"
-      10501  338 "關於 FB Neo(&A)"
+      10501  384 "關於 FB Neo(&A)"
     }
   }
 }
@@ -639,7 +734,7 @@ menu    110 {
             //-- "&Video memory"
       10161   11 "顯卡顯存(&V)"
             //-- "&System memory"
-      10162   12 "系統記憶體(&S)"
+      10162   12 "系統內存(&S)"
     }
   }
 }
@@ -656,19 +751,19 @@ menu    111 {
           //-- "Enable &Pre-scale"
     11107    6 "啟用預縮放(&P)"
           //-- "Pre-scale using Soft&FX"
-    11108    7 "軟體特效預縮放(&F)"
+    11108    7 "軟件特效預縮放(&F)"
           //-- "SoftFX algorithm"
-    popup    8 "軟體特效運算" {
+    popup    8 "軟件特效運算" {
             //-- "Double pixels (3D hardware)"
-      11201    9 "雙倍圖元 (硬體 3D)"
+      11201    9 "雙倍像素 (硬件 3D)"
             //-- "AdvanceMAME Scale2x"
       11202   10 "AdvanceMAME 雙倍縮放"
             //-- "AdvanceMAME Scale3x"
       11203   11 "AdvanceMAME 三倍縮放"
             //-- "2xPM LQ"
-      11204   12 "2xPM 低品質"
+      11204   12 "2xPM 低質量"
             //-- "2xPM HQ"
-      11205   13 "2xPM 高品質"
+      11205   13 "2xPM 高質量"
             //-- "Eagle Graphics"
       11206   14 "圖形柔化"
             //-- "Super Eagle"
@@ -736,16 +831,16 @@ menu    111 {
             //-- "CRT 4x4 (1080p)"
       11238   46 ""
             //-- "Force image to SoftFX size"
-      11290   48 "強制圖像為軟體特效大小"
+      11290   48 "強制圖像為軟件特效大小"
     }
           //-- "Enable &Scanlines"
     11005   50 "啟用掃描線(&S)"
           //-- "Set scanline &intensity..."
     11109   51 "設置掃描線亮度(&I)..."
           //-- "Enable phosphor &feedback"
-    11103   53 "啟用亮點回饋(&F)"
+    11103   53 "啟用亮點反饋(&F)"
           //-- "Set &phosphor feedback intensity..."
-    11110   54 "設置亮點回饋亮度(&P)..."
+    11110   54 "設置亮點反饋亮度(&P)..."
           //-- "&No effects"
     11004   56 "不使用特效(&N)"
           //-- "RGB &effects"
@@ -755,7 +850,7 @@ menu    111 {
           //-- "&Auto size scanlined RGB preset"
     11121   60 "自動調整使用掃描線的 RGB 顯示大小(&A)"
           //-- "Manually select RGB preset"
-    popup   61 "自訂 RGB 顯示大小" {
+    popup   61 "自定義 RGB 顯示大小" {
             //-- "Small faint RGB mask"
       11122   62 "較小 RGB 遮蔽"
             //-- "Large faint RGB dot mask"
@@ -787,17 +882,17 @@ menu    111 {
 
 menu    112 {
         //-- "SoftFX"
-  popup    0 "軟體特效" {
+  popup    0 "軟件特效" {
           //-- "&Double pixels (Software)"
-    11301    1 "雙倍圖元 (軟體)(&D)"
+    11301    1 "雙倍像素 (軟件)(&D)"
           //-- "AdvanceMAME Scale2x"
     11302    2 "AdvanceMAME 雙倍縮放"
           //-- "AdvanceMAME Scale3x"
     11303    3 "AdvanceMAME 三倍縮放"
           //-- "2xPM LQ"
-    11304    4 "2xPM 低品質"
+    11304    4 "2xPM 低質量"
           //-- "2xPM HQ"
-    11305    5 "2xPM 高品質"
+    11305    5 "2xPM 高質量"
           //-- "Eagle Graphics"
     11306    6 "圖形柔化"
           //-- "Super Eagle"
@@ -865,7 +960,7 @@ menu    112 {
           //-- "CRT 4x4 (1080p)"
     11338   38 ""
           //-- "&Force image to SoftFX size"
-    11390   40 "強制圖像為軟體特效大小(&F)"
+    11390   40 "強制圖像為軟件特效大小(&F)"
           //-- "Buffering &method"
     popup   41 "緩衝方式(&M)" {
             //-- "&Autodetect"
@@ -873,7 +968,7 @@ menu    112 {
             //-- "&Video memory"
       10164   43 "顯卡顯存(&V)"
             //-- "&System memory"
-      10165   44 "系統記憶體(&S)"
+      10165   44 "系統內存(&S)"
             //-- "Directly access video memory"
       11391   46 "直接訪問顯存"
     }
@@ -940,7 +1035,7 @@ menu    114 {
           //-- "Linear filtering"
     11702    2 "線性過濾"
           //-- "HardFX algorithm"
-    popup    4 "硬體特效運算" {
+    popup    4 "硬件特效運算" {
             //-- "None"
       11450    5 "關閉特效"
             //-- "CRT Aperture"
@@ -963,17 +1058,17 @@ menu    114 {
       11470   14 "設置選定的著色器"
     }
           //-- "SoftFX algorithm"
-    popup   15 "軟體特效運算" {
+    popup   15 "軟件特效運算" {
             //-- "Double pixels (3D hardware)"
-      11401   16 "雙倍圖元 (硬體 3D)"
+      11401   16 "雙倍像素 (硬件 3D)"
             //-- "AdvanceMAME Scale2x"
       11402   17 "AdvanceMAME 雙倍縮放"
             //-- "AdvanceMAME Scale3x"
       11403   18 "AdvanceMAME 三倍縮放"
             //-- "2xPM LQ"
-      11404   19 "2xPM 低品質"
+      11404   19 "2xPM 低質量"
             //-- "2xPM HQ"
-      11405   20 "2xPM 高品質"
+      11405   20 "2xPM 高質量"
             //-- "Eagle Graphics"
       11406   21 "圖形柔化"
             //-- "Super Eagle"
@@ -1041,14 +1136,14 @@ menu    114 {
             //-- "CRT 4x4 (1080p)"
       11438   53 ""
             //-- "Force image to SoftFX size"
-      11490   55 "強制圖像使用軟體特效大小"
+      11490   55 "強制圖像使用軟件特效大小"
     }
           //-- "Advanced settings"
     popup   57 "高級設置" {
             //-- "Force &16-bit emulation"
       11491   58 "強制使用 16 位色"
             //-- "Hardware vertex processing"
-      11703   59 "硬體頂點處理"
+      11703   59 "硬件頂點處理"
             //-- "Motion blur"
       11704   60 "動態模糊"
     }
@@ -1057,21 +1152,21 @@ menu    114 {
 
 menu    130 {
         //-- "DirectSound plugin"
-  popup    0 "DirectSound 外掛程式" {
+  popup    0 "DirectSound 插件" {
           //-- "Use Low-pass filter"
     10201    1 "使用低通濾波"
           //-- "Sound disabled"
     10210    3 "靜音"
           //-- "44100Hz samplerate"
-    10213    4 "44100Hz 取樣速率"
+    10213    4 "44100Hz 采樣率"
           //-- "48000Hz samplerate"
-    10214    5 "48000Hz 取樣速率"
+    10214    5 "48000Hz 采樣率"
   }
 }
 
 menu    131 {
         //-- "XAudio2 plugin"
-  popup    0 "XAudio2 外掛程式" {
+  popup    0 "XAudio2 插件" {
           //-- "Use Low-pass filter"
     10202    1 "使用低通濾波"
           //-- "Use reverb"
@@ -1079,25 +1174,25 @@ menu    131 {
           //-- "Sound disabled"
     10220    4 "靜音"
           //-- "44100Hz samplerate"
-    10223    5 "44100Hz 取樣速率"
+    10223    5 "44100Hz 采樣率"
           //-- "48000Hz samplerate"
-    10224    6 "48000Hz 取樣速率"
+    10224    6 "48000Hz 采樣率"
   }
 }
 
 menu    140 {
         //-- "Game Selection Menu"
-  popup    0 "遊戲選擇功能表" {
+  popup    0 "遊戲選擇菜單" {
           //-- "Play"
     11900    1 "運行"
           //-- "View Game Information"
-    11901    3 "查看遊戲資訊"
+    11901    3 "查看遊戲信息"
           //-- "View in Arcade Database"
-    11902    5 "查看街機遊戲資料庫"
+    11902    5 "查看街機遊戲數據庫"
           //-- "Favorite"
     11903    7 "收藏"
           //-- "Export to RomData template"
-    11904    9 "匯出 RomData 範本"
+    11904    9 "導出 RomData 模板"
   }
 }
 
@@ -1116,9 +1211,9 @@ dialog	  51 "重定義鍵位設定" {
         //-- "OK"
       2	   0 "確定"
         //-- "Double-click an input to change its mapping, Check the macro to auto-fire"
-  65535	   2 "按兩下一個按鍵來改變輸入設定, 之後選中一個宏實現連射"
+  65535	   2 "雙擊一個按鍵來改變輸入設定, 之後選中一個宏實現連射"
         //-- "Make selection in all three drop-down boxes, click apropriate button"
-  65535	   5 "在下拉式功能表中選擇預設 / 默認鍵位"
+  65535	   5 "在下拉菜單中選擇預設 / 默認鍵位"
         //-- "Save preset"
   20128	   9 "保存預設"
         //-- "Make default"
@@ -1136,7 +1231,7 @@ dialog	  51 "重定義鍵位設定" {
         //-- "Select control"
 dialog	  52 "選擇控制鍵" {
         //-- "Grab mouse"
-  20007	   0 "檢測滑鼠"
+  20007	   0 "檢測鼠標"
         //-- "Map Digital"
   20026	   1 "映射鍵位"
         //-- "Activate"
@@ -1202,7 +1297,7 @@ dialog	  58 "" {
         //-- "OK"
       1	   4 "確定"
         //-- " I understand and agree to be bound by the terms of the above license agreement"
-  20054	   5 " 我理解並同意受上述授權合約條款的約束"
+  20054	   5 " 我理解並同意受上述許可協議條款的約束"
 }
 
         //-- ""
@@ -1222,83 +1317,83 @@ dialog	  60 "編輯 ROM 路徑" {
         //-- "Path #1:"
   21120	   5 "路徑 #1:"
         //-- "Browse..."
-  21140	   7 "流覽..."
+  21140	   7 "瀏覽..."
         //-- "Path #2:"
   21121	   8 "路徑 #2:"
         //-- "Browse..."
-  21141	  10 "流覽..."
+  21141	  10 "瀏覽..."
         //-- "Path #3:"
   21122	  11 "路徑 #3:"
         //-- "Browse..."
-  21142	  13 "流覽..."
+  21142	  13 "瀏覽..."
         //-- "Path #4:"
   21123	  14 "路徑 #4:"
         //-- "Browse..."
-  21143	  16 "流覽..."
+  21143	  16 "瀏覽..."
         //-- "Path #5:"
   21124	  17 "路徑 #5:"
         //-- "Browse..."
-  21144	  19 "流覽..."
+  21144	  19 "瀏覽..."
         //-- "Path #6:"
   21125	  20 "路徑 #6:"
         //-- "Browse..."
-  21145	  22 "流覽..."
+  21145	  22 "瀏覽..."
         //-- "Path #7:"
   21126	  23 "路徑 #7:"
         //-- "Browse..."
-  21146	  25 "流覽..."
+  21146	  25 "瀏覽..."
         //-- "Path #8:"
   21127	  26 "路徑 #8:"
         //-- "Browse..."
-  21147	  28 "流覽..."
+  21147	  28 "瀏覽..."
         //-- "Path #9:"
   21128	  29 "路徑 #9:"
         //-- "Browse..."
-  21148	  31 "流覽..."
+  21148	  31 "瀏覽..."
         //-- "Path #10:"
   21129	  32 "路徑 #10:"
         //-- "Browse..."
-  21149	  34 "流覽..."
+  21149	  34 "瀏覽..."
         //-- "Path #11:"
   21130	  35 "路徑 #11:"
         //-- "Browse..."
-  21150	  37 "流覽..."
+  21150	  37 "瀏覽..."
         //-- "Path #12:"
   21131	  38 "路徑 #12:"
         //-- "Browse..."
-  21151	  40 "流覽..."
+  21151	  40 "瀏覽..."
         //-- "Path #13:"
   21132	  41 "路徑 #13:"
         //-- "Browse..."
-  21152	  43 "流覽..."
+  21152	  43 "瀏覽..."
         //-- "Path #14:"
   21133	  44 "路徑 #14:"
         //-- "Browse..."
-  21153	  46 "流覽..."
+  21153	  46 "瀏覽..."
         //-- "Path #15:"
   21134	  47 "路徑 #15:"
         //-- "Browse..."
-  21154	  49 "流覽..."
+  21154	  49 "瀏覽..."
         //-- "Path #16:"
   21135	  50 "路徑 #16:"
         //-- "Browse..."
-  21155	  52 "流覽..."
+  21155	  52 "瀏覽..."
         //-- "Path #17:"
   21136	  53 "路徑 #17:"
         //-- "Browse..."
-  21156	  55 "流覽..."
+  21156	  55 "瀏覽..."
         //-- "Path #18:"
   21137	  56 "路徑 #18:"
         //-- "Browse..."
-  21157	  58 "流覽..."
+  21157	  58 "瀏覽..."
         //-- "Path #19:"
   21138	  59 "路徑 #19:"
         //-- "Browse..."
-  21158	  61 "流覽..."
+  21158	  61 "瀏覽..."
         //-- "Path #20:"
   21139	  62 "路徑 #20:"
         //-- "Browse..."
-  21159	  64 "流覽..."
+  21159	  64 "瀏覽..."
 }
 
         //-- "Select Game"
@@ -1324,7 +1419,7 @@ dialog	  61 "選擇遊戲" {
         //-- "Filters"
   20300	  22 "篩選"
         //-- "Game Info"
-  20602	  24 "遊戲資訊"
+  20602	  24 "遊戲信息"
         //-- "Options"
   20301	  25 "選項"
         //-- "Show available"
@@ -1396,7 +1491,7 @@ dialog	  62 "截圖工廠" {
 }
 
         //-- "Select desired Gamma value"
-dialog	  63 "自訂伽瑪值" {
+dialog	  63 "自定義伽瑪值" {
         //-- "OK"
       1	   0 "確定"
         //-- "Gamma value"
@@ -1406,11 +1501,11 @@ dialog	  63 "自訂伽瑪值" {
 }
 
         //-- "Select desired resolution"
-dialog	  64 "選擇解析度" {
+dialog	  64 "選擇分辨率" {
         //-- "OK"
       1	   0 "確定"
         //-- "Resolution:"
-  20137	   2 "解析度:"
+  20137	   2 "分辨率:"
         //-- "Cancel"
       2	   4 "取消"
 }
@@ -1426,13 +1521,13 @@ dialog	  65 "設置掃描線亮度" {
 }
 
         //-- "Select desired feedback intensity"
-dialog	  66 "設置回饋亮度" {
+dialog	  66 "設置反饋亮度" {
         //-- "OK"
       1	   0 "確定"
         //-- "Feedback strength"
-  20091	   2 "回饋強度"
+  20091	   2 "反饋強度"
         //-- "Feedback oversaturation"
-  20093	   5 "回饋飽和度"
+  20093	   5 "反饋飽和度"
         //-- "Cancel"
       2	   7 "取消"
 }
@@ -1442,7 +1537,7 @@ dialog	  67 "設置 3D 球面屬性" {
         //-- "OK"
       1	   0 "確定"
         //-- "Screen Angle"
-  20095	   3 "螢幕角度"
+  20095	   3 "屏幕角度"
         //-- "Fishbowl Factor"
   20097	   6 "魚缸效果係數"
         //-- "Cancel"
@@ -1450,7 +1545,7 @@ dialog	  67 "設置 3D 球面屬性" {
 }
 
         //-- "Adjust speed of the emulated CPU"
-dialog	  68 "調整類比 CPU 的速度" {
+dialog	  68 "調整模擬 CPU 的速度" {
         //-- "OK"
       1	   0 "確定"
         //-- "CPU speed"
@@ -1462,7 +1557,7 @@ dialog	  68 "調整類比 CPU 的速度" {
 }
 
         //-- "FB Neo system information report"
-dialog	  69 "FB Neo 系統資訊報告" {
+dialog	  69 "FB Neo 系統信息報告" {
         //-- "OK"
       1	   0 "確定"
         //-- "Save..."
@@ -1476,7 +1571,7 @@ dialog	  70 "FB Neo 遇到一個無法恢復的問題即將關閉" {
         //-- "Debug"
   20103	   2 "調試"
         //-- "Details"
-  20104	   3 "詳細資訊"
+  20104	   3 "詳細信息"
         //-- "Log"
   20105	   4 "保存"
 }
@@ -1488,7 +1583,7 @@ dialog	  71 "FB Neo 調試器" {
         //-- "Internal CPU state"
   65535	   8 "CPU 內部狀態"
         //-- "Memory map"
-  65535	  11 "記憶體分佈"
+  65535	  11 "內存分佈"
         //-- "Debugger messages"
   65535	  16 "調試器信息"
         //-- "Execute"
@@ -1536,7 +1631,7 @@ dialog	  73 "FB Neo 信息" {
 }
 
         //-- "Edit support file paths"
-dialog	  74 "設置支援檔路徑" {
+dialog	  74 "設置支持文件路徑" {
         //-- "Defaults"
   21160	   1 "默認"
         //-- "OK"
@@ -1546,107 +1641,107 @@ dialog	  74 "設置支援檔路徑" {
         //-- "Previews:"
   20850	   5 "預覽:"
         //-- "Browse..."
-  20950	   7 "流覽..."
+  20950	   7 "瀏覽..."
         //-- "Titles:"
   20851	   8 "標題:"
         //-- "Browse..."
-  20951	  10 "流覽..."
+  20951	  10 "瀏覽..."
         //-- "Icons:"
-  20852	  11 "圖示:"
+  20852	  11 "圖標:"
         //-- "Browse..."
-  20952	  13 "流覽..."
+  20952	  13 "瀏覽..."
         //-- "Cheats:"
   20853	  14 "作弊"
         //-- "Browse..."
-  20953	  16 "流覽..."
+  20953	  16 "瀏覽..."
         //-- "High Scores:"
   20854	  17 "高分"
         //-- "Browse..."
-  20954	  19 "流覽..."
+  20954	  19 "瀏覽..."
         //-- "Samples:"
   20855	  20 "採樣"
         //-- "Browse..."
-  20955	  22 "流覽..."
+  20955	  22 "瀏覽..."
         //-- "IPS:"
   20856	  23 ""
         //-- "Browse..."
-  20956	  25 "流覽..."
+  20956	  25 "瀏覽..."
         //-- "RomData:"
   20857	  26 "Rom 數據"
         //-- "Browse..."
-  20957	  28 "流覽..."
+  20957	  28 "瀏覽..."
         //-- "Neo Geo CDZ Games:"
   20858	  29 "Neo Geo CDZ 遊戲:"
         //-- "Browse..."
-  20958	  31 "流覽..."
+  20958	  31 "瀏覽..."
         //-- "Neo Geo CDZ Covers:"
   20859	  32 "Neo Geo CDZ 封面"
         //-- "Browse..."
-  20959	  34 "流覽..."
+  20959	  34 "瀏覽..."
         //-- "Blend Files:"
-  20860	  35 "混合檔:"
+  20860	  35 "混合文件:"
         //-- "Browse..."
-  20960	  37 "流覽..."
+  20960	  37 "瀏覽..."
         //-- "Select Previews:"
   20861	  38 "選擇預覽:"
         //-- "Browse..."
-  20961	  40 "流覽..."
+  20961	  40 "瀏覽..."
         //-- "Versus Previews:"
   20862	  41 "對戰預覽:"
         //-- "Browse..."
-  20962	  43 "流覽..."
+  20962	  43 "瀏覽..."
         //-- "HowTo Previews:"
   20863	  44 "教學預覽:"
         //-- "Browse..."
-  20963	  46 "流覽..."
+  20963	  46 "瀏覽..."
         //-- "Scores Previews:"
   20864	  47 "分數預覽:"
         //-- "Browse..."
-  20964	  49 "流覽..."
+  20964	  49 "瀏覽..."
         //-- "Bosses Previews:"
   20865	  50 "頭目預覽:"
         //-- "Browse..."
-  20965	  52 "流覽..."
+  20965	  52 "瀏覽..."
         //-- "Game Over Previews:"
   20866	  53 "遊戲結束預覽:"
         //-- "Browse..."
-  20966	  55 "流覽..."
+  20966	  55 "瀏覽..."
         //-- "Flyers:"
   20867	  56 "海報:"
         //-- "Browse..."
-  20967	  58 "流覽..."
+  20967	  58 "瀏覽..."
         //-- "Marquees:"
   20868	  59 "選取框:"
         //-- "Browse..."
-  20968	  61 "流覽..."
+  20968	  61 "瀏覽..."
         //-- "Control Panels:"
   20869	  62 "控制台:"
         //-- "Browse..."
-  20969	  64 "流覽..."
+  20969	  64 "瀏覽..."
         //-- "Cabinets:"
   20870	  65 "框體"
         //-- "Browse..."
-  20970	  67 "流覽..."
+  20970	  67 "瀏覽..."
         //-- "PCBs:"
   20871	  68 "PCB"
-        //-- "流覽...Browse..."
+        //-- "瀏覽...Browse..."
   20971	  70 ""
         //-- "History.dat:"
   20872	  71 ""
         //-- "Browse..."
-  20972	  73 "流覽..."
+  20972	  73 "瀏覽..."
         //-- "EEPROM Saves:"
   20873	  74 "EEPROM 存檔"
         //-- "Browse..."
-  20973	  76 "流覽..."
+  20973	  76 "瀏覽..."
         //-- "HDD Images:"
-  20874	  77 "HDD 映射"
+  20874	  77 "HDD 映像"
         //-- "Browse..."
-  20974	  79 "流覽..."
+  20974	  79 "瀏覽..."
 }
 
         //-- "Palette Viewer"
-dialog	  75 "調色板檢視器" {
+dialog	  75 "調色板查看器" {
         //-- "Selected color: "
   20434	   0 "選定的顏色:"
         //-- "Close"
@@ -1736,13 +1831,13 @@ dialog	  79 "NeoGeo CDZ 遊戲列表" {
         //-- "Released by:"
   20817	  15 "發佈廠商:"
         //-- "Disc Image:"
-  20818	  16 "光碟鏡像"
+  20818	  16 "光盤鏡像"
         //-- "Audio Tracks:"
   20819	  17 "音軌:"
 }
 
         //-- "Game Information"
-dialog	  81 "遊戲資訊" {
+dialog	  81 "遊戲信息" {
         //-- "Tab1"
   20500	   0 ""
         //-- "Game:"
@@ -1766,7 +1861,7 @@ dialog	  81 "遊戲資訊" {
 }
 
         //-- "Download Localisation Template"
-dialog	  82 "下載當地語系化範本" {
+dialog	  82 "下載本地化模板" {
         //-- "Language:"
   20140	   1 "語言:"
         //-- "Cancel"
@@ -1778,7 +1873,7 @@ dialog	  82 "下載當地語系化範本" {
         //-- "Choose Monitor for Full Screen"
 dialog	  83 "選擇全屏顯示器" {
         //-- "These only apply to the DirectX Graphics 9 blitters."
-  20146	   1 "僅支持 DX9 視訊模式"
+  20146	   1 "僅支持 DX9 視頻模式"
         //-- "Horizontal Games:"
   20142	   2 "橫向遊戲:"
         //-- "Vertical Games:"
@@ -1790,7 +1885,7 @@ dialog	  83 "選擇全屏顯示器" {
 }
 
         //-- "HardFX shader options"
-dialog	  84 "硬體特效的著色器選項" {
+dialog	  84 "硬件特效的著色器選項" {
         //-- "Option #1"
   20078	   0 "選項 #1"
         //-- "Value"
@@ -1808,7 +1903,7 @@ dialog	  84 "硬體特效的著色器選項" {
         //-- "Value"
   20151	  10 "值"
         //-- "Defaults"
-      4	  12 "預設值"
+      4	  12 "默認值"
         //-- "OK"
       1	  13 "確定"
         //-- "Cancel"
@@ -1840,11 +1935,11 @@ dialog	  85 "ROMDATA 管理器" {
         //-- "Driver:"
   21216	  16 "驅動"
         //-- "Hardware:"
-  21214	  17 "硬體"
+  21214	  17 "硬件"
 }
 
         //-- "Replay input"
-dialog	 233 "重播輸入" {
+dialog	 233 "回放輸入" {
         //-- "OK"
       1	   0 "確定"
         //-- "Cancel"
@@ -1856,13 +1951,13 @@ dialog	 233 "重播輸入" {
         //-- "0"
   20257	  13 ""
         //-- "Open Read-Only"
-  20259	  17 "唯讀方式打開"
+  20259	  17 "只讀方式打開"
         //-- "Show Joystick Movement"
   20265	  18 "顯示輸入指令"
         //-- "Start Paused"
   20266	  19 "開始時暫停"
         //-- "WARNING: Start NeoGeo CD game before loading replay file!!!"
-  20267	  20 "警告: 在加載重放檔之前，請先啟動 NeoGeo CD 遊戲!!!"													 
+  20267	  20 "警告: 在加載重放文件之前，請先啟動 NeoGeo CD 遊戲!!!"													 
 }
 
         //-- "Record input"
@@ -1876,13 +1971,13 @@ dialog	 234 "記錄輸入" {
         //-- "Record From Power-On"
   20262	   8 "從開機時開始記錄"
         //-- "w/NVRAM"
-  20263	   9 "非易失性隨機訪問記憶體"
+  20263	   9 "非易失性隨機訪問存儲器"
 }
 
         //-- "Lua Script"
 dialog	 235 "Lua 腳本" {
         //-- "Browse..."
-  20365	   0 "流覽..."
+  20365	   0 "瀏覽..."
         //-- "Run"
   20366	   1 "運行"
         //-- "Stop"
@@ -1890,7 +1985,7 @@ dialog	 235 "Lua 腳本" {
         //-- "Output Console"
   20373	   5 "輸出控制台"
         //-- "Script File"
-  20374	   6 "指令檔"
+  20374	   6 "腳本文件"
         //-- "Edit"
   20370	   7 "編輯"
 }
@@ -1899,13 +1994,13 @@ dialog	 235 "Lua 腳本" {
 string   200 "這是您第一次運行 %s v%.20 秒。\n\n"
 
         //-- "Please take some time to match the audio/video settings to your system capabilities and personal preferences. If you continue to use and/or distribute this software, you must agree to be bound by the terms of license agreement, which is always accessible via the about dialog.\n\n"
-string   202 "請您用一點時間來調整一下音訊/視頻設定以符合您系統的具體情況, 如果您想繼續使用並/或發佈本軟體, 您必須同意綁定的協議, 您可以通過關於對話方塊查看它們。\n\n"
+string   202 "請您用一點時間來調整一下音頻/視頻設定以符合您系統的具體情況, 如果您想繼續使用並/或發佈本軟件, 您必須同意綁定的協議, 您可以通過關於對話框查看它們。\n\n"
 
         //-- "Note that this is alpha quality software. As such, it likely will exhibit problems, including audio/video options not behaving correctly, the emulation of some games misses some features, and may exhibit stability problems. CAVEAT LECTOR!"
-string   204 "注意這是公測版本軟體, 所以可能存在某些問題, 包括音訊/視頻表現不正確, 類比某些遊戲缺少部分內容, 也可能會存在穩定性問題。切記!"
+string   204 "注意這是公測版本軟件, 所以可能存在某些問題, 包括音頻/視頻表現不正確, 模擬某些遊戲缺少部分內容, 也可能會存在穩定性問題。切記!"
 
         //-- "Note that this is beta quality software. As such, it likely may be missing some features, or exhibit some problems with your system."
-string   206 "注意這是內測版本軟體, 所以可能缺少一些功能, 或者對您的系統造成一些問題。"
+string   206 "注意這是內測版本軟件, 所以可能缺少一些功能, 或者對您的系統造成一些問題。"
 
         //-- "Cheat name"
 string   220 "作弊名稱"
@@ -1980,10 +2075,10 @@ string   340 "讀取並初始化 %s..."
 string   342 "正在讀取"
 
         //-- "Record Input to File"
-string   350 "記錄遊戲輸入到檔"
+string   350 "記錄遊戲輸入到文件"
 
         //-- "Replay Input from File"
-string   352 "重播遊戲輸入檔"
+string   352 "回放遊戲輸入文件"
 
         //-- "Select Directory:"
 string   360 "選擇路徑:"
@@ -1995,10 +2090,10 @@ string   362 "ROM 路徑"
 string   364 "%s%s編輯 ROM 路徑"
 
         //-- "Confirmed to reset all paths to defaults?"
-string   366 "確實要將所有路徑重置為預設嗎?"
+string   366 "確實要將所有路徑重置為默認嗎?"
 
         //-- "Support file paths"
-string   368 "支援檔路徑"
+string   368 "支持文件路徑"
 
         //-- "Load State"
 string   380 "讀取遊戲進度"
@@ -2007,7 +2102,7 @@ string   380 "讀取遊戲進度"
 string   382 "保存遊戲進度"
 
         //-- "slot %d active"
-string   384 "存檔點 %d 已啟動"
+string   384 "存盤點 %d 已激活"
 
         //-- "state loaded"
 string   386 "遊戲進度讀取完畢"
@@ -2022,7 +2117,7 @@ string   390 "遊戲進度保存完畢"
 string   392 "保存錯誤"
 
         //-- "Generate %s dat"
-string   420 "生成 %s 資料庫檔"
+string   420 "生成 %s 數據庫文件"
 
         //-- "no game loaded"
 string   422 "未載入遊戲"
@@ -2067,43 +2162,43 @@ string   484 "靜音"
 string   486 "還原聲音"
 
         //-- "This input recording"
-string   500 "當前遊戲輸入記錄檔"
+string   500 "當前遊戲輸入記錄文件"
 
         //-- "input recording."
-string   502 "遊戲輸入記錄檔."
+string   502 "遊戲輸入記錄文件."
 
         //-- "%s Input Recording Files"
-string   504 "%s 遊戲輸入記錄檔"
+string   504 "%s 遊戲輸入記錄文件"
 
         //-- "state file"
-string   506 "遊戲進度檔"
+string   506 "遊戲進度文件"
 
         //-- "This state file"
-string   508 "當前遊戲進度檔"
+string   508 "當前遊戲進度文件"
 
         //-- "%s State Files"
-string   510 "%s 遊戲進度檔"
+string   510 "%s 遊戲進度文件"
 
         //-- "sound recording"
-string   512 "聲音錄製檔"
+string   512 "聲音錄製文件"
 
         //-- "This sound recording"
-string   514 "當前聲音錄製檔"
+string   514 "當前聲音錄製文件"
 
         //-- "%s Sound Recording Files"
-string   516 "%s 聲音錄製檔"
+string   516 "%s 聲音錄製文件"
 
         //-- "%s Memory Card Files"
 string   518 "%s 記憶卡文件"
 
         //-- "All Memory Card Files"
-string   520 "所有記憶卡檔"
+string   520 "所有記憶卡文件"
 
         //-- "All Dat Files"
-string   522 "所有資料檔案"
+string   522 "所有數據文件"
 
         //-- "Text Files"
-string   524 "文字檔"
+string   524 "文本文件"
 
         //-- "%s Patch Files"
 string   526 "%s 補丁文件"
@@ -2112,13 +2207,13 @@ string   526 "%s 補丁文件"
 string   528 "%s Romdata 文件"
 
         //-- "Save system information report"
-string   540 "保存系統資訊報告"
+string   540 "保存系統信息報告"
 
         //-- "Select game list localisation template"
-string   560 "選擇本地遊戲列表檔"
+string   560 "選擇本地遊戲列表文件"
 
         //-- "Create game list localisation template"
-string   562 "創建本地遊戲清單翻譯範本"
+string   562 "創建本地遊戲列表翻譯模板"
 
         //-- "Rom Information"
 string   600 "Rom 信息"
@@ -2133,7 +2228,7 @@ string   604 "採樣信息"
 string   606 "名稱"
 
         //-- "Size (bytes)"
-string   608 "大小 (位元組)"
+string   608 "大小 (字節)"
 
         //-- "CRC32"
 string   610 ""
@@ -2142,7 +2237,7 @@ string   610 ""
 string   612 "類型"
 
         //-- "Flags"
-string   614 "標籤"
+string   614 "標簽"
 
         //-- "%s, Essential"
 string   616 "%s, 關鍵"
@@ -2151,7 +2246,7 @@ string   616 "%s, 關鍵"
 string   618 "%s, 可選"
 
         //-- "%s, Program"
-string   620 "%s, 程式"
+string   620 "%s, 程序"
 
         //-- "%s, Graphics"
 string   622 "%s, 圖形"
@@ -2166,34 +2261,34 @@ string   626 ""
 string   628 "未轉儲"
 
         //-- "The preset file was saved to %s."
-string   720 "預設檔已保存至 %s"
+string   720 "預設文件已保存至 %s"
 
         //-- "Create gamelist localisation template"
-string   730 "創建遊戲清單當地語系化翻譯範本"
+string   730 "創建遊戲列表本地化翻譯模板"
 
         //-- "Select gamelist localisation template"
-string   732 "選擇遊戲列表當地語系化檔"
+string   732 "選擇遊戲列表本地化文件"
 
         //-- "FB Neo gamelist localisation templates"
-string   734 "FB Neo 遊戲列表當地語系化檔"
+string   734 "FB Neo 遊戲列表本地化文件"
 
         //-- "Select CD-ROM image..."
-string   740 "選擇 CD-ROM 鏡像檔..."
+string   740 "選擇 CD-ROM 鏡像文件..."
 
         //-- "Select CD-ROM image"
-string   742 "選擇 CD-ROM 鏡像檔"
+string   742 "選擇 CD-ROM 鏡像文件"
 
         //-- "CD images"
 string   744 "CD 鏡像"
 
         //-- "Create localisation template"
-string   750 "創建當地語系化範本"
+string   750 "創建本地化模板"
 
         //-- "Select localisation template"
-string   752 "選擇當地語系化檔"
+string   752 "選擇本地化文件"
 
         //-- "FB Neo localisation templates"
-string   754 "FB Neo 當地語系化範本"
+string   754 "FB Neo 本地化模板"
 
         //-- "Neo Geo Pocket"
 string   756 ""
@@ -2205,7 +2300,7 @@ string   758 ""
 string   760 "篩選器"
 
         //-- "Hardware"
-string   762 "硬體"
+string   762 "硬件"
 
         //-- "Cave"
 string   764 ""
@@ -2472,7 +2567,7 @@ string   990 "收藏"
 string  1000 "IPS 管理器"
 
         //-- "%s%sEdit support file paths"
-string  1002 "%s%s編輯支援檔路徑"
+string  1002 "%s%s編輯支持文件路徑"
 
         //-- "%s%sNeo Geo CDZ%sSelect Game"
 string  1010 "%s%sNeo Geo CDZ%s選擇遊戲"
@@ -2502,22 +2597,22 @@ string  1028 ""
 string  1030 "遊戲"
 
         //-- "&Arcade"
-string  1040 "街機解析度(&A)"
+string  1040 "街機分辨率(&A)"
 
         //-- "&Other..."
-string  1042 "其它解析度(&O)..."
+string  1042 "其它分辨率(&O)..."
 
         //-- "&Other Gamma value..."
-string  1044 "自訂伽瑪值(&O)..."
+string  1044 "自定義伽瑪值(&O)..."
 
         //-- "Adjust &CPU speed..."
 string  1046 "調整 CPU 速度(&C)..."
 
         //-- "Load state from active slot (no %d)\tF9"
-string  1048 "從已啟動存檔點載入遊戲進度(存檔點 %d)\tF9"
+string  1048 "從已激活存盤點載入遊戲進度(存盤點 %d)\tF9"
 
         //-- "Save state to active slot (no %d)\tF10"
-string  1050 "保存遊戲進度到已啟動存檔點(存檔點 %d)\tF10"
+string  1050 "保存遊戲進度到已激活存盤點(存盤點 %d)\tF10"
 
         //-- "no game selected"
 string  1052 "未選擇遊戲"
@@ -2532,7 +2627,7 @@ string  1072 "選擇濾鏡所需的銳度"
 string  1076 "正在掃描 ROM..."
 
         //-- "Loading Icons..."
-string  1078 "正在載入圖示..."
+string  1078 "正在加載圖標..."
 
         //-- "New cheat search started"
 string  1080 "已開始新的作弊碼搜索"
@@ -2568,7 +2663,7 @@ string  1110 "法語"
 string  1112 "西班牙語"
 
         //-- "Italian"
-string  1114 "義大利語"
+string  1114 "意大利語"
 
         //-- "German"
 string  1116 "德語"
@@ -2583,7 +2678,7 @@ string  1120 "波蘭語"
 string  1122 "匈牙利語"
 
         //-- "Game Information"
-string  1200 "遊戲資訊"
+string  1200 "遊戲信息"
 
         //-- "In Game"
 string  1202 "遊戲圖"
@@ -2619,7 +2714,7 @@ string  1220 "機台圖"
 string  1222 "貼畫"
 
         //-- "Controls"
-string  1224 "控制台圖"
+string  1224 "控制面板圖"
 
         //-- "PCB"
 string  1226 "電路板圖"
@@ -2634,7 +2729,7 @@ string  1230 "歷史"
 string  1232 "採樣信息"
 
         //-- "HDD Info"
-string  1234 "磁片鏡像資訊"
+string  1234 "磁盤鏡像信息"
 
         //-- "Select Skin"
 string  1400 "選擇皮膚"
@@ -2649,10 +2744,10 @@ string  1602 ", 從 %s 選擇 ROMs"
 string  1604 "%s從 %s 選擇 ROMs"
 
         //-- "%suses Board-ROMs from %s"
-string  1606 "%s需要 BIOS 檔 %s 的支持"
+string  1606 "%s需要 BIOS 文件 %s 的支持"
 
         //-- "%suses samples from %s"
-string  1608 "%s從 %s 選擇採樣檔"
+string  1608 "%s從 %s 選擇採樣文件"
 
         //-- "%s%i Player%s"
 string  1610 "%s%i 人遊戲%s"
@@ -2661,19 +2756,19 @@ string  1610 "%s%i 人遊戲%s"
 string  1612 ""
 
         //-- "%s (%s, %s Hardware)"
-string  1614 "%s (%s, %s 硬體)"
+string  1614 "%s (%s, %s 硬件)"
 
         //-- "Neo Geo MVS Cartidge"
 string  1616 "Neo Geo MVS 卡帶"
 
         //-- "%sHigh Scores Supported"
-string  1618 "%s已支援高分記錄"
+string  1618 "%s已支持高分記錄"
 
         //-- "Cartridge"
 string  1620 "卡帶"
 
         //-- "Hardware"
-string  1622 "硬體"
+string  1622 "硬件"
 
         //-- "Empty"
 string  1624 "空的"
@@ -2706,19 +2801,19 @@ string  1810 "ROM 組 OK。"
 string  1812 "ROM 組存在下列問題:"
 
         //-- "No data was found, the game will not run!"
-string  1814 "未找到資料, 遊戲無法運行!"
+string  1814 "未找到數據, 遊戲無法運行!"
 
         //-- "essential data is missing, the game will not run!"
-string  1816 "關鍵資料丟失, 遊戲無法運行!"
+string  1816 "關鍵數據丟失, 遊戲無法運行!"
 
         //-- "essential data is invalid, the game might not run!"
-string  1818 "關鍵資料不正確, 遊戲可能無法運行!"
+string  1818 "關鍵數據不正確, 遊戲可能無法運行!"
 
         //-- "data is missing."
 string  1820 "找不到數據。"
 
         //-- "data is invalid."
-string  1822 "資料不正確。"
+string  1822 "數據不正確。"
 
         //-- "%.32hs was found (%.512s).\n"
 string  1824 "%.32hs 找到 (%.512s)。\n"
@@ -2742,7 +2837,7 @@ string  1834 "%.32hs 是 %dk 太大 (應為 %dkB)。\n"
 string  1836 "關鍵"
 
         //-- "program "
-string  1838 "程式"
+string  1838 "程序"
 
         //-- "BIOS "
 string  1840 ""
@@ -2757,7 +2852,7 @@ string  1844 "聲音"
 string  1846 ""
 
         //-- "Error loading %.32hs, requested by %.128s.\nThe emulation will likely suffer problems."
-string  1848 "載入 %.128s 需要的 %.32hs 錯誤\n類比可能會出現問題。"
+string  1848 "載入 %.128s 需要的 %.32hs 錯誤\n模擬可能會出現問題。"
 
         //-- "Error reading %.32hs from %.512s"
 string  1850 "從 %.512s 讀取 %.32hs 錯誤。"
@@ -2766,7 +2861,7 @@ string  1850 "從 %.512s 讀取 %.32hs 錯誤。"
 string  1852 "從 %.512s 讀取 %.32hs 時 CRC 不匹配。"
 
         //-- "No HDD data was found, the game will not run!"
-string  1854 "未找到磁片鏡像資料, 遊戲將無法運行！"
+string  1854 "未找到磁盤鏡像數據, 遊戲將無法運行！"
 
         //-- "There was a problem starting \'%.128s\'.\n"
 string  1860 "啟動 \'%.128s\' 時出現問題。\n"
@@ -2778,25 +2873,25 @@ string  1870 "%.32s 不被 %.32s 所支持。"
 string  1872 "無法創建主窗口。"
 
         //-- "Couldn\'t intialise \'%s\' module."
-string  1874 "無法初始化 \'%s\' 模組。"
+string  1874 "無法初始化 \'%s\' 模塊。"
 
         //-- "Couldn\'t create a triple buffer."
 string  1876 "無法創建三倍緩衝。"
 
         //-- "No appropriate display mode supported. Please adjust your full-screen settings."
-string  1878 "沒有適合的顯示模式可用, 請您調整您的全屏顯示設定。"
+string  1878 "沒有適合的顯示模式可用, 請您調整您的全屏顯示設置。"
 
         //-- "Problem setting \'%dx%dx%dbpp\' display mode"
 string  1880 "設置 \'%dx%dx%dbpp\' 顯示模式時出現問題。"
 
         //-- "\n\nThis is not a standard VGA resolution; please make sure it is supported by your video card."
-string  1882 "\n\n這不是標準 VGA 解析度, 請確定您的顯卡支持此解析度。"
+string  1882 "\n\n這不是標準 VGA 分辨率, 請確定您的顯卡支持此分辨率。"
 
         //-- "Couldn\'t intialise \'%s\' module. Try installing the Direct X End User runtimes (June 2010)."
-string  1884 "無法初始化 \'%s\' 模組。 請嘗試安裝 DirectX 最終使用者可再發行元件 (2010年7月版)。"
+string  1884 "無法初始化 \'%s\' 模塊。 請嘗試安裝 DirectX 最終用戶可再發行組件 (2010年7月版)。"
 
         //-- "Unable to load shader \'%S\'."
-string  1886 "無法載入著色器 \'%S\'。"
+string  1886 "無法加載著色器 \'%S\'。"
 
         //-- "Error creating "
 string  1890 "創建錯誤 "
@@ -2814,7 +2909,7 @@ string  1896 " 不適用於當前版本 %s。"
 string  1898 " 需要更新版本 %s, 請升級。"
 
         //-- "Error finding \'kailleraclient.dll\'."
-string  1910 未找到 Kaillera 用戶端。"
+string  1910 未找到 Kaillera 客戶端。"
 
         //-- "No driver has been selected from the list."
 string  1912 "未選擇列表中的驅動。"
@@ -2826,7 +2921,7 @@ string  1914 "卡槽 1 內沒有已選定的驅動。"
 string  1916 "此遊戲無法運行, 是否讀取?"
 
         //-- "Couldn\'t initialise CD emulation."
-string  1918 "無法初始化光碟類比。"
+string  1918 "無法初始化光盤模擬。"
 
         //-- "Driver does not exist."
 string  1920 "驅動不存在。"
@@ -2835,10 +2930,10 @@ string  1920 "驅動不存在。"
 string  1922 "Rom 組的名稱與驅動列表中的名稱重複。"
 
         //-- "Double-click the macro to change its mapping first"
-string  1930 "按兩下後, 請先為巨集分配按鍵。"
+string  1930 "雙擊後, 請先為宏分配按鍵。"
 
         //-- "Failed to connect to Internet"
-string  1950 "連接網路失敗。"
+string  1950 "連接網絡失敗。"
 
         //-- "Failed to access FB Neo website"
 string  1952 "無法訪問 FB Neo 網站。"
