@@ -1303,7 +1303,7 @@ dialog	  57 "" {
         //-- "version"
      83	   1 ""
         //-- "FB Neo contains parts of MAME && Final Burn.\n© 2004-2025, Team FBNeo."
-  65535	   3 "FB Neo contém partes do MAME && Final Burn. © 2004-2025, Equipe FBNeo."
+  65535	   3 "FB Neo contém partes do MAME && Final Burn.				© 2004-2025, Equipe FBNeo."
         //-- "OK"
       1	   4 ""
         //-- "License"
@@ -2523,29 +2523,32 @@ string   888 ""
         //-- "Shooter"
 string   890 ""
 
-        //-- "Run \'n Gun (Shooter)"
+        //-- "Shooter / Multi-direction / Sh\'mup"
 string   892 ""
 
-        //-- "Strategy"
+        //-- "Run \'n Gun (Shooter)"
 string   894 ""
 
-        //-- "Action (Classic)"
+        //-- "Strategy"
 string   896 ""
 
-        //-- "RPG"
+        //-- "Action (Classic)"
 string   898 ""
 
-        //-- "Simulator"
+        //-- "RPG"
 string   900 ""
 
-        //-- "Adventure"
+        //-- "Simulator"
 string   902 ""
 
+        //-- "Adventure"
+string   904 ""
+
         //-- "Card Game"
-string   904 "Jogos de cartas"
+string   906 "Jogos de cartas"
 
         //-- "Board Game"
-string   906 "Jogo de tabuleiro"
+string   908 "Jogo de tabuleiro"
 
         //-- "Family"
 string   940 "Família"
