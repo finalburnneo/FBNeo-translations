@@ -1,6 +1,6 @@
-﻿// translation template for FB Alpha - Benjamin Siskoo
+// translation template for FinalBurn Neo - Benjamin Siskoo
 
-version 0x029744
+version 0x100002
 
 // codepage 1252
 
@@ -370,7 +370,7 @@ menu    100 {
               //-- "2x"
         10725  200 "2x"
               //-- "3x"
-        10726  201 "3x"
+        10726  201 ""
       }
             //-- "Generate dat file"
       popup  203 "Générer un Fichier dat" {
@@ -400,111 +400,115 @@ menu    100 {
         10735  215 "Générer un Dat (Uniquement les jeux NES)"
               //-- "Generate dat (FDS Games only)..."
         10736  216 "Générer un Dat (Uniquement les jeux FDS)"
+              //-- "Generate dat (Neo Geo Pocket Games only)..."
+        10737  217 "Générer un Dat (Uniquement les jeux Neo Geo Pocket)..."
+              //-- "Generate dat (Fairchild Channel F Games only)..."
+        10738  218 "Générer un Dat (Uniquement les jeux Fairchild Channel F)..."
               //-- "Generate all dats..."
-        10729  218 "Générer Tous les Dats..."
+        10729  220 "Générer Tous les Dats..."
       }
             //-- "Configure ROM paths..."
-      10614  220 "Configurer le Chemin des ROMS..."
+      10614  222 "Configurer le Chemin des ROMS..."
             //-- "Configure support file paths..."
-      10615  221 "Configurer les Chemins du Fichier Support..."
+      10615  223 "Configurer les Chemins du Fichier Support..."
             //-- "UI skin"
-      popup  223 "Skin de l'Interface Utilisateur" {
+      popup  225 "Skin de l'Interface Utilisateur" {
               //-- "Select skin..."
-        10730  224 "Sélectionner un skin"
+        10730  226 "Sélectionner un skin"
               //-- "Set skin to default"
-        10731  225 "Sélectionner un skin par Défaut"
+        10731  227 "Sélectionner un skin par Défaut"
 	  }
             //-- "UI language"
-      popup  226 "Langue de l'Interface Utilisateur" {
+      popup  228 "Langue de l'Interface Utilisateur" {
               //-- "Select UI language..."
-        10307  227 "Sélection de la Langue de l'Interface Utilisateur..."
+        10307  229 "Sélection de la Langue de l'Interface Utilisateur..."
               //-- "Export UI translation template..."
-        10308  228 "Exporter le Modèle de Traduction de l'Interface Utilisateur..."
+        10308  230 "Exporter le Modèle de Traduction de l'Interface Utilisateur..."
               //-- "Reset UI default language"
-        10635  229 "Remettre la Langue de l'Interface Utilisateur par Défaut"
+        10635  231 "Remettre la Langue de l'Interface Utilisateur par Défaut"
               //-- "Download UI language..."
-        10309  230 "Télécharger la Langue de l'Interface Utilisateur..."
+        10309  232 "Télécharger la Langue de l'Interface Utilisateur..."
       }
             //-- "Gamelist language"
-      popup  231 "Langage de la Liste de Jeu" {
+      popup  233 "Langage de la Liste de Jeu" {
               //-- "Select gamelist language..."
-        10673  232 "Sélection de la Langue de la Liste des Jeux..."
+        10673  234 "Sélection de la Langue de la Liste des Jeux..."
               //-- "Export gamelist translation template..."
-        10674  233 "Exporter le Modèle de Traduction de la Liste des Jeux..."
+        10674  235 "Exporter le Modèle de Traduction de la Liste des Jeux..."
               //-- "Reset gamelist default language"
-        10675  234 "Remettre par Défaut la Langue de la Liste des Jeux"
+        10675  236 "Remettre par Défaut la Langue de la Liste des Jeux"
       }
             //-- "Icons"
-      popup  236 "Icônes" {
+      popup  238 "Icônes" {
               //-- "Enable driver icons display"
-        10676  237 "Activer l'Affichage des Icônes du Driver"
+        10676  239 "Activer l'Affichage des Icônes du Driver"
               //-- "Parents only (use if you have problems)"
-        10677  238 "Parents uniquement (à utiliser en cas de problème)"
+        10677  240 "Parents uniquement (à utiliser en cas de problème)"
               //-- "Icon size"
-        popup  239 "Taille de l'Icône" {
+        popup  241 "Taille de l'Icône" {
                 //-- "16 x 16 pixels"
-          10678  240 "16 x 16 pixels"
+          10678  242 "16 x 16 pixels"
                 //-- "24 x 24 pixels"
-          10679  241 "24 x 24 pixels"
+          10679  243 "24 x 24 pixels"
                 //-- "32 x 32 pixels"
-          10680  242 "32 x 32 pixels"
+          10680  244 "32 x 32 pixels"
         }
               //-- "Save snapshot"
-        10318  244 "Sauvegarder les Captures d'Ecrans"
+        10318  246 "Sauvegarder les Captures d'Ecrans"
               //-- "Shot factory.."
-        10317  245 "Usine à Image.."
+        10317  247 "Usine à Image.."
               //-- "Enable cheats..."
-        10306  247 "Activer les Cheats..."
+        10306  249 "Activer les Cheats..."
               //-- "Cheat search"
-        popup  248 "Rechercher un Cheat" {
+        popup  250 "Rechercher un Cheat" {
                 //-- "Start New Search"
-          10628  249 "Lancer une Nouvelle Recherche"
+          10628  251 "Lancer une Nouvelle Recherche"
                 //-- "Target value has not changed"
-          10629  251 "La valeur cible n'a pas changé"
+          10629  253 "La valeur cible n'a pas changé"
                 //-- "Target value has changed"
-          10630  252 "La valeur cible a changée"
+          10630  254 "La valeur cible a changée"
                 //-- "Target value has decreased"
-          10631  253 "La valeur cible a diminuée"
+          10631  255 "La valeur cible a diminuée"
                 //-- "Target value has increased"
-          10632  254 "La valeur cible a augmentée"
+          10632  256 "La valeur cible a augmentée"
                 //-- "Dump search to file"
-          10633  256 "Copie de la Recherche vers le Fichier"
+          10633  258 "Copie de la Recherche vers le Fichier"
                 //-- "Exit Cheat Search"
-          10634  258 "Quitter la Recherche de Cheat"
+          10634  260 "Quitter la Recherche de Cheat"
         }
               //-- "Invoke 68K debugger..."
-        10392  260 "Appeler le Débugueur 68K..."
+        10392  262 "Appeler le Débugueur 68K..."
               //-- "Palette Viewer..."
-        10672  262 "Voir la Palette..."
+        10672  264 "Voir la Palette..."
               //-- "Associate with .fs and .fr files"
-        10330  264 "Associer les Fichiers avec .fs et .fr"
+        10330  266 "Associer les Fichiers avec .fs et .fr"
               //-- "Disassociate from .fs and .fr files"
-        10331  265 "Dissocier à partir des Fichiers .fs et .fr"
+        10331  267 "Dissocier à partir des Fichiers .fs et .fr"
               //-- "Save input mapping now"
-        10332  267 "Sauvegarder maintenant la Configuration des Touches"
+        10332  269 "Sauvegarder maintenant la Configuration des Touches"
               //-- "Auto-save input mapping"
-        10333  268 "Sauvegarder Auto la Configuration des Touches"
+        10333  270 "Sauvegarder Auto la Configuration des Touches"
               //-- "Save settings to .ini now"
-        10334  270 "Sauvegarder maintenant les Paramètres dans le Fichier .ini"
+        10334  272 "Sauvegarder maintenant les Paramètres dans le Fichier .ini"
               //-- "Reload settings from .ini"
-        10335  271 "Recharger les Paramètres à partir du Fichier .ini"
+        10335  273 "Recharger les Paramètres à partir du Fichier .ini"
       }
             //-- "Help"
-      popup  272 "Aide" {
+      popup  274 "Aide" {
               //-- "&Help"
-        10503  273 "&Aide"
+        10503  275 "&Aide"
               //-- "&What\'s New"
-        10505  275 "&Quoi de Neuf"
+        10505  277 "&Quoi de Neuf"
               //-- "&FB Neo homepage"
-        10504  277 "&Page d'Accueil de FB Neo"
+        10504  279 "&Page d'Accueil de FB Neo"
               //-- "&Neo-Source forums"
-        10506  278 "Forums &Neo-Source"
+        10506  280 "Forums &Neo-Source"
               //-- "FB Neo &Github"
-        10507  279 "&Github FB Neo"
+        10507  281 "&Github FB Neo"
               //-- "&System information"
-        10502  281 "Information &Système"
+        10502  283 "Information &Système"
               //-- "&About FB Neo"
-        10501  282 "&A Propos De FB Neo"
+        10501  284 "&A Propos De FB Neo"
       }
     }
   }
@@ -619,7 +623,7 @@ menu    111 {
             //-- "4xBR Rounded"
       11234   42 "4xBR Arrondi"
             //-- "DDT3x"
-      11235   43 "DDT3x"
+      11235   43 ""
             //-- "Force image to SoftFX size"
       11290   45 "Forcer l'image à la Taille SoftFX"
     }
@@ -2020,6 +2024,12 @@ string   752 "Sélectionner le modèle de localisation"
         //-- "FB Neo localisation templates"
 string   754 "Modèles de localisation FB Neo"
 
+        //-- "Neo Geo Pocket"
+string   756 "Neo Geo Pocket"
+
+        //-- "Fairchild Channel F"
+string   758 "Fairchild Channel F"
+
         //-- "Filters"
 string   760 "Filtres"
 
@@ -2179,6 +2189,7 @@ string   862 "Casse Brique"
         //-- "Casino"
 string   864 "Casino"
 
+
         //-- "Ball & Paddle"
 string   866 "Balle et Manette"
 
@@ -2227,6 +2238,15 @@ string   894 "Stratégie"
         //-- "Action (Classic)"
 string   896 "Action (Classique)"
 
+        //-- "RPG"
+string   898 "RPG"
+
+        //-- "Simulator"
+string   900 "Simulateur"
+
+        //-- "Adventure"
+string   902 "Aventure"
+
         //-- "Family"
 string   940 "Famille"
 
@@ -2269,6 +2289,7 @@ string   964 "DonPachi"
         //-- "Mahou Daisakusen"
 string   966 "Mahou Daisakusen"
 
+        //-- "Favorites"
         //-- "Favorites"
 string   990 "Favoris"
 
@@ -2440,7 +2461,7 @@ string  1610 "%s%i joueur%s"
         //-- "s max"
 string  1612 "s max"
 
-        //-- "%s (%s, %s hardware)"
+        //-- "%s (%s, %s Hardware)"
 string  1614 "%s (%s, %s matériel)"
 
         //-- "Neo Geo MVS Cartidge"
@@ -2599,8 +2620,12 @@ string  1916 "Ce jeu ne fonctionne pas. Le charger quand même ?"
         //-- "Couldn\'t initialise CD emulation."
 string  1918 "Ne peut pas initialiser l'émulation du CD."
 
+        //-- "Double-click the macro to change its mapping first"
+string  1930 ""
+
         //-- "Failed to connect to Internet"
 string  1950 "Echec de connexion à internet"
 
         //-- "Failed to access FB Neo website"
 string  1952 "Echec d'accès au site web FB Neo"
+
