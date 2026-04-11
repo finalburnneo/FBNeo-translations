@@ -2073,6 +2073,9 @@ string   262 "Auto centralizado"
         //-- "Normal"
 string   264 ""
 
+        //-- "Re-Detect Controllers"
+string   266 "Re-Detectar Controles"
+
         //-- "DIPSwitch group"
 string   280 "Grupo de DIPSwitch"
 
@@ -2093,6 +2096,15 @@ string   320 "Criar um cartão de memória novo"
 
         //-- "Select new memory card"
 string   322 "Selecionar um cartão de memória novo"
+
+        //-- "Insert card"
+string   324 "Inserir cartão"
+
+        //-- "Eject card"
+string   326 "Ejetar cartão"
+
+        //-- "Card"
+string   328 "Cartão"
 
         //-- "Loading and initialising %s..."
 string   340 "Carregando e inicializando %s..."
