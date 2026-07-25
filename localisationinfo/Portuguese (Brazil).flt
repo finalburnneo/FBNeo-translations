@@ -1839,7 +1839,7 @@ dialog	  79 "Lista de jogos do NeoGeo CDZ" {
         //-- "Play"
   20813	   1 "Jogar"
         //-- "Cancel"
-  20814	   2 "Cancelar"
+      2	   2 "Cancelar"
         //-- "Scan Games"
   20811	   3 "Buscar jogos"
         //-- "Directories..."
@@ -2675,6 +2675,9 @@ string  1070 "Número de Frames"
 
         //-- "Select desired filter sharpness"
 string  1072 "Selecionar filtro sharpness desejado"
+
+        //-- "Scanning CD Images..."
+string  1074 "Buscando Imagens de CD..."
 
         //-- "Scanning ROMs..."
 string  1076 "Buscando ROMs..."
