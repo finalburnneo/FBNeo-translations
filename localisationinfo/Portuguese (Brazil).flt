@@ -49,8 +49,8 @@ menu    100 {
     10002   24 "Jogar via Kaillera..."
           //-- "Start Neo Geo Multi-slot..."
     10711   26 "Iniciar Neo Geo Multi-slot..."
-          //-- "Load Neo Geo CDZ game..."
-    10713   28 "Carregar jogo do Neo Geo CDZ..."
+          //-- "CD Image Library..."
+    10713   28 "Lista de Imagens de CD..."
           //-- "Select CD image (CUE/CCD)..."
     10710   29 "Selecione uma imagem CD (CUE/CCD)..."
           //-- "Start Neo Geo CDZ..."
@@ -1838,8 +1838,8 @@ dialog	  78 "Selecionar os cartuchos a carregar..." {
   20729	  44 "Selecionar..."
 }
 
-        //-- "NeoGeo CDZ Game List"
-dialog	  79 "Lista de jogos do NeoGeo CDZ" {
+        //-- "CD Image Library"
+dialog	  79 "Lista de Imagens de CD" {
         //-- "Play"
   20813	   1 "Jogar"
         //-- "Cancel"
@@ -2632,8 +2632,8 @@ string  1000 "Gerenciador IPS Patch"
         //-- "%s%sEdit support file paths"
 string  1002 "%s%sEditar pastas de suporte"
 
-        //-- "%s%sNeo Geo CDZ%sSelect Game"
-string  1010 "%s%sNeo Geo CDZ%sSelecionar um jogo"
+        //-- "%s%sCD Image Library%sSelect Game"
+string  1010 "%s%sLista de Imagens CD%sSelecionar um jogo"
 
         //-- "Title"
 string  1012 ""
