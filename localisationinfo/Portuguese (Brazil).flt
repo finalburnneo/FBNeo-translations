@@ -38,8 +38,8 @@ menu    100 {
       10014   14 "Selecionar RomData dat..."
             //-- "Select IPS patch dat..."
       10015   16 "Selecionar IPS patch dat..."
-            //-- "Select NeoGeo-CD cue sheet..."
-      10016   18 "Selecionar cue sheet de NeoGeo-CD..."
+            //-- "Load CD image..."
+      10016   18 "Carregar imagem de CD..."
             //-- "Select Archive file..."
       10017   20 "Selecionar arquivo compactado..."
     }
@@ -1308,7 +1308,7 @@ dialog	  56 "" {
 dialog	  57 "" {
         //-- "version"
      83	   1 ""
-        //-- "FB Neo contains parts of MAME && Final Burn.\n© 2004-2025, Team FBNeo."
+        //-- "FB Neo contains parts of MAME && Final Burn.\n© 2004-2026, Team FBNeo."
   65535	   3 "FB Neo contém partes do MAME && Final Burn.				© 2004-2025, Equipe FBNeo."
         //-- "OK"
       1	   4 ""
@@ -2251,8 +2251,8 @@ string   528 "%s Arquivos Romdata"
         //-- "%s IPS Type"
 string   530 "%s Arquivos IPS"
 
-        //-- "%s NeoGeo-CD Type"
-string   532 "%s Arquivos NeoGeo-CD"
+        //-- "%s CD image"
+string   532 "%s Imagem de CD"
 
         //-- "%s Archive Types"
 string   534 "%s Arquivos compactados"
@@ -3012,6 +3012,15 @@ string  1920 "Driver não existe."
 
         //-- "Romset has duplicate names with drivers in the driver list."
 string  1922 "Romset possui nomes duplicados com drivers da lista."
+
+        //-- "CD image:\n\n"
+string  1924 "Imagem de CD:\n\n"
+
+        //-- "CD image: %s\n\n"
+string  1926 "Imagem de CD: %s\n\n"
+
+        //-- "Unable to identify the CD image.\n\n%s"
+string  1928 "Não é possivel identificar a imagem de CD.\n\n%s"
 
         //-- "Double-click the macro to change its mapping first"
 string  1930 "Clique duas vezes no macro para alterar seu mapeamento primeiro"
