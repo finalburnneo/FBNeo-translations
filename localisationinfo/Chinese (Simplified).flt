@@ -38,8 +38,8 @@ menu    100 {
       10014   14 "选择 RomData 数据"
             //-- "Select IPS patch dat..."
       10015   16 "选择 IPS 补丁数据"
-            //-- "Select NeoGeo-CD cue sheet..."
-      10016   18 "选择 NeoGeo-CD cue 表"
+            //-- "Load CD image..."
+      10016   18 "加载 CD 映像..."
             //-- "Select Archive file..."
       10017   20 "选择压缩文件..."
     }
@@ -49,8 +49,8 @@ menu    100 {
     10002   24 "开始 Kaillera 联机..."
           //-- "Start Neo Geo Multi-slot..."
     10711   26 "启动 Neo Geo 多卡插槽..."
-          //-- "Load Neo Geo CDZ game..."
-    10713   28 "载入 Neo Geo CDZ 游戏..."
+          //-- "CD Image Library..."
+    10713   28 "CD 映像库..."
           //-- "Select CD image (CUE/CCD)..."
     10710   29 "选择 CD 镜像 (CUE/CCD)..."
           //-- "Start Neo Geo CDZ..."
@@ -1308,8 +1308,8 @@ dialog	  56 "" {
 dialog	  57 "" {
         //-- "version"
      83	   1 "版本"
-        //-- "FB Neo contains parts of MAME && Final Burn.\n 2004-2025, Team FBNeo."
-  65535	   3 "FB Neo 包含 MAME 和 Final Burn 部分代码。				(C) 2004-2025, FBNeo 团队。"
+        //-- "FB Neo contains parts of MAME && Final Burn.\n 2004-2026, Team FBNeo."
+  65535	   3 "FB Neo 包含 MAME 和 Final Burn 部分代码。				(C) 2004-2026, FBNeo 团队。"
         //-- "OK"
       1	   4 "确定"
         //-- "License"
@@ -2632,8 +2632,8 @@ string  1000 "IPS 管理器"
         //-- "%s%sEdit support file paths"
 string  1002 "%s%s编辑支持文件路径"
 
-        //-- "%s%sNeo Geo CDZ%sSelect Game"
-string  1010 "%s%sNeo Geo CDZ%s选择游戏"
+        //-- "%s%sCD Image Library%sSelect Game"
+string  1010 "%s%sCD 映像库%s选择游戏"
 
         //-- "Title"
 string  1012 "标题"
@@ -3012,6 +3012,15 @@ string  1920 "驱动不存在。"
 
         //-- "Romset has duplicate names with drivers in the driver list."
 string  1922 "Rom 组的名称与驱动列表中的名称重复。"
+
+        //-- "CD image:\n\n"
+string  1924 "CD 映像:\n\n"
+
+        //-- "CD image: %s\n\n"
+string  1926 "CD 映像: %s\n\n"
+
+        //-- "Unable to identify the CD image.\n\n%s"
+string  1928 "无法识别 CD 映像。\n\n%s"
 
         //-- "Double-click the macro to change its mapping first"
 string  1930 "双击后, 请先为宏分配按键。"
