@@ -1986,8 +1986,8 @@ dialog	 233 "Reproduzir replay" {
   20265	  18 ""
         //-- "Start Paused"
   20266	  19 ""
-        //-- "WARNING: Start NeoGeo CD game before loading replay file!!!"
-  20267	  20 "ATENÇÃO: Inicie um Jogo do NeoGeo CD antes de carregar um arquivo de replay!!!"
+        //-- "WARNING: Start CD game before loading replay file!!!"
+  20267	  20 "ATENÇÃO: Inicie um Jogo em CD antes de carregar um arquivo de replay!!!"
 }
 
         //-- "Record input"
