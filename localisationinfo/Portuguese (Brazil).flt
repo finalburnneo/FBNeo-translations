@@ -1987,7 +1987,7 @@ dialog	 233 "Reproduzir replay" {
         //-- "Start Paused"
   20266	  19 ""
         //-- "WARNING: Start CD game before loading replay file!!!"
-  20267	  20 "ATENÇÃO: Inicie um Jogo em CD antes de carregar um arquivo de replay!!!"
+  20267	  20 "ATENÇÃO: Inicie o Jogo em CD antes de carregar um arquivo de replay!!!"
 }
 
         //-- "Record input"
