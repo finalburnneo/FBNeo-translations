@@ -636,7 +636,7 @@ menu    100 {
         10732  340 "Usar plano de fundo como padrão"
               //-- "Select Light Mode UI (Experimental)"
         11905  341 "Selecionar Modo Claro da UI (Experimental)"
-              //-- "Select Dark  Mode UI (Experimental)"
+              //-- "Select Dark Mode UI (Experimental)"
         11906  342 "Selecionar Modo Escuro da UI (Experimental)"
               //-- "Select Standard Mode UI"
         11908  343 "Selecionar Modo Padrão da UI"
