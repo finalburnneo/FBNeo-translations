@@ -2154,7 +2154,7 @@ dialog	  87 "Configurar hotkeys do emulador" {
         //-- "Rename Preset Button"
 dialog	  88 "Renomear Botão Preset" {
         //-- "Button text:"
-  65535	   0 "Texto do Botão:"
+  65535	   0 "Nome:"
         //-- "OK"
       1	   2 ""
         //-- "Cancel"
@@ -3053,14 +3053,14 @@ string  1628 "PNG salvo como títulos"
         //-- "PNG saved as preview"
 string  1630 "PNG salvo como prévia"
 
-        //-- "Hold Shift and press this button to lock in your current Hardware filter selection as this preset!\nRight-click for more options."
-string  1640 "Segure Shift e aperte este botão para definir seu o filtro de Hardware atual como este preset!\nClique com botão direito para mais opções."
+        //-- "Hold Shift and press this button to lock in your current Hardware filter selection for this button!\nRight-click for more options."
+string  1640 "Segure Shift e aperte este botão para definir seu o filtro de Hardware atual para este botão!\nClique com botão direito para mais opções."
 
         //-- "Overwrite \"%s\" with the current Hardware filter selection?"
 string  1642 "Substituir \"%s\" pela seleção atual de filtro de Hardware?"
 
-        //-- "Save Hardware Preset"
-string  1644 "Salvar Preset de Hardware"
+        //-- "Hardware Filter Button"
+string  1644 "Botão de Filtro de Hardware"
 
         //-- "Set preset"
 string  1646 "Definir preset"
@@ -3070,6 +3070,18 @@ string  1648 "Renomear botão..."
 
         //-- "Preset %d"
 string  1650 ""
+
+        //-- "Arcade"
+string  1652 ""
+
+        //-- "Console"
+string  1654 ""
+
+        //-- "Reset to default"
+string  1656 "Resetar para os padrões"
+
+        //-- "Reset \"%s\" back to its default name and selection?"
+string  1658 "Resetar \"%s\" voltar para nome e seleção padrão?"
 
         //-- "Error"
 string  1800 "Erro"
